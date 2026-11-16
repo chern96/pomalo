@@ -1,0 +1,29 @@
+{
+  "units": [
+    { "id": "u01", "number": 1, "title": "Aussprache & Alphabet", "grammar": "Laute im Vergleich zum Deutschen, ije/je", "lessons": ["Vertraute Laute", "c, z, s, h", "č, ć, š, ž", "j, lj, nj, dž, đ", "Das rollende r & ije"] },
+    { "id": "u02", "number": 2, "title": "Hallo!", "grammar": "„se“ an zweiter Stelle; ti und Vi", "lessons": ["Grüßen", "Wie geht's?", "Wie heißt du?", "Woher kommst du?", "Du oder Sie?"] },
+    { "id": "u03", "number": 3, "title": "Ich bin …", "grammar": "biti (sein), Personalpronomen, Verneinung, Adjektiv in Ich-Form", "lessons": ["Ich, du, er, sie", "Wir, ihr, sie", "Wie geht es dir?", "Nein, bin ich nicht", "Bist du …? Ja!"] },
+    { "id": "u04", "number": 4, "title": "Familie", "grammar": "Geschlecht der Nomen; moj/moja/moje", "lessons": ["Eltern", "Großeltern & Enkel", "Onkel, Tante, Cousins", "Partner & Kinder", "Wer ist das?", "Meine Familie"] },
+    { "id": "u05", "number": 5, "title": "Zahlen & Alter", "grammar": "imati (haben); 1 godina / 2–4 godine / 5+ godina", "lessons": ["0–5", "6–10", "11–20", "Zehner bis 1000", "Wie alt bist du?"] },
+    { "id": "u06", "number": 6, "title": "Essen & Trinken", "grammar": "Akkusativ, Teil 1: weiblich -a → -u", "lessons": ["Getränke", "Essen", "Ich möchte …", "Am Tisch", "Im Café", "Bei Oma"] },
+    { "id": "u07", "number": 7, "title": "Was machst du?", "grammar": "Präsens: -ati / -iti / -jeti / -ovati", "lessons": ["Alltag", "Arbeit", "Zu Hause", "Sprechen & Verstehen", "Ein ganzer Tag"] },
+    { "id": "u08", "number": 8, "title": "Ich habe einen Bruder", "grammar": "Akkusativ komplett (belebt m.: Imam brata)", "lessons": ["Wen siehst du?", "Was kaufst du?", "Am Markt", "Geschenke", "Zusammen"] },
+    { "id": "u09", "number": 9, "title": "Fragen stellen", "grammar": "tko, što, gdje, kada, kako, zašto, koliko; je li / da li", "lessons": ["Wer & was?", "Wo & wann?", "Wie & warum?", "Je li …?", "Neugierig"] },
+    { "id": "u10", "number": 10, "title": "Meins, deins", "grammar": "moj, tvoj, njegov, njezin, naš, vaš, njihov, svoj", "lessons": ["Mein & dein", "Sein & ihr", "Unser & euer", "svoj"] },
+    { "id": "u11", "number": 11, "title": "Zuhause", "grammar": "Plural der Nomen", "lessons": ["Wohnung", "Zimmer", "Küche", "Garten & Hof", "Plural"] },
+    { "id": "u12", "number": 12, "title": "Wochentage & Uhrzeit", "grammar": "Zeitangaben (u ponedjeljak, u pet sati)", "lessons": ["Wochentage", "Uhrzeit", "Monate", "Heute, morgen, gestern"] },
+    { "id": "u13", "number": 13, "title": "Treffen & Verabredungen", "grammar": "moći, htjeti, trebati + Infinitiv", "lessons": ["Hast du Zeit?", "Wir treffen uns", "Absagen", "Abholen & Bringen"] },
+    { "id": "u14", "number": 14, "title": "Wo bist du?", "grammar": "Lokativ mit u / na", "lessons": ["In der Stadt", "Zu Hause", "Auf dem Land", "Wo ist …?"] },
+    { "id": "u15", "number": 15, "title": "Gefühle & Befinden", "grammar": "Dativ der Pronomen (Hladno mi je, Drago mi je)", "lessons": ["Gefühle", "Mir ist …", "Krank sein", "Trösten"] },
+    { "id": "u16", "number": 16, "title": "Hobbys", "grammar": "Instrumental (s bratom, autom)", "lessons": ["Sport", "Musik & Film", "Mit wem?", "Wochenende"] },
+    { "id": "u17", "number": 17, "title": "Wetter", "grammar": "Unpersönliche Sätze (pada kiša, toplo je)", "lessons": ["Wetter", "Jahreszeiten", "Kleidung", "Draußen"] },
+    { "id": "u18", "number": 18, "title": "Feste & Familienfeiern", "grammar": "Genitiv (nema, puno, čestitke)", "lessons": ["Geburtstag", "Hochzeit", "Weihnachten & Ostern", "Gäste"] },
+    { "id": "u19", "number": 19, "title": "Mama! Komm her!", "grammar": "Vokativ", "lessons": ["Rufen", "Liebe Anreden", "Nachrichten schreiben"] },
+    { "id": "u20", "number": 20, "title": "Urlaub & Reisen", "grammar": "Richtung vs. Ort (u Hrvatsku / u Hrvatskoj)", "lessons": ["Unterwegs", "Am Meer", "In Bosnien", "Unterkunft"] },
+    { "id": "u21", "number": 21, "title": "Gestern", "grammar": "Perfekt, Teil 1 (bio sam / bila sam)", "lessons": ["Was hast du gemacht?", "Gestern", "Letzte Woche", "Früher"] },
+    { "id": "u22", "number": 22, "title": "Erzähl mal!", "grammar": "Perfekt, Teil 2 (Verneinung, Fragen, se)", "lessons": ["Nicht gemacht", "Fragen", "Geschichten"] },
+    { "id": "u23", "number": 23, "title": "Morgen", "grammar": "Futur (ću, ćeš …)", "lessons": ["Pläne", "Morgen", "Nächstes Jahr"] },
+    { "id": "u24", "number": 24, "title": "Setz dich!", "grammar": "Imperativ", "lessons": ["Bitten", "Am Tisch", "Unterwegs"] },
+    { "id": "u25", "number": 25, "title": "Alle Fälle", "grammar": "Genitiv & Dativ vertiefen, Fälle-Übersicht", "lessons": ["Genitiv", "Dativ", "Alle sieben Fälle"] }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "u01",
+  "number": 1,
+  "title": "Aussprache & Alphabet",
+  "grammar": "Laute im Vergleich zum Deutschen, ije/je",
+  "tips": [
+    {
+      "id": "tip-u01-basics",
+      "title": "Wie man schreibt, so spricht man",
+      "text": "Im Kroatischen steht jeder Buchstabe für genau einen Laut – und er wird immer gleich ausgesprochen. Die Vokale a, e, i, o, u klingen wie im Deutschen, nur etwas kürzer. Es gibt keine stummen Buchstaben.",
+      "examples": [["mama", "Mama"], ["voda", "Wasser"], ["more", "Meer"]]
+    },
+    {
+      "id": "tip-u01-czsh",
+      "title": "c, z, s, h – Vorsicht, Falle!",
+      "text": "Diese vier sehen deutsch aus, klingen aber anders: c ist das deutsche z (wie in „Zeit“), z ist ein summendes s (wie in „Sonne“), s ist immer scharf (wie in „Haus“), und h klingt wie ch in „Bach“.",
+      "examples": [["otac", "Vater"], ["jezik", "Sprache"], ["sestra", "Schwester"], ["kruh", "Brot"]]
+    },
+    {
+      "id": "tip-u01-hacek",
+      "title": "Häkchen und Striche",
+      "text": "č klingt wie „tsch“, š wie „sch“ und ž wie das j in „Journal“. ć klingt fast wie č, nur weicher. Die Sprachausgabe unterscheidet č und ć kaum – merke dir die Schreibweise mit dem Wort.",
+      "examples": [["čaj", "Tee"], ["šećer", "Zucker"], ["žena", "Frau"], ["kuća", "Haus"]]
+    },
+    {
+      "id": "tip-u01-j",
+      "title": "j, lj, nj, dž, đ",
+      "text": "j klingt wie das deutsche j in „ja“. lj und nj sind je ein Laut: ein l bzw. n, mit j verschmolzen (wie „Kognak“ für nj). dž klingt wie in „Dschungel“, đ fast genauso, nur weicher – auch hier hilft die Schreibweise.",
+      "examples": [["ja", "ich"], ["ljubav", "Liebe"], ["Njemačka", "Deutschland"], ["džem", "Marmelade"], ["rođak", "Cousin"]]
+    },
+    {
+      "id": "tip-u01-ije",
+      "title": "Rollendes r und „ije“",
+      "text": "Das r wird mit der Zungenspitze gerollt und kann sogar allein eine Silbe bilden: srce, crkva, Hrvatska. Kroatisch schreibt oft „ije“ oder „je“, wo Serbisch nur „e“ hat: mlijeko statt mleko. Für dich gilt immer die Form mit „ije“.",
+      "examples": [["srce", "Herz"], ["Hrvatska", "Kroatien"], ["mlijeko", "Milch"], ["dijete", "Kind"]]
+    }
+  ],
+  "words": [
+    { "id": "w-mama", "hr": "mama", "de": ["Mama", "Mutti"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Ovo je mama.", "de": "Das ist Mama." } },
+    { "id": "w-tata", "hr": "tata", "de": ["Papa", "Vati"], "pos": "noun", "gender": "m",
+      "note": "Männlich, obwohl es auf -a endet.",
+      "example": { "hr": "Tata je ovdje.", "de": "Papa ist hier." } },
+    { "id": "w-voda", "hr": "voda", "de": ["Wasser"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Voda, molim.", "de": "Wasser, bitte." } },
+    { "id": "w-more", "hr": "more", "de": ["Meer"], "pos": "noun", "gender": "n",
+      "example": { "hr": "More je lijepo.", "de": "Das Meer ist schön." } },
+    { "id": "w-da", "hr": "da", "de": ["ja"], "pos": "particle",
+      "example": { "hr": "Da, hvala.", "de": "Ja, danke." } },
+    { "id": "w-ne", "hr": "ne", "de": ["nein", "nicht"], "pos": "particle",
+      "example": { "hr": "Ne, hvala.", "de": "Nein, danke." } },
+    { "id": "w-hvala", "hr": "hvala", "de": ["danke"], "pos": "phrase",
+      "example": { "hr": "Hvala, mama!", "de": "Danke, Mama!" } },
+
+    { "id": "w-kruh", "hr": "kruh", "de": ["Brot"], "pos": "noun", "gender": "m",
+      "note": "Kroatisch: kruh (nicht „hleb“).",
+      "example": { "hr": "Kruh, molim.", "de": "Brot, bitte." } },
+    { "id": "w-sok", "hr": "sok", "de": ["Saft"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Sok je hladan.", "de": "Der Saft ist kalt." } },
+    { "id": "w-sestra", "hr": "sestra", "de": ["Schwester"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Ovo je moja sestra.", "de": "Das ist meine Schwester." } },
+    { "id": "w-sin", "hr": "sin", "de": ["Sohn"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Ovo je moj sin.", "de": "Das ist mein Sohn." } },
+    { "id": "w-otac", "hr": "otac", "de": ["Vater"], "pos": "noun", "gender": "m",
+      "note": "Das zweite a fällt in anderen Formen weg: oca, ocu.",
+      "example": { "hr": "Moj otac je ovdje.", "de": "Mein Vater ist hier." } },
+    { "id": "w-jezik", "hr": "jezik", "de": ["Sprache", "Zunge"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Hrvatski jezik je lijep.", "de": "Die kroatische Sprache ist schön." } },
+    { "id": "w-i", "hr": "i", "de": ["und"], "pos": "conj",
+      "example": { "hr": "Mama i tata.", "de": "Mama und Papa." } },
+
+    { "id": "w-caj", "hr": "čaj", "de": ["Tee"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Čaj sa šećerom, molim.", "de": "Tee mit Zucker, bitte." } },
+    { "id": "w-rucak", "hr": "ručak", "de": ["Mittagessen"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Ručak je gotov.", "de": "Das Mittagessen ist fertig." } },
+    { "id": "w-kuca", "hr": "kuća", "de": ["Haus", "Zuhause"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Ovo je moja kuća.", "de": "Das ist mein Haus." } },
+    { "id": "w-noc", "hr": "noć", "de": ["Nacht"], "pos": "noun", "gender": "f",
+      "note": "Weiblich, obwohl es auf einen Konsonanten endet.",
+      "example": { "hr": "Laku noć!", "de": "Gute Nacht!" } },
+    { "id": "w-secer", "hr": "šećer", "de": ["Zucker"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Čaj sa šećerom, molim.", "de": "Tee mit Zucker, bitte." } },
+    { "id": "w-zena", "hr": "žena", "de": ["Frau", "Ehefrau"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Ovo je moja žena.", "de": "Das ist meine Frau." } },
+    { "id": "w-muz", "hr": "muž", "de": ["Ehemann", "Mann"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Ovo je moj muž.", "de": "Das ist mein Mann." } },
+
+    { "id": "w-ja", "hr": "ja", "de": ["ich"], "pos": "pron",
+      "example": { "hr": "Ja sam Ana.", "de": "Ich bin Ana." } },
+    { "id": "w-rodjak", "hr": "rođak", "de": ["Cousin", "Vetter", "Verwandter"], "pos": "noun", "gender": "m",
+      "example": { "hr": "On je moj rođak.", "de": "Er ist mein Cousin." } },
+    { "id": "w-dzem", "hr": "džem", "de": ["Marmelade", "Konfitüre"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Kruh i džem.", "de": "Brot und Marmelade." } },
+    { "id": "w-prijatelj", "hr": "prijatelj", "de": ["Freund"], "pos": "noun", "gender": "m",
+      "note": "Ein Freund (nicht der feste Freund). Eine Freundin: prijateljica.",
+      "example": { "hr": "Ovo je moj prijatelj.", "de": "Das ist mein Freund." } },
+    { "id": "w-ljubav", "hr": "ljubav", "de": ["Liebe"], "pos": "noun", "gender": "f",
+      "note": "Weiblich, obwohl es auf einen Konsonanten endet.",
+      "example": { "hr": "Ljubav je lijepa.", "de": "Liebe ist schön." } },
+    { "id": "w-ljeto", "hr": "ljeto", "de": ["Sommer"], "pos": "noun", "gender": "n",
+      "example": { "hr": "Ljeto je toplo.", "de": "Der Sommer ist warm." } },
+    { "id": "w-njemacka", "hr": "Njemačka", "de": ["Deutschland"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Ja sam iz Njemačke.", "de": "Ich komme aus Deutschland." } },
+
+    { "id": "w-hrvatska", "hr": "Hrvatska", "de": ["Kroatien"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Hrvatska je lijepa.", "de": "Kroatien ist schön." } },
+    { "id": "w-srce", "hr": "srce", "de": ["Herz"], "pos": "noun", "gender": "n",
+      "example": { "hr": "Hvala od srca!", "de": "Danke von Herzen!" } },
+    { "id": "w-crkva", "hr": "crkva", "de": ["Kirche"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Crkva je velika.", "de": "Die Kirche ist groß." } },
+    { "id": "w-mlijeko", "hr": "mlijeko", "de": ["Milch"], "pos": "noun", "gender": "n",
+      "note": "Kroatisch mit „ije“: mlijeko (nicht „mleko“).",
+      "example": { "hr": "Kava s mlijekom.", "de": "Kaffee mit Milch." } },
+    { "id": "w-lijep", "hr": "lijep", "de": ["schön", "hübsch"], "pos": "adj",
+      "forms": { "m": "lijep", "f": "lijepa", "n": "lijepo" },
+      "example": { "hr": "More je lijepo.", "de": "Das Meer ist schön." } },
+    { "id": "w-dijete", "hr": "dijete", "de": ["Kind"], "pos": "noun", "gender": "n",
+      "note": "Mehrzahl unregelmäßig: djeca (Kinder).",
+      "example": { "hr": "Dijete spava.", "de": "Das Kind schläft." } }
+  ],
+  "sentences": [
+    { "id": "s-da-hvala", "hr": ["Da, hvala."], "de": ["Ja, danke."], "words": ["w-da", "w-hvala"] },
+    { "id": "s-ne-hvala", "hr": ["Ne, hvala."], "de": ["Nein, danke."], "words": ["w-ne", "w-hvala"] },
+    { "id": "s-hvala-mama", "hr": ["Hvala, mama!"], "de": ["Danke, Mama!"], "words": ["w-hvala", "w-mama"] },
+    { "id": "s-hvala-tata", "hr": ["Hvala, tata!"], "de": ["Danke, Papa!"], "words": ["w-hvala", "w-tata"] },
+
+    { "id": "s-kruh-i-voda", "hr": ["Kruh i voda."], "de": ["Brot und Wasser."], "words": ["w-kruh", "w-i", "w-voda"] },
+    { "id": "s-mama-i-tata", "hr": ["Mama i tata."], "de": ["Mama und Papa."], "words": ["w-mama", "w-i", "w-tata"] },
+    { "id": "s-otac-i-sin", "hr": ["Otac i sin."], "de": ["Vater und Sohn."], "words": ["w-otac", "w-i", "w-sin"] },
+    { "id": "s-sok-hvala", "hr": ["Sok, hvala."], "de": ["Saft, danke."], "words": ["w-sok", "w-hvala"] },
+
+    { "id": "s-muz-i-zena", "hr": ["Muž i žena."], "de": ["Mann und Frau.", "Ehemann und Ehefrau."], "words": ["w-muz", "w-i", "w-zena"] },
+    { "id": "s-caj-i-secer", "hr": ["Čaj i šećer."], "de": ["Tee und Zucker."], "words": ["w-caj", "w-i", "w-secer"] },
+    { "id": "s-caj-hvala", "hr": ["Čaj, hvala."], "de": ["Tee, danke."], "words": ["w-caj", "w-hvala"] },
+
+    { "id": "s-kruh-i-dzem", "hr": ["Kruh i džem."], "de": ["Brot und Marmelade."], "words": ["w-kruh", "w-i", "w-dzem"] },
+    { "id": "s-ljeto-i-more", "hr": ["Ljeto i more."], "de": ["Sommer und Meer.", "Der Sommer und das Meer."], "words": ["w-ljeto", "w-i", "w-more"] },
+    { "id": "s-ja-i-rodjak", "hr": ["Ja i rođak."], "de": ["Ich und mein Cousin.", "Ich und der Cousin.", "Ich und Cousin."], "words": ["w-ja", "w-i", "w-rodjak"] },
+
+    { "id": "s-lijepa-hrvatska", "hr": ["Lijepa Hrvatska."], "de": ["Schönes Kroatien."], "words": ["w-lijep", "w-hrvatska"] },
+    { "id": "s-mlijeko-i-kruh", "hr": ["Mlijeko i kruh."], "de": ["Milch und Brot."], "words": ["w-mlijeko", "w-i", "w-kruh"] },
+    { "id": "s-mama-i-dijete", "hr": ["Mama i dijete."], "de": ["Mama und Kind.", "Mama und das Kind.", "Die Mama und das Kind."], "words": ["w-mama", "w-i", "w-dijete"] },
+    { "id": "s-lijepo-more", "hr": ["Lijepo more."], "de": ["Schönes Meer.", "Ein schönes Meer."], "words": ["w-lijep", "w-more"] }
+  ],
+  "lessons": [
+    {
+      "id": "l-u01-1", "title": "Vertraute Laute", "tip": "tip-u01-basics",
+      "newWords": ["w-mama", "w-tata", "w-voda", "w-more", "w-da", "w-ne", "w-hvala"],
+      "sentences": ["s-da-hvala", "s-ne-hvala", "s-hvala-mama", "s-hvala-tata"],
+      "extras": [
+        { "type": "fact", "id": "x-u01-1-a", "question": "Wie spricht man Kroatisch aus?",
+          "options": ["So, wie man es schreibt", "Mit vielen stummen Buchstaben", "Wie Englisch"],
+          "answer": "So, wie man es schreibt",
+          "explain": "Jeder Buchstabe ist ein Laut – immer gleich." },
+        { "type": "fact", "id": "x-u01-1-b", "question": "Wie klingt das „e“ in „more“?",
+          "audio": "more",
+          "options": ["Wie e in „Bett“", "Wie i in „Kino“", "Stumm, wie in „Name“"],
+          "answer": "Wie e in „Bett“" }
+      ]
+    },
+    {
+      "id": "l-u01-2", "title": "c, z, s, h", "tip": "tip-u01-czsh",
+      "newWords": ["w-kruh", "w-sok", "w-sestra", "w-sin", "w-otac", "w-jezik", "w-i"],
+      "sentences": ["s-kruh-i-voda", "s-mama-i-tata", "s-otac-i-sin", "s-sok-hvala"],
+      "extras": [
+        { "type": "fact", "id": "x-u01-2-c", "question": "Das „c“ in „otac“ klingt wie …",
+          "audio": "otac", "options": ["z in „Zeit“", "k in „Kater“", "s in „Haus“"], "answer": "z in „Zeit“" },
+        { "type": "fact", "id": "x-u01-2-z", "question": "Das „z“ in „jezik“ klingt wie …",
+          "audio": "jezik", "options": ["s in „Sonne“ (summend)", "z in „Zeit“", "ts in „Katze“"], "answer": "s in „Sonne“ (summend)" },
+        { "type": "fact", "id": "x-u01-2-h", "question": "Das „h“ in „kruh“ klingt wie …",
+          "audio": "kruh", "options": ["ch in „Bach“", "h in „Haus“", "Gar nicht, es ist stumm"], "answer": "ch in „Bach“" }
+      ]
+    },
+    {
+      "id": "l-u01-3", "title": "č, ć, š, ž", "tip": "tip-u01-hacek",
+      "newWords": ["w-caj", "w-rucak", "w-kuca", "w-noc", "w-secer", "w-zena", "w-muz"],
+      "sentences": ["s-muz-i-zena", "s-caj-i-secer", "s-caj-hvala"],
+      "extras": [
+        { "type": "fact", "id": "x-u01-3-c", "question": "„č“ in „čaj“ klingt wie …",
+          "audio": "čaj", "options": ["tsch", "sch", "z"], "answer": "tsch" },
+        { "type": "fact", "id": "x-u01-3-z", "question": "„ž“ in „žena“ klingt wie …",
+          "audio": "žena", "options": ["j in „Journal“", "s in „Sonne“", "z in „Zeit“"], "answer": "j in „Journal“" },
+        { "type": "fact", "id": "x-u01-3-cc", "question": "č und ć klingen fast gleich. Wie lernst du, welches in ein Wort gehört?",
+          "options": ["Über die Schreibweise des Wortes", "Am Klang", "Das ist egal"], "answer": "Über die Schreibweise des Wortes",
+          "explain": "Lerne Wörter wie kuća, noć, šećer immer mit ihrer Schreibweise." }
+      ]
+    },
+    {
+      "id": "l-u01-4", "title": "j, lj, nj, dž, đ", "tip": "tip-u01-j",
+      "newWords": ["w-ja", "w-rodjak", "w-dzem", "w-prijatelj", "w-ljubav", "w-ljeto", "w-njemacka"],
+      "sentences": ["s-kruh-i-dzem", "s-ljeto-i-more", "s-ja-i-rodjak"],
+      "extras": [
+        { "type": "fact", "id": "x-u01-4-j", "question": "„j“ in „ja“ klingt wie …",
+          "audio": "ja", "options": ["j in „ja“", "dsch in „Dschungel“", "j in „Journal“"], "answer": "j in „ja“" },
+        { "type": "fact", "id": "x-u01-4-lj", "question": "„lj“ in „ljubav“ ist …",
+          "audio": "ljubav", "options": ["ein einziger Laut: l und j verschmolzen", "zwei getrennte Silben: l-ju", "ein stummes l"],
+          "answer": "ein einziger Laut: l und j verschmolzen" }
+      ]
+    },
+    {
+      "id": "l-u01-5", "title": "Das rollende r & ije", "tip": "tip-u01-ije",
+      "newWords": ["w-hrvatska", "w-srce", "w-crkva", "w-mlijeko", "w-lijep", "w-dijete"],
+      "sentences": ["s-lijepa-hrvatska", "s-mlijeko-i-kruh", "s-mama-i-dijete", "s-lijepo-more"],
+      "extras": [
+        { "type": "fact", "id": "x-u01-5-r", "question": "Wie spricht man das r in „srce“?",
+          "audio": "srce", "options": ["Mit der Zungenspitze gerollt", "Wie das deutsche Rachen-r", "Gar nicht"],
+          "answer": "Mit der Zungenspitze gerollt" },
+        { "type": "fact", "id": "x-u01-5-ije", "question": "Welches Wort ist Standard-Kroatisch?",
+          "options": ["mlijeko", "mleko"], "answer": "mlijeko",
+          "explain": "„mleko“ ist Serbisch. Kroatisch schreibt „ije“." },
+        { "type": "cloze", "id": "x-u01-5-dijete", "hr": "d___te", "de": "Kind", "answers": ["ije"], "options": ["ije", "e", "je"],
+          "hint": "Kroatisch mit „ije“" }
+      ]
+    }
+  ]
+}

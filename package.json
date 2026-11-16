@@ -1,0 +1,33 @@
+{
+  "name": "pomalo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "check:content": "tsx scripts/check-content.ts",
+    "icons": "tsx scripts/make-icons.ts",
+    "verify": "npm run typecheck && npm run check:content && npm run test && npm run build"
+  },
+  "dependencies": {
+    "preact": "^11.2.0",
+    "workbox-window": "^7.4.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^26.6.6",
+    "jsdom": "^31.0.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.1.0",
+    "zod": "^4.6.7"
+  }
+}

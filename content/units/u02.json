@@ -1,0 +1,199 @@
+{
+  "id": "u02",
+  "number": 2,
+  "title": "Hallo!",
+  "grammar": "„se“ an zweiter Stelle; ti und Vi",
+  "tips": [
+    {
+      "id": "tip-u02-greet",
+      "title": "Grüßen wie zu Hause",
+      "text": "„Bok“ ist locker – für Familie und Freunde, zum Kommen und Gehen. Zu Fremden und Älteren sagst du „Dobar dan“. Beachte: dobar dan, aber dobro jutro und dobra večer – das Wort für „gut“ passt sich an.",
+      "examples": [["Bok!", "Hallo! / Tschüss!"], ["Dobar dan!", "Guten Tag!"], ["Dobra večer!", "Guten Abend!"]]
+    },
+    {
+      "id": "tip-u02-kako",
+      "title": "Kako si?",
+      "text": "Wörtlich heißt „Kako si?“ „Wie bist du?“. Die Antwort heißt oft einfach „Dobro“ oder „Dobro sam“. Mit „A ti?“ fragst du zurück – das „a“ bedeutet hier „und“.",
+      "examples": [["Kako si?", "Wie geht's?"], ["Dobro, a ti?", "Gut, und dir?"]]
+    },
+    {
+      "id": "tip-u02-se",
+      "title": "Kleine Wörter an Platz 2",
+      "text": "Kurze Wörter wie se, sam, si, je stehen immer an zweiter Stelle im Satz – nie am Anfang. Im Deutschen sagt man „Ich heiße Ana“, im Kroatischen „Zovem se Ana“ oder „Ja se zovem Ana“. Falsch wäre „Se zovem Ana“.",
+      "examples": [["Zovem se Ana.", "Ich heiße Ana."], ["Ja se zovem Ana.", "Ich heiße Ana."], ["Kako se zoveš?", "Wie heißt du?"]]
+    },
+    {
+      "id": "tip-u02-iz",
+      "title": "Woher? – iz …",
+      "text": "Nach „iz“ (aus) ändert sich das Ende des Ortsnamens. Für Namen auf -a merkst du dir erst einmal: -a wird zu -e. Mehr dazu lernst du später beim Genitiv.",
+      "examples": [["Njemačka → iz Njemačke", "aus Deutschland"], ["Bosna → iz Bosne", "aus Bosnien"], ["Hrvatska → iz Hrvatske", "aus Kroatien"]]
+    },
+    {
+      "id": "tip-u02-vi",
+      "title": "Du oder Sie?",
+      "text": "Wie im Deutschen gibt es „ti“ (du) und „Vi“ (Sie). In der Familie und unter Freunden sagt man „ti“. „Vi“ nimmst du für Fremde und ältere Menschen, die du nicht gut kennst. Das Verb steht dann in der ihr-Form: Kako ste? – Wie geht es Ihnen?",
+      "examples": [["Kako si?", "Wie geht's dir?"], ["Kako ste?", "Wie geht es Ihnen?"], ["Oprosti! / Oprostite!", "Entschuldige! / Entschuldigen Sie!"]]
+    }
+  ],
+  "words": [
+    { "id": "w-bok", "hr": "bok", "de": ["hallo", "tschüss"], "pos": "phrase",
+      "colloquial": ["ćao"],
+      "note": "Locker, für Familie und Freunde. Umgangssprachlich hört man auch oft „ćao“.",
+      "example": { "hr": "Bok, mama!", "de": "Hallo, Mama!" } },
+    { "id": "w-dobar-dan", "hr": "dobar dan", "de": ["guten Tag"], "pos": "phrase",
+      "example": { "hr": "Dobar dan, kako ste?", "de": "Guten Tag, wie geht es Ihnen?" } },
+    { "id": "w-dobro-jutro", "hr": "dobro jutro", "de": ["guten Morgen"], "pos": "phrase",
+      "example": { "hr": "Dobro jutro, mama!", "de": "Guten Morgen, Mama!" } },
+    { "id": "w-dobra-vecer", "hr": "dobra večer", "de": ["guten Abend"], "pos": "phrase",
+      "note": "Kroatisch: dobra večer (nicht „dobro veče“).",
+      "example": { "hr": "Dobra večer, tata!", "de": "Guten Abend, Papa!" } },
+    { "id": "w-laku-noc", "hr": "laku noć", "de": ["gute Nacht"], "pos": "phrase",
+      "example": { "hr": "Laku noć, tata!", "de": "Gute Nacht, Papa!" } },
+    { "id": "w-dovidjenja", "hr": "doviđenja", "de": ["auf Wiedersehen"], "pos": "phrase",
+      "example": { "hr": "Doviđenja i hvala!", "de": "Auf Wiedersehen und danke!" } },
+
+    { "id": "w-kako", "hr": "kako", "de": ["wie"], "pos": "adv",
+      "example": { "hr": "Kako si?", "de": "Wie geht's?" } },
+    { "id": "w-dobro", "hr": "dobro", "de": ["gut"], "pos": "adv",
+      "example": { "hr": "Dobro sam, hvala.", "de": "Mir geht's gut, danke." } },
+    { "id": "w-odlicno", "hr": "odlično", "de": ["ausgezeichnet", "super", "sehr gut"], "pos": "adv",
+      "example": { "hr": "Odlično, hvala!", "de": "Super, danke!" } },
+    { "id": "w-lose", "hr": "loše", "de": ["schlecht"], "pos": "adv",
+      "example": { "hr": "Nije loše.", "de": "Nicht schlecht." } },
+    { "id": "w-tako-tako", "hr": "tako-tako", "de": ["so lala", "geht so"], "pos": "phrase",
+      "example": { "hr": "Kako si? – Tako-tako.", "de": "Wie geht's? – So lala." } },
+    { "id": "w-a", "hr": "a", "de": ["und", "aber"], "pos": "conj",
+      "note": "„a“ verbindet Gegensätze oder Rückfragen: A ti? – Und du?",
+      "example": { "hr": "Dobro, a ti?", "de": "Gut, und dir?" } },
+
+    { "id": "w-zvati-se", "hr": "zvati se", "de": ["heißen"], "pos": "verb", "present": "zovem se",
+      "note": "Unregelmäßig: zovem se, zoveš se, zove se.",
+      "example": { "hr": "Zovem se Ana.", "de": "Ich heiße Ana." } },
+    { "id": "w-ime", "hr": "ime", "de": ["Name", "Vorname"], "pos": "noun", "gender": "n",
+      "example": { "hr": "Kako ti je ime?", "de": "Wie ist dein Name?" } },
+    { "id": "w-prezime", "hr": "prezime", "de": ["Nachname", "Familienname"], "pos": "noun", "gender": "n",
+      "example": { "hr": "Moje prezime je Horvat.", "de": "Mein Nachname ist Horvat." } },
+    { "id": "w-drago-mi-je", "hr": "drago mi je", "de": ["freut mich", "sehr erfreut"], "pos": "phrase",
+      "example": { "hr": "Drago mi je, ja sam Marko.", "de": "Freut mich, ich bin Marko." } },
+    { "id": "w-molim", "hr": "molim", "de": ["bitte"], "pos": "phrase",
+      "note": "Auch als Antwort auf „hvala“ (bitte schön) und als Nachfrage (Wie bitte?).",
+      "example": { "hr": "Voda, molim.", "de": "Wasser, bitte." } },
+    { "id": "w-izvoli", "hr": "izvoli", "de": ["bitte schön", "hier bitte"], "pos": "phrase",
+      "note": "Beim Geben oder Anbieten, zu einer Person, die du duzt. Zu „Vi“: izvolite.",
+      "example": { "hr": "Izvoli, ovo je za tebe.", "de": "Bitte schön, das ist für dich." } },
+
+    { "id": "w-odakle", "hr": "odakle", "de": ["woher"], "pos": "adv",
+      "example": { "hr": "Odakle si?", "de": "Woher kommst du?" } },
+    { "id": "w-iz", "hr": "iz", "de": ["aus"], "pos": "prep",
+      "example": { "hr": "Ja sam iz Njemačke.", "de": "Ich komme aus Deutschland." } },
+    { "id": "w-zivjeti", "hr": "živjeti", "de": ["leben", "wohnen"], "pos": "verb", "present": "živim",
+      "example": { "hr": "Živim u Njemačkoj.", "de": "Ich lebe in Deutschland." } },
+    { "id": "w-grad", "hr": "grad", "de": ["Stadt"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Gradačac je mali grad.", "de": "Gradačac ist eine kleine Stadt." } },
+    { "id": "w-selo", "hr": "selo", "de": ["Dorf"], "pos": "noun", "gender": "n",
+      "example": { "hr": "Baka živi u selu.", "de": "Oma lebt im Dorf." } },
+    { "id": "w-bosna", "hr": "Bosna", "de": ["Bosnien"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Mama je iz Bosne.", "de": "Mama kommt aus Bosnien." } },
+
+    { "id": "w-vi", "hr": "Vi", "de": ["Sie"], "pos": "pron", "formal": true,
+      "note": "Höfliche Anrede, großgeschrieben. Kleingeschrieben „vi“ heißt „ihr“.",
+      "example": { "hr": "Odakle ste Vi?", "de": "Woher kommen Sie?" } },
+    { "id": "w-gospodin", "hr": "gospodin", "de": ["Herr"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Gospodin Horvat je ovdje.", "de": "Herr Horvat ist hier." } },
+    { "id": "w-gospodja", "hr": "gospođa", "de": ["Frau"], "pos": "noun", "gender": "f",
+      "note": "Als Anrede: Frau Horvat = gospođa Horvat.",
+      "example": { "hr": "Gospođa Horvat je iz Zagreba.", "de": "Frau Horvat ist aus Zagreb." } },
+    { "id": "w-oprosti", "hr": "oprosti", "de": ["Entschuldigung", "entschuldige", "Verzeihung"], "pos": "phrase",
+      "example": { "hr": "Oprosti, mama!", "de": "Entschuldige, Mama!" } },
+    { "id": "w-oprostite", "hr": "oprostite", "de": ["Entschuldigen Sie", "Entschuldigung"], "pos": "phrase", "formal": true,
+      "example": { "hr": "Oprostite, gdje je crkva?", "de": "Entschuldigen Sie, wo ist die Kirche?" } },
+    { "id": "w-hvala-lijepa", "hr": "hvala lijepa", "de": ["vielen Dank", "danke schön"], "pos": "phrase",
+      "example": { "hr": "Hvala lijepa!", "de": "Vielen Dank!" } }
+  ],
+  "sentences": [
+    { "id": "s-dobro-jutro-mama", "hr": ["Dobro jutro, mama!"], "de": ["Guten Morgen, Mama!"], "words": ["w-dobro-jutro", "w-mama"] },
+    { "id": "s-laku-noc-tata", "hr": ["Laku noć, tata!"], "de": ["Gute Nacht, Papa!"], "words": ["w-laku-noc", "w-tata"] },
+    { "id": "s-bok-mama", "hr": ["Bok, mama!"], "de": ["Hallo, Mama!", "Tschüss, Mama!"], "words": ["w-bok", "w-mama"] },
+    { "id": "s-dovidjenja-hvala", "hr": ["Doviđenja i hvala!"], "de": ["Auf Wiedersehen und danke!"], "words": ["w-dovidjenja", "w-i", "w-hvala"] },
+    { "id": "s-dobra-vecer-tata", "hr": ["Dobra večer, tata!"], "de": ["Guten Abend, Papa!"], "words": ["w-dobra-vecer", "w-tata"], "distractors": ["dobro", "dobar"] },
+
+    { "id": "s-kako-si", "hr": ["Kako si?"], "de": ["Wie geht's?", "Wie geht es dir?", "Wie geht's dir?"], "words": ["w-kako"], "distractors": ["ste", "je"] },
+    { "id": "s-dobro-a-ti", "hr": ["Dobro, hvala. A ti?", "Dobro, hvala, a ti?"], "de": ["Gut, danke. Und dir?", "Gut, danke. Und du?", "Gut, danke, und dir?", "Gut, danke, und du?"], "words": ["w-dobro", "w-hvala", "w-a"] },
+    { "id": "s-odlicno-hvala", "hr": ["Odlično, hvala!"], "de": ["Ausgezeichnet, danke!", "Super, danke!", "Sehr gut, danke!"], "words": ["w-odlicno", "w-hvala"] },
+    { "id": "s-dobro-sam", "hr": ["Dobro sam."], "de": ["Mir geht es gut.", "Mir geht's gut.", "Es geht mir gut."], "words": ["w-dobro"], "distractors": ["si", "je"] },
+    { "id": "s-nije-lose", "hr": ["Nije loše."], "de": ["Nicht schlecht.", "Es ist nicht schlecht."], "words": ["w-lose"] },
+
+    { "id": "s-kako-se-zoves", "hr": ["Kako se zoveš?"], "de": ["Wie heißt du?"], "words": ["w-kako", "w-zvati-se"], "distractors": ["si", "zovem"] },
+    { "id": "s-zovem-se-ana", "hr": ["Zovem se Ana.", "Ja se zovem Ana."], "de": ["Ich heiße Ana."], "words": ["w-zvati-se"], "distractors": ["zoveš", "sam"] },
+    { "id": "s-drago-mi-je", "hr": ["Drago mi je."], "de": ["Freut mich.", "Sehr erfreut.", "Es freut mich."], "words": ["w-drago-mi-je"] },
+    { "id": "s-kako-ti-je-ime", "hr": ["Kako ti je ime?"], "de": ["Wie ist dein Name?", "Wie heißt du?"], "words": ["w-kako", "w-ime"] },
+    { "id": "s-voda-molim", "hr": ["Voda, molim."], "de": ["Wasser, bitte.", "Ein Wasser, bitte."], "words": ["w-voda", "w-molim"] },
+
+    { "id": "s-odakle-si", "hr": ["Odakle si?", "Odakle si ti?"], "de": ["Woher kommst du?", "Woher bist du?"], "words": ["w-odakle"], "distractors": ["ste", "kako"] },
+    { "id": "s-iz-njemacke", "hr": ["Ja sam iz Njemačke.", "Iz Njemačke sam."], "de": ["Ich bin aus Deutschland.", "Ich komme aus Deutschland."], "words": ["w-ja", "w-iz", "w-njemacka"], "distractors": ["Njemačka", "si"] },
+    { "id": "s-zivim-u-njemackoj", "hr": ["Živim u Njemačkoj.", "Ja živim u Njemačkoj."], "de": ["Ich lebe in Deutschland.", "Ich wohne in Deutschland."], "words": ["w-zivjeti", "w-njemacka"] },
+    { "id": "s-mama-iz-bosne", "hr": ["Mama je iz Bosne."], "de": ["Mama ist aus Bosnien.", "Mama kommt aus Bosnien."], "words": ["w-mama", "w-iz", "w-bosna"], "distractors": ["Bosna"] },
+    { "id": "s-tata-iz-gradacca", "hr": ["Tata je iz Gradačca."], "de": ["Papa ist aus Gradačac.", "Papa kommt aus Gradačac."], "words": ["w-tata", "w-iz"],
+      "note": "Gradačac → iz Gradačca: das zweite a fällt weg." },
+
+    { "id": "s-kako-ste", "hr": ["Kako ste?"], "de": ["Wie geht es Ihnen?", "Wie geht's Ihnen?", "Wie geht es euch?"], "words": ["w-kako", "w-vi"], "formal": true, "distractors": ["si"] },
+    { "id": "s-odakle-ste", "hr": ["Odakle ste?", "Odakle ste Vi?"], "de": ["Woher kommen Sie?", "Woher sind Sie?", "Woher kommt ihr?", "Woher seid ihr?"], "words": ["w-odakle", "w-vi"], "formal": true, "distractors": ["si"] },
+    { "id": "s-hvala-lijepa", "hr": ["Hvala lijepa!"], "de": ["Vielen Dank!", "Danke schön!", "Herzlichen Dank!"], "words": ["w-hvala-lijepa"] },
+    { "id": "s-dobar-dan-kako-ste", "hr": ["Dobar dan, kako ste?"], "de": ["Guten Tag, wie geht es Ihnen?", "Guten Tag, wie geht's Ihnen?"], "words": ["w-dobar-dan", "w-kako", "w-vi"], "formal": true, "distractors": ["si", "dobro"] },
+    { "id": "s-oprosti-tata", "hr": ["Oprosti, tata!"], "de": ["Entschuldige, Papa!", "Entschuldigung, Papa!", "Tut mir leid, Papa!"], "words": ["w-oprosti", "w-tata"], "distractors": ["oprostite"] }
+  ],
+  "lessons": [
+    {
+      "id": "l-u02-1", "title": "Grüßen", "tip": "tip-u02-greet",
+      "newWords": ["w-bok", "w-dobar-dan", "w-dobro-jutro", "w-dobra-vecer", "w-laku-noc", "w-dovidjenja"],
+      "sentences": ["s-dobro-jutro-mama", "s-laku-noc-tata", "s-bok-mama", "s-dovidjenja-hvala", "s-dobra-vecer-tata"],
+      "extras": [
+        { "type": "fact", "id": "x-u02-1-bok", "question": "Wem sagst du „Bok!“?",
+          "options": ["Familie und Freunden", "Dem Arzt beim ersten Termin", "Einem fremden älteren Herrn"],
+          "answer": "Familie und Freunden" },
+        { "type": "cloze", "id": "x-u02-1-dobra", "hr": "___ večer!", "de": "Guten Abend!", "answers": ["Dobra"], "options": ["Dobra", "Dobar", "Dobro"],
+          "hint": "večer ist weiblich" }
+      ]
+    },
+    {
+      "id": "l-u02-2", "title": "Wie geht's?", "tip": "tip-u02-kako",
+      "newWords": ["w-kako", "w-dobro", "w-odlicno", "w-lose", "w-tako-tako", "w-a"],
+      "sentences": ["s-kako-si", "s-dobro-a-ti", "s-odlicno-hvala", "s-dobro-sam", "s-nije-lose"],
+      "extras": [
+        { "type": "cloze", "id": "x-u02-2-a", "hr": "Dobro, hvala. ___ ti?", "de": "Gut, danke. Und dir?", "answers": ["A"], "options": ["A", "Ja", "Ne"] }
+      ]
+    },
+    {
+      "id": "l-u02-3", "title": "Wie heißt du?", "tip": "tip-u02-se",
+      "newWords": ["w-zvati-se", "w-ime", "w-prezime", "w-drago-mi-je", "w-molim", "w-izvoli"],
+      "sentences": ["s-kako-se-zoves", "s-zovem-se-ana", "s-drago-mi-je", "s-kako-ti-je-ime", "s-voda-molim"],
+      "extras": [
+        { "type": "cloze", "id": "x-u02-3-se1", "hr": "Kako ___ zoveš?", "de": "Wie heißt du?", "answers": ["se"], "options": ["se", "si", "je"] },
+        { "type": "cloze", "id": "x-u02-3-se2", "hr": "Zovem ___ Marko.", "de": "Ich heiße Marko.", "answers": ["se"] },
+        { "type": "fact", "id": "x-u02-3-order", "question": "Welcher Satz ist richtig?",
+          "options": ["Zovem se Ana.", "Se zovem Ana."], "answer": "Zovem se Ana.",
+          "explain": "„se“ steht nie am Satzanfang, sondern an zweiter Stelle." }
+      ]
+    },
+    {
+      "id": "l-u02-4", "title": "Woher kommst du?", "tip": "tip-u02-iz",
+      "newWords": ["w-odakle", "w-iz", "w-zivjeti", "w-grad", "w-selo", "w-bosna"],
+      "sentences": ["s-odakle-si", "s-iz-njemacke", "s-zivim-u-njemackoj", "s-mama-iz-bosne", "s-tata-iz-gradacca"],
+      "extras": [
+        { "type": "cloze", "id": "x-u02-4-njem", "hr": "Ja sam iz ___.", "de": "Ich bin aus Deutschland.", "answers": ["Njemačke"], "options": ["Njemačke", "Njemačka", "Njemačku"],
+          "hint": "Nach „iz“: -a wird zu -e" },
+        { "type": "cloze", "id": "x-u02-4-bosna", "hr": "Baka je iz ___.", "de": "Oma ist aus Bosnien.", "answers": ["Bosne"], "options": ["Bosne", "Bosna", "Bosnu"] }
+      ]
+    },
+    {
+      "id": "l-u02-5", "title": "Du oder Sie?", "tip": "tip-u02-vi",
+      "newWords": ["w-vi", "w-gospodin", "w-gospodja", "w-oprosti", "w-oprostite", "w-hvala-lijepa"],
+      "sentences": ["s-kako-ste", "s-odakle-ste", "s-hvala-lijepa", "s-dobar-dan-kako-ste", "s-oprosti-tata"],
+      "extras": [
+        { "type": "fact", "id": "x-u02-5-first", "question": "Du triffst einen älteren Nachbarn deiner Familie zum ersten Mal. Was sagst du?",
+          "options": ["Dobar dan, kako ste?", "Bok, kako si?"], "answer": "Dobar dan, kako ste?" },
+        { "type": "cloze", "id": "x-u02-5-ste", "hr": "Kako ___? (Sie)", "de": "Wie geht es Ihnen?", "answers": ["ste"], "options": ["ste", "si", "je"] }
+      ]
+    }
+  ]
+}
