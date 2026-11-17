@@ -1,0 +1,193 @@
+{
+  "id": "u05",
+  "number": 5,
+  "title": "Zahlen & Alter",
+  "grammar": "imati (haben); 1 godina / 2–4 godine / 5+ godina",
+  "tips": [
+    {
+      "id": "tip-u05-small",
+      "title": "Eins bis fünf",
+      "text": "„eins“ passt sich an wie ein Adjektiv: jedan brat, jedna sestra, jedno dijete. Für „zwei“ gibt es zwei Wörter: dva für männliche und sächliche Wörter, dvije für weibliche. Nach 2, 3 und 4 ändert sich das Nomen: dva brata, tri sestre.",
+      "examples": [["dva brata", "zwei Brüder"], ["dvije sestre", "zwei Schwestern"], ["tri sestre", "drei Schwestern"]]
+    },
+    {
+      "id": "tip-u05-ten",
+      "title": "Sechs bis zehn",
+      "text": "šest, sedam, osam, devet, deset – diese Zahlen ändern sich nie. Merke: „sedam“ klingt fast wie „sieben“, „deset“ fast wie „zehn“.",
+      "examples": [["šest", "6"], ["sedam", "7"], ["deset", "10"]]
+    },
+    {
+      "id": "tip-u05-naest",
+      "title": "11 bis 19: -naest",
+      "text": "Die Zahlen von 11 bis 19 enden auf -naest (wie „-zehn“): jedanaest, dvanaest, trinaest, četrnaest, petnaest, šesnaest, sedamnaest, osamnaest, devetnaest. Achtung: 14 und 16 sind leicht verkürzt.",
+      "examples": [["četrnaest", "14"], ["šesnaest", "16"], ["devetnaest", "19"]]
+    },
+    {
+      "id": "tip-u05-tens",
+      "title": "Zehner, hundert, tausend",
+      "text": "Die Zehner enden auf -deset: dvadeset, trideset, četrdeset, pedeset, šezdeset, sedamdeset, osamdeset, devedeset. Anders als im Deutschen kommt der Zehner zuerst: trideset pet = 35. 100 ist sto, 1000 ist tisuća (nicht „hiljada“).",
+      "examples": [["trideset pet", "35"], ["sto", "100"], ["tisuća", "1000"]]
+    },
+    {
+      "id": "tip-u05-age",
+      "title": "Wie alt bist du?",
+      "text": "Das Alter sagt man mit „haben“: Imam 30 godina – wörtlich „Ich habe 30 Jahre“. Die Form von godina hängt von der Zahl ab: 1 godina, 2 bis 4 godine, ab 5 godina. Bei 21, 22 … zählt die letzte Ziffer.",
+      "examples": [["Imam trideset godina.", "Ich bin 30 Jahre alt."], ["Ima tri godine.", "Er/Sie ist drei Jahre alt."], ["Koliko imaš godina?", "Wie alt bist du?"]]
+    }
+  ],
+  "words": [
+    { "id": "w-nula", "hr": "nula", "de": ["null"], "pos": "num",
+      "example": { "hr": "Rezultat je jedan – nula.", "de": "Es steht eins zu null." } },
+    { "id": "w-jedan", "hr": "jedan", "de": ["eins", "ein"], "pos": "num",
+      "note": "jedan (m), jedna (f), jedno (n).",
+      "example": { "hr": "Imam jednog brata.", "de": "Ich habe einen Bruder." } },
+    { "id": "w-dva", "hr": "dva", "de": ["zwei"], "pos": "num",
+      "note": "Für männliche und sächliche Wörter. Weiblich: dvije.",
+      "example": { "hr": "Imam dva brata.", "de": "Ich habe zwei Brüder." } },
+    { "id": "w-dvije", "hr": "dvije", "de": ["zwei (weiblich)"], "pos": "num",
+      "note": "Für weibliche Wörter: dvije sestre.",
+      "example": { "hr": "Imam dvije sestre.", "de": "Ich habe zwei Schwestern." } },
+    { "id": "w-tri", "hr": "tri", "de": ["drei"], "pos": "num",
+      "example": { "hr": "Imam tri sestre.", "de": "Ich habe drei Schwestern." } },
+    { "id": "w-cetiri", "hr": "četiri", "de": ["vier"], "pos": "num",
+      "example": { "hr": "Baka ima četiri unuka.", "de": "Oma hat vier Enkel." } },
+    { "id": "w-pet", "hr": "pet", "de": ["fünf"], "pos": "num",
+      "example": { "hr": "Pet minuta!", "de": "Fünf Minuten!" } },
+
+    { "id": "w-sest", "hr": "šest", "de": ["sechs"], "pos": "num",
+      "example": { "hr": "U šest sati.", "de": "Um sechs Uhr." } },
+    { "id": "w-sedam", "hr": "sedam", "de": ["sieben"], "pos": "num",
+      "example": { "hr": "Tjedan ima sedam dana.", "de": "Die Woche hat sieben Tage." } },
+    { "id": "w-osam", "hr": "osam", "de": ["acht"], "pos": "num",
+      "example": { "hr": "Radim osam sati.", "de": "Ich arbeite acht Stunden." } },
+    { "id": "w-devet", "hr": "devet", "de": ["neun"], "pos": "num",
+      "example": { "hr": "Devet, deset!", "de": "Neun, zehn!" } },
+    { "id": "w-deset", "hr": "deset", "de": ["zehn"], "pos": "num",
+      "example": { "hr": "Imam deset eura.", "de": "Ich habe zehn Euro." } },
+    { "id": "w-broj", "hr": "broj", "de": ["Zahl", "Nummer"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Koji je tvoj broj?", "de": "Was ist deine Nummer?" } },
+
+    { "id": "w-jedanaest", "hr": "jedanaest", "de": ["elf"], "pos": "num",
+      "example": { "hr": "Jedanaest igrača.", "de": "Elf Spieler." } },
+    { "id": "w-dvanaest", "hr": "dvanaest", "de": ["zwölf"], "pos": "num",
+      "example": { "hr": "Godina ima dvanaest mjeseci.", "de": "Ein Jahr hat zwölf Monate." } },
+    { "id": "w-trinaest", "hr": "trinaest", "de": ["dreizehn"], "pos": "num",
+      "example": { "hr": "Nećakinja ima trinaest godina.", "de": "Die Nichte ist dreizehn." } },
+    { "id": "w-petnaest", "hr": "petnaest", "de": ["fünfzehn"], "pos": "num",
+      "example": { "hr": "Petnaest minuta.", "de": "Fünfzehn Minuten." } },
+    { "id": "w-sesnaest", "hr": "šesnaest", "de": ["sechzehn"], "pos": "num",
+      "note": "Verkürzt: šest + naest → šesnaest.",
+      "example": { "hr": "Moj sin ima šesnaest godina.", "de": "Mein Sohn ist sechzehn." } },
+    { "id": "w-dvadeset", "hr": "dvadeset", "de": ["zwanzig"], "pos": "num",
+      "example": { "hr": "Dvadeset eura.", "de": "Zwanzig Euro." } },
+
+    { "id": "w-trideset", "hr": "trideset", "de": ["dreißig"], "pos": "num",
+      "example": { "hr": "Imam trideset godina.", "de": "Ich bin dreißig Jahre alt." } },
+    { "id": "w-cetrdeset", "hr": "četrdeset", "de": ["vierzig"], "pos": "num",
+      "example": { "hr": "Tata ima četrdeset godina.", "de": "Papa ist vierzig." } },
+    { "id": "w-pedeset", "hr": "pedeset", "de": ["fünfzig"], "pos": "num",
+      "example": { "hr": "Pedeset eura, molim.", "de": "Fünfzig Euro, bitte." } },
+    { "id": "w-sezdeset", "hr": "šezdeset", "de": ["sechzig"], "pos": "num",
+      "example": { "hr": "Sat ima šezdeset minuta.", "de": "Eine Stunde hat sechzig Minuten." } },
+    { "id": "w-sto", "hr": "sto", "de": ["hundert"], "pos": "num",
+      "example": { "hr": "Sto eura.", "de": "Hundert Euro." } },
+    { "id": "w-tisuca", "hr": "tisuća", "de": ["tausend"], "pos": "num",
+      "note": "Kroatisch: tisuća (nicht „hiljada“).",
+      "example": { "hr": "Tisuću puta hvala!", "de": "Tausend Dank!" } },
+
+    { "id": "w-godina", "hr": "godina", "de": ["Jahr"], "pos": "noun", "gender": "f",
+      "note": "1 godina, 2–4 godine, ab 5 godina.",
+      "example": { "hr": "Imam trideset godina.", "de": "Ich bin dreißig Jahre alt." } },
+    { "id": "w-koliko", "hr": "koliko", "de": ["wie viel", "wie viele"], "pos": "adv",
+      "example": { "hr": "Koliko imaš godina?", "de": "Wie alt bist du?" } },
+    { "id": "w-rodjendan", "hr": "rođendan", "de": ["Geburtstag"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Sretan rođendan!", "de": "Alles Gute zum Geburtstag!" } },
+    { "id": "w-dan", "hr": "dan", "de": ["Tag"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Dobar dan!", "de": "Guten Tag!" } },
+    { "id": "w-tjedan", "hr": "tjedan", "de": ["Woche"], "pos": "noun", "gender": "m",
+      "note": "Kroatisch: tjedan (nicht „nedelja“ oder „sedmica“). Männlich!",
+      "example": { "hr": "Tjedan ima sedam dana.", "de": "Die Woche hat sieben Tage." } },
+    { "id": "w-mjesec", "hr": "mjesec", "de": ["Monat", "Mond"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Godina ima dvanaest mjeseci.", "de": "Ein Jahr hat zwölf Monate." } }
+  ],
+  "sentences": [
+    { "id": "s-jedan-dva-tri", "hr": ["Jedan, dva, tri!"], "de": ["Eins, zwei, drei!"], "words": ["w-jedan", "w-dva", "w-tri"], "distractors": ["dvije"] },
+    { "id": "s-imam-dva-brata", "hr": ["Imam dva brata.", "Ja imam dva brata."], "de": ["Ich habe zwei Brüder."], "words": ["w-imati", "w-dva", "w-brat"], "distractors": ["dvije", "brat"] },
+    { "id": "s-imam-dvije-sestre", "hr": ["Imam dvije sestre.", "Ja imam dvije sestre."], "de": ["Ich habe zwei Schwestern."], "words": ["w-imati", "w-dvije", "w-sestra"], "distractors": ["dva", "sestra"] },
+    { "id": "s-imam-tri-sestre", "hr": ["Imam tri sestre.", "Ja imam tri sestre."], "de": ["Ich habe drei Schwestern."], "words": ["w-imati", "w-tri", "w-sestra"], "distractors": ["sestra"] },
+    { "id": "s-cetiri-pet", "hr": ["Četiri, pet!"], "de": ["Vier, fünf!"], "words": ["w-cetiri", "w-pet"] },
+
+    { "id": "s-sest-sedam-osam", "hr": ["Šest, sedam, osam!"], "de": ["Sechs, sieben, acht!"], "words": ["w-sest", "w-sedam", "w-osam"] },
+    { "id": "s-devet-deset", "hr": ["Devet, deset!"], "de": ["Neun, zehn!"], "words": ["w-devet", "w-deset"] },
+    { "id": "s-koji-je-tvoj-broj", "hr": ["Koji je tvoj broj?"], "de": ["Was ist deine Nummer?", "Wie ist deine Nummer?", "Welche Nummer hast du?"], "words": ["w-tvoj", "w-broj"], "distractors": ["tvoja"] },
+    { "id": "s-moj-broj-je-sedam", "hr": ["Moj broj je sedam."], "de": ["Meine Nummer ist sieben.", "Meine Zahl ist sieben."], "words": ["w-moj", "w-broj", "w-sedam"], "distractors": ["moja"] },
+    { "id": "s-imam-deset-eura", "hr": ["Imam deset eura.", "Ja imam deset eura."], "de": ["Ich habe zehn Euro."], "words": ["w-imati", "w-deset"] },
+
+    { "id": "s-jedanaest-dvanaest", "hr": ["Jedanaest, dvanaest, trinaest!"], "de": ["Elf, zwölf, dreizehn!"], "words": ["w-jedanaest", "w-dvanaest", "w-trinaest"] },
+    { "id": "s-petnaest-minuta", "hr": ["Petnaest minuta."], "de": ["Fünfzehn Minuten."], "words": ["w-petnaest"], "distractors": ["pet"] },
+    { "id": "s-dvadeset-eura", "hr": ["Dvadeset eura."], "de": ["Zwanzig Euro."], "words": ["w-dvadeset"], "distractors": ["dva"] },
+    { "id": "s-sesnaest-godina", "hr": ["Sin ima šesnaest godina."], "de": ["Der Sohn ist sechzehn.", "Der Sohn ist sechzehn Jahre alt.", "Mein Sohn ist sechzehn."], "words": ["w-sin", "w-imati", "w-sesnaest"] },
+
+    { "id": "s-sto-eura", "hr": ["Sto eura."], "de": ["Hundert Euro.", "Einhundert Euro."], "words": ["w-sto"] },
+    { "id": "s-trideset-pet", "hr": ["Trideset pet.", "Trideset i pet."], "de": ["Fünfunddreißig."], "words": ["w-trideset", "w-pet"] },
+    { "id": "s-tisucu-puta-hvala", "hr": ["Tisuću puta hvala!"], "de": ["Tausend Dank!", "Tausendmal danke!"], "words": ["w-tisuca", "w-hvala"], "distractors": ["tisuća"] },
+    { "id": "s-pedeset-eura", "hr": ["Pedeset eura, molim."], "de": ["Fünfzig Euro, bitte."], "words": ["w-pedeset", "w-molim"] },
+    { "id": "s-tata-cetrdeset", "hr": ["Tata ima četrdeset godina."], "de": ["Papa ist vierzig.", "Papa ist vierzig Jahre alt."], "words": ["w-tata", "w-imati", "w-cetrdeset"], "distractors": ["četiri"] },
+
+    { "id": "s-koliko-imas-godina", "hr": ["Koliko imaš godina?", "Koliko godina imaš?"], "de": ["Wie alt bist du?"], "words": ["w-koliko", "w-imati", "w-godina"], "distractors": ["imam", "godine"] },
+    { "id": "s-imam-trideset-godina", "hr": ["Imam trideset godina.", "Ja imam trideset godina."], "de": ["Ich bin dreißig Jahre alt.", "Ich bin dreißig.", "Ich bin 30 Jahre alt.", "Ich bin 30."], "words": ["w-imati", "w-trideset", "w-godina"], "distractors": ["sam", "godine"] },
+    { "id": "s-sretan-rodjendan", "hr": ["Sretan rođendan!"], "de": ["Alles Gute zum Geburtstag!", "Herzlichen Glückwunsch zum Geburtstag!", "Fröhlichen Geburtstag!"], "words": ["w-sretan", "w-rodjendan"], "distractors": ["sretna"] },
+    { "id": "s-sin-tri-godine", "hr": ["Moj sin ima tri godine."], "de": ["Mein Sohn ist drei Jahre alt.", "Mein Sohn ist drei."], "words": ["w-moj", "w-sin", "w-imati", "w-tri", "w-godina"], "distractors": ["godina"] },
+    { "id": "s-tjedan-sedam-dana", "hr": ["Tjedan ima sedam dana."], "de": ["Eine Woche hat sieben Tage.", "Die Woche hat sieben Tage."], "words": ["w-tjedan", "w-imati", "w-sedam", "w-dan"], "distractors": ["dan"] }
+  ],
+  "lessons": [
+    {
+      "id": "l-u05-1", "title": "0–5", "tip": "tip-u05-small",
+      "newWords": ["w-nula", "w-jedan", "w-dva", "w-dvije", "w-tri", "w-cetiri", "w-pet"],
+      "sentences": ["s-jedan-dva-tri", "s-imam-dva-brata", "s-imam-dvije-sestre", "s-imam-tri-sestre", "s-cetiri-pet"],
+      "extras": [
+        { "type": "cloze", "id": "x-u05-1-dvije", "hr": "Imam ___ sestre.", "de": "Ich habe zwei Schwestern.", "answers": ["dvije"], "options": ["dva", "dvije"] },
+        { "type": "cloze", "id": "x-u05-1-dva", "hr": "Imam ___ brata.", "de": "Ich habe zwei Brüder.", "answers": ["dva"], "options": ["dva", "dvije"] }
+      ]
+    },
+    {
+      "id": "l-u05-2", "title": "6–10", "tip": "tip-u05-ten",
+      "newWords": ["w-sest", "w-sedam", "w-osam", "w-devet", "w-deset", "w-broj"],
+      "sentences": ["s-sest-sedam-osam", "s-devet-deset", "s-koji-je-tvoj-broj", "s-moj-broj-je-sedam", "s-imam-deset-eura"],
+      "extras": [
+        { "type": "fact", "id": "x-u05-2-add", "question": "Tri + pet = ?", "options": ["osam", "šest", "sedam"], "answer": "osam" },
+        { "type": "fact", "id": "x-u05-2-sub", "question": "Deset − jedan = ?", "options": ["devet", "osam", "šest"], "answer": "devet" }
+      ]
+    },
+    {
+      "id": "l-u05-3", "title": "11–20", "tip": "tip-u05-naest",
+      "newWords": ["w-jedanaest", "w-dvanaest", "w-trinaest", "w-petnaest", "w-sesnaest", "w-dvadeset"],
+      "sentences": ["s-jedanaest-dvanaest", "s-petnaest-minuta", "s-dvadeset-eura", "s-sesnaest-godina"],
+      "extras": [
+        { "type": "fact", "id": "x-u05-3-14", "question": "Wie heißt 14?", "options": ["četrnaest", "četirinaest", "četrdeset"], "answer": "četrnaest" },
+        { "type": "fact", "id": "x-u05-3-17", "question": "Wie heißt 17?", "options": ["sedamnaest", "sedamdeset", "sedam"], "answer": "sedamnaest" },
+        { "type": "cloze", "id": "x-u05-3-18", "hr": "___naest", "de": "achtzehn (18)", "answers": ["osam"] }
+      ]
+    },
+    {
+      "id": "l-u05-4", "title": "Zehner bis 1000", "tip": "tip-u05-tens",
+      "newWords": ["w-trideset", "w-cetrdeset", "w-pedeset", "w-sezdeset", "w-sto", "w-tisuca"],
+      "sentences": ["s-sto-eura", "s-trideset-pet", "s-tisucu-puta-hvala", "s-pedeset-eura", "s-tata-cetrdeset"],
+      "extras": [
+        { "type": "fact", "id": "x-u05-4-1000", "question": "Wie heißt 1000 auf Kroatisch?", "options": ["tisuća", "hiljada"], "answer": "tisuća",
+          "explain": "„hiljada“ ist Serbisch oder Bosnisch." },
+        { "type": "fact", "id": "x-u05-4-50", "question": "Was ist „pedeset“?", "options": ["50", "15", "5"], "answer": "50" }
+      ]
+    },
+    {
+      "id": "l-u05-5", "title": "Wie alt bist du?", "tip": "tip-u05-age",
+      "newWords": ["w-godina", "w-koliko", "w-rodjendan", "w-dan", "w-tjedan", "w-mjesec"],
+      "sentences": ["s-koliko-imas-godina", "s-imam-trideset-godina", "s-sretan-rodjendan", "s-sin-tri-godine", "s-tjedan-sedam-dana"],
+      "extras": [
+        { "type": "cloze", "id": "x-u05-5-godine", "hr": "Moj sin ima tri ___.", "de": "Mein Sohn ist drei Jahre alt.", "answers": ["godine"], "options": ["godina", "godine"] },
+        { "type": "cloze", "id": "x-u05-5-godina", "hr": "Imam pedeset ___.", "de": "Ich bin fünfzig Jahre alt.", "answers": ["godina"], "options": ["godina", "godine"] },
+        { "type": "fact", "id": "x-u05-5-tjedan", "question": "Wie heißt „Woche“ auf Kroatisch?", "options": ["tjedan", "nedelja", "sedmica"], "answer": "tjedan" }
+      ]
+    }
+  ]
+}

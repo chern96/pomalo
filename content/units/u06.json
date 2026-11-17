@@ -1,0 +1,231 @@
+{
+  "id": "u06",
+  "number": 6,
+  "title": "Essen & Trinken",
+  "grammar": "Akkusativ, Teil 1: weiblich -a → -u",
+  "tips": [
+    {
+      "id": "tip-u06-acc",
+      "title": "Kava wird zu kavu",
+      "text": "Was du trinkst, isst oder möchtest, steht im Akkusativ. Bei weiblichen Wörtern auf -a wird daraus -u: kava → Pijem kavu. Männliche Dinge und sächliche Wörter bleiben gleich: Pijem čaj. Pijem pivo.",
+      "examples": [["Pijem kavu.", "Ich trinke Kaffee."], ["Pijem čaj.", "Ich trinke Tee."], ["Pijem pivo.", "Ich trinke Bier."]]
+    },
+    {
+      "id": "tip-u06-eat",
+      "title": "Essen und Nicht-Essen",
+      "text": "jesti (essen) ist unregelmäßig: jedem, jedeš, jede. Für „kein“ sagst du einfach „ne“ vor das Verb: Ne jedem meso – Ich esse kein Fleisch.",
+      "examples": [["Jedem ribu.", "Ich esse Fisch."], ["Ne jedem meso.", "Ich esse kein Fleisch."], ["Jedeš li salatu?", "Isst du Salat?"]]
+    },
+    {
+      "id": "tip-u06-want",
+      "title": "Ich möchte …",
+      "text": "želim heißt „ich möchte“, hoću „ich will“. Danach kommt einfach die Grundform: Želim jesti. Kroatisch sagt nicht „Želim da jedem“ – das ist Serbisch.",
+      "examples": [["Želim kavu.", "Ich möchte einen Kaffee."], ["Želim jesti.", "Ich möchte essen."], ["Hoću piti vodu.", "Ich will Wasser trinken."]]
+    },
+    {
+      "id": "tip-u06-table",
+      "title": "Am Tisch",
+      "text": "Vor dem Essen wünscht man „Dobar tek!“, beim Anstoßen ruft man „Živjeli!“. Wer satt ist, sagt als Mann „Sit sam“, als Frau „Sita sam“.",
+      "examples": [["Dobar tek!", "Guten Appetit!"], ["Živjeli!", "Prost!"], ["Hvala, sit sam.", "Danke, ich bin satt."]]
+    },
+    {
+      "id": "tip-u06-cafe",
+      "title": "Im Café",
+      "text": "„Može“ ist ein Zauberwort: Može kava? – Wie wär's mit Kaffee? Antwort: Može! – Gerne! Nach zwei, drei, vier wird -a zu -e: dvije šalice kave.",
+      "examples": [["Može kava?", "Lust auf einen Kaffee?"], ["Može!", "Gerne!"], ["Račun, molim.", "Die Rechnung, bitte."]]
+    },
+    {
+      "id": "tip-u06-oma",
+      "title": "Bei Oma",
+      "text": "Bei Oma wird gekocht: kuhati – kuham, kuhaš, kuha. „volim“ bedeutet hier „ich mag“: Volim piletinu. Auch danach steht der Akkusativ.",
+      "examples": [["Baka kuha ručak.", "Oma kocht Mittagessen."], ["Volim piletinu.", "Ich mag Hähnchen."], ["Volim voće.", "Ich mag Obst."]]
+    }
+  ],
+  "words": [
+    { "id": "w-kava", "hr": "kava", "de": ["Kaffee"], "pos": "noun", "gender": "f",
+      "note": "Kroatisch: kava (nicht „kafa“).",
+      "example": { "hr": "Jednu kavu, molim.", "de": "Einen Kaffee, bitte." } },
+    { "id": "w-pivo", "hr": "pivo", "de": ["Bier"], "pos": "noun", "gender": "n",
+      "example": { "hr": "Jedno pivo, molim.", "de": "Ein Bier, bitte." } },
+    { "id": "w-vino", "hr": "vino", "de": ["Wein"], "pos": "noun", "gender": "n",
+      "example": { "hr": "Crno ili bijelo vino?", "de": "Rot- oder Weißwein?" } },
+    { "id": "w-rakija", "hr": "rakija", "de": ["Schnaps", "Rakija"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Rakija je jaka.", "de": "Der Schnaps ist stark." } },
+    { "id": "w-casa", "hr": "čaša", "de": ["Glas"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Čaša vode, molim.", "de": "Ein Glas Wasser, bitte." } },
+    { "id": "w-piti", "hr": "piti", "de": ["trinken"], "pos": "verb", "present": "pijem",
+      "example": { "hr": "Pijem kavu.", "de": "Ich trinke Kaffee." } },
+
+    { "id": "w-jesti", "hr": "jesti", "de": ["essen"], "pos": "verb", "present": "jedem",
+      "note": "Unregelmäßig: jedem, jedeš, jede.",
+      "example": { "hr": "Jedem kruh.", "de": "Ich esse Brot." } },
+    { "id": "w-meso", "hr": "meso", "de": ["Fleisch"], "pos": "noun", "gender": "n",
+      "example": { "hr": "Ne jedem meso.", "de": "Ich esse kein Fleisch." } },
+    { "id": "w-riba", "hr": "riba", "de": ["Fisch"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Riba je svježa.", "de": "Der Fisch ist frisch." } },
+    { "id": "w-juha", "hr": "juha", "de": ["Suppe"], "pos": "noun", "gender": "f",
+      "note": "Kroatisch: juha.",
+      "example": { "hr": "Juha je vruća.", "de": "Die Suppe ist heiß." } },
+    { "id": "w-salata", "hr": "salata", "de": ["Salat"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Jedem salatu.", "de": "Ich esse Salat." } },
+    { "id": "w-sir", "hr": "sir", "de": ["Käse"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Kruh i sir.", "de": "Brot und Käse." } },
+
+    { "id": "w-zeljeti", "hr": "željeti", "de": ["wünschen", "möchten"], "pos": "verb", "present": "želim",
+      "example": { "hr": "Želim kavu.", "de": "Ich möchte einen Kaffee." } },
+    { "id": "w-htjeti", "hr": "htjeti", "de": ["wollen"], "pos": "verb", "present": "hoću",
+      "note": "Unregelmäßig: hoću, hoćeš, hoće. Höflicher ist „želim“.",
+      "example": { "hr": "Hoću jesti!", "de": "Ich will essen!" } },
+    { "id": "w-dorucak", "hr": "doručak", "de": ["Frühstück"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Doručak je u osam.", "de": "Frühstück ist um acht." } },
+    { "id": "w-vecera", "hr": "večera", "de": ["Abendessen"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Večera je gotova.", "de": "Das Abendessen ist fertig." } },
+    { "id": "w-jaje", "hr": "jaje", "de": ["Ei"], "pos": "noun", "gender": "n",
+      "example": { "hr": "Jedem jaje.", "de": "Ich esse ein Ei." } },
+    { "id": "w-jabuka", "hr": "jabuka", "de": ["Apfel"], "pos": "noun", "gender": "f",
+      "note": "Weiblich! Ich möchte einen Apfel: Želim jabuku.",
+      "example": { "hr": "Želim jabuku.", "de": "Ich möchte einen Apfel." } },
+
+    { "id": "w-dobar-tek", "hr": "dobar tek", "de": ["guten Appetit"], "pos": "phrase",
+      "example": { "hr": "Dobar tek!", "de": "Guten Appetit!" } },
+    { "id": "w-zivjeli", "hr": "živjeli", "de": ["prost", "zum Wohl"], "pos": "phrase",
+      "note": "Beim Anstoßen.",
+      "example": { "hr": "Živjeli!", "de": "Prost!" } },
+    { "id": "w-jos", "hr": "još", "de": ["noch"], "pos": "adv",
+      "example": { "hr": "Još malo?", "de": "Noch ein bisschen?" } },
+    { "id": "w-ukusno", "hr": "ukusno", "de": ["lecker"], "pos": "adv",
+      "example": { "hr": "Ovo je jako ukusno!", "de": "Das ist sehr lecker!" } },
+    { "id": "w-kolac", "hr": "kolač", "de": ["Kuchen"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Bakin kolač je najbolji.", "de": "Omas Kuchen ist der beste." } },
+    { "id": "w-sit", "hr": "sit", "de": ["satt"], "pos": "adj",
+      "forms": { "m": "sit", "f": "sita", "n": "sito" },
+      "example": { "hr": "Hvala, sit sam.", "de": "Danke, ich bin satt." } },
+
+    { "id": "w-konobar", "hr": "konobar", "de": ["Kellner"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Konobar je ljubazan.", "de": "Der Kellner ist freundlich." } },
+    { "id": "w-racun", "hr": "račun", "de": ["Rechnung"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Račun, molim.", "de": "Die Rechnung, bitte." } },
+    { "id": "w-platiti", "hr": "platiti", "de": ["bezahlen", "zahlen"], "pos": "verb", "present": "platim",
+      "example": { "hr": "Mogu li platiti?", "de": "Kann ich bezahlen?" } },
+    { "id": "w-salica", "hr": "šalica", "de": ["Tasse"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Šalica kave, molim.", "de": "Eine Tasse Kaffee, bitte." } },
+    { "id": "w-sladoled", "hr": "sladoled", "de": ["Eis", "Speiseeis"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Djeca žele sladoled.", "de": "Die Kinder wollen Eis." } },
+    { "id": "w-moze", "hr": "može", "de": ["gerne", "geht", "okay"], "pos": "phrase",
+      "note": "Sehr häufig: Može? – Može! (Geht das? – Klar!)",
+      "example": { "hr": "Može kava?", "de": "Lust auf einen Kaffee?" } },
+
+    { "id": "w-kuhati", "hr": "kuhati", "de": ["kochen"], "pos": "verb", "present": "kuham",
+      "example": { "hr": "Baka kuha ručak.", "de": "Oma kocht Mittagessen." } },
+    { "id": "w-hrana", "hr": "hrana", "de": ["Essen", "Nahrung"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Bakina hrana je najbolja.", "de": "Omas Essen ist das beste." } },
+    { "id": "w-voce", "hr": "voće", "de": ["Obst"], "pos": "noun", "gender": "n",
+      "example": { "hr": "Volim voće.", "de": "Ich mag Obst." } },
+    { "id": "w-povrce", "hr": "povrće", "de": ["Gemüse"], "pos": "noun", "gender": "n",
+      "example": { "hr": "Povrće je zdravo.", "de": "Gemüse ist gesund." } },
+    { "id": "w-krumpir", "hr": "krumpir", "de": ["Kartoffel", "Kartoffeln"], "pos": "noun", "gender": "m",
+      "note": "Kroatisch: krumpir (nicht „krompir“).",
+      "example": { "hr": "Piletina s krumpirom.", "de": "Hähnchen mit Kartoffeln." } },
+    { "id": "w-piletina", "hr": "piletina", "de": ["Hähnchen", "Hühnerfleisch"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Volim piletinu.", "de": "Ich mag Hähnchen." } }
+  ],
+  "sentences": [
+    { "id": "s-pijem-kavu", "hr": ["Pijem kavu.", "Ja pijem kavu."], "de": ["Ich trinke Kaffee.", "Ich trinke einen Kaffee."], "words": ["w-piti", "w-kava"], "distractors": ["kava"] },
+    { "id": "s-pijem-pivo", "hr": ["Pijem pivo.", "Ja pijem pivo."], "de": ["Ich trinke Bier.", "Ich trinke ein Bier."], "words": ["w-piti", "w-pivo"], "distractors": ["kavu"] },
+    { "id": "s-kava-s-mlijekom", "hr": ["Kava s mlijekom, molim."], "de": ["Kaffee mit Milch, bitte.", "Einen Kaffee mit Milch, bitte."], "words": ["w-kava", "w-mlijeko", "w-molim"], "distractors": ["mlijeko"] },
+    { "id": "s-pijes-li-rakiju", "hr": ["Piješ li rakiju?"], "de": ["Trinkst du Schnaps?", "Trinkst du Rakija?"], "words": ["w-piti", "w-rakija"], "distractors": ["rakija", "pijem"] },
+    { "id": "s-casa-vode", "hr": ["Čaša vode, molim."], "de": ["Ein Glas Wasser, bitte."], "words": ["w-casa", "w-voda", "w-molim"], "distractors": ["voda"] },
+    { "id": "s-pijem-caj", "hr": ["Pijem čaj.", "Ja pijem čaj."], "de": ["Ich trinke Tee.", "Ich trinke einen Tee."], "words": ["w-piti", "w-caj"], "distractors": ["čaju"] },
+
+    { "id": "s-jedem-ribu", "hr": ["Jedem ribu.", "Ja jedem ribu."], "de": ["Ich esse Fisch.", "Ich esse einen Fisch."], "words": ["w-jesti", "w-riba"], "distractors": ["riba"] },
+    { "id": "s-ne-jedem-meso", "hr": ["Ne jedem meso.", "Ja ne jedem meso."], "de": ["Ich esse kein Fleisch."], "words": ["w-ne", "w-jesti", "w-meso"], "distractors": ["nisam"] },
+    { "id": "s-jedes-li-salatu", "hr": ["Jedeš li salatu?"], "de": ["Isst du Salat?"], "words": ["w-jesti", "w-salata"], "distractors": ["salata", "jedem"] },
+    { "id": "s-juha-je-vruca", "hr": ["Juha je vruća."], "de": ["Die Suppe ist heiß."], "words": ["w-juha"], "distractors": ["juhu"] },
+    { "id": "s-kruh-i-sir", "hr": ["Kruh i sir, molim."], "de": ["Brot und Käse, bitte."], "words": ["w-kruh", "w-i", "w-sir", "w-molim"] },
+
+    { "id": "s-zelim-kavu", "hr": ["Želim kavu.", "Ja želim kavu."], "de": ["Ich möchte Kaffee.", "Ich möchte einen Kaffee."], "words": ["w-zeljeti", "w-kava"], "distractors": ["kava"] },
+    { "id": "s-zelim-jesti", "hr": ["Želim jesti.", "Ja želim jesti."], "de": ["Ich möchte essen."], "words": ["w-zeljeti", "w-jesti"], "distractors": ["da", "jedem"] },
+    { "id": "s-hocu-piti-vodu", "hr": ["Hoću piti vodu.", "Ja hoću piti vodu."], "de": ["Ich will Wasser trinken."], "words": ["w-htjeti", "w-piti", "w-voda"], "distractors": ["voda", "da"] },
+    { "id": "s-sto-za-dorucak", "hr": ["Što želiš za doručak?", "Šta želiš za doručak?"], "de": ["Was möchtest du zum Frühstück?"], "words": ["w-zeljeti", "w-dorucak"], "distractors": ["želim"] },
+    { "id": "s-jabuka-ili-jaje", "hr": ["Jabuka ili jaje?"], "de": ["Apfel oder Ei?", "Ein Apfel oder ein Ei?"], "words": ["w-jabuka", "w-jaje"] },
+    { "id": "s-vecera-je-gotova", "hr": ["Večera je gotova!"], "de": ["Das Abendessen ist fertig!", "Abendessen ist fertig!"], "words": ["w-vecera"], "distractors": ["gotov"] },
+
+    { "id": "s-hvala-sit-sam", "hr": { "m": ["Hvala, sit sam.", "Hvala, ja sam sit."], "f": ["Hvala, sita sam.", "Hvala, ja sam sita."] }, "de": ["Danke, ich bin satt."], "words": ["w-hvala", "w-sit"] },
+    { "id": "s-jos-malo-kave", "hr": ["Još malo kave?"], "de": ["Noch etwas Kaffee?", "Noch ein bisschen Kaffee?"], "words": ["w-jos", "w-malo", "w-kava"], "distractors": ["kavu"] },
+    { "id": "s-jako-ukusno", "hr": ["Ovo je jako ukusno!", "Ovo je vrlo ukusno!"], "de": ["Das ist sehr lecker!"], "words": ["w-ovo", "w-jako", "w-ukusno"] },
+    { "id": "s-dobar-tek", "hr": ["Dobar tek!"], "de": ["Guten Appetit!"], "words": ["w-dobar-tek"], "distractors": ["dobro"] },
+    { "id": "s-jos-kolaca", "hr": ["Želiš li još kolača?"], "de": ["Möchtest du noch Kuchen?", "Willst du noch Kuchen?"], "words": ["w-zeljeti", "w-jos", "w-kolac"], "distractors": ["kolač"] },
+
+    { "id": "s-racun-molim", "hr": ["Račun, molim."], "de": ["Die Rechnung, bitte.", "Rechnung, bitte."], "words": ["w-racun", "w-molim"] },
+    { "id": "s-mogu-li-platiti", "hr": ["Mogu li platiti?"], "de": ["Kann ich zahlen?", "Kann ich bezahlen?"], "words": ["w-platiti"], "distractors": ["platim"] },
+    { "id": "s-salica-kave", "hr": ["Šalica kave, molim."], "de": ["Eine Tasse Kaffee, bitte."], "words": ["w-salica", "w-kava", "w-molim"], "distractors": ["kavu"] },
+    { "id": "s-moze-kava", "hr": ["Može kava?"], "de": ["Lust auf einen Kaffee?", "Wie wär's mit einem Kaffee?", "Kaffee?"], "words": ["w-moze", "w-kava"] },
+    { "id": "s-djeca-sladoled", "hr": ["Djeca žele sladoled."], "de": ["Die Kinder wollen Eis.", "Die Kinder möchten Eis."], "words": ["w-djeca", "w-zeljeti", "w-sladoled"] },
+
+    { "id": "s-baka-kuha-rucak", "hr": ["Baka kuha ručak."], "de": ["Oma kocht Mittagessen.", "Oma kocht das Mittagessen."], "words": ["w-baka", "w-kuhati", "w-rucak"], "distractors": ["kuham"] },
+    { "id": "s-volim-piletinu", "hr": ["Volim piletinu.", "Ja volim piletinu."], "de": ["Ich mag Hähnchen.", "Ich esse gern Hähnchen."], "words": ["w-voljeti", "w-piletina"], "distractors": ["piletina"] },
+    { "id": "s-piletina-s-krumpirom", "hr": ["Piletina s krumpirom."], "de": ["Hähnchen mit Kartoffeln."], "words": ["w-piletina", "w-krumpir"], "distractors": ["krumpir"] },
+    { "id": "s-bakina-hrana", "hr": ["Bakina hrana je najbolja."], "de": ["Omas Essen ist das beste.", "Omas Essen ist am besten."], "words": ["w-baka", "w-hrana"] },
+    { "id": "s-volim-voce", "hr": ["Volim voće i povrće.", "Ja volim voće i povrće."], "de": ["Ich mag Obst und Gemüse."], "words": ["w-voljeti", "w-voce", "w-i", "w-povrce"] }
+  ],
+  "lessons": [
+    {
+      "id": "l-u06-1", "title": "Getränke", "tip": "tip-u06-acc",
+      "newWords": ["w-kava", "w-pivo", "w-vino", "w-rakija", "w-casa", "w-piti"],
+      "sentences": ["s-pijem-kavu", "s-pijem-pivo", "s-kava-s-mlijekom", "s-pijes-li-rakiju", "s-casa-vode", "s-pijem-caj"],
+      "extras": [
+        { "type": "cloze", "id": "x-u06-1-kavu", "hr": "Pijem ___.", "de": "Ich trinke Kaffee.", "answers": ["kavu"], "options": ["kava", "kavu"] },
+        { "type": "cloze", "id": "x-u06-1-vodu", "hr": "Pijem ___.", "de": "Ich trinke Wasser.", "answers": ["vodu"], "options": ["voda", "vodu"] },
+        { "type": "cloze", "id": "x-u06-1-vino", "hr": "Pijem ___.", "de": "Ich trinke Wein.", "answers": ["vino"], "options": ["vino", "vinu"],
+          "hint": "vino ist sächlich" }
+      ]
+    },
+    {
+      "id": "l-u06-2", "title": "Essen", "tip": "tip-u06-eat",
+      "newWords": ["w-jesti", "w-meso", "w-riba", "w-juha", "w-salata", "w-sir"],
+      "sentences": ["s-jedem-ribu", "s-ne-jedem-meso", "s-jedes-li-salatu", "s-juha-je-vruca", "s-kruh-i-sir"],
+      "extras": [
+        { "type": "cloze", "id": "x-u06-2-ribu", "hr": "Jedem ___.", "de": "Ich esse Fisch.", "answers": ["ribu"], "options": ["riba", "ribu"] },
+        { "type": "cloze", "id": "x-u06-2-juhu", "hr": "Jedem ___.", "de": "Ich esse Suppe.", "answers": ["juhu"] },
+        { "type": "cloze", "id": "x-u06-2-jedem", "hr": "Ne ___ meso.", "de": "Ich esse kein Fleisch.", "answers": ["jedem"], "options": ["jedem", "jesti", "jedeš"] }
+      ]
+    },
+    {
+      "id": "l-u06-3", "title": "Ich möchte …", "tip": "tip-u06-want",
+      "newWords": ["w-zeljeti", "w-htjeti", "w-dorucak", "w-vecera", "w-jaje", "w-jabuka"],
+      "sentences": ["s-zelim-kavu", "s-zelim-jesti", "s-hocu-piti-vodu", "s-sto-za-dorucak", "s-jabuka-ili-jaje", "s-vecera-je-gotova"],
+      "extras": [
+        { "type": "cloze", "id": "x-u06-3-jabuku", "hr": "Želim ___.", "de": "Ich möchte einen Apfel.", "answers": ["jabuku"], "options": ["jabuka", "jabuku"] },
+        { "type": "fact", "id": "x-u06-3-da", "question": "Wie sagt man auf Kroatisch „Ich möchte essen“?", "options": ["Želim jesti.", "Želim da jedem."], "answer": "Želim jesti.",
+          "explain": "„želim da jedem“ ist Serbisch. Kroatisch nimmt die Grundform." }
+      ]
+    },
+    {
+      "id": "l-u06-4", "title": "Am Tisch", "tip": "tip-u06-table",
+      "newWords": ["w-dobar-tek", "w-zivjeli", "w-jos", "w-ukusno", "w-kolac", "w-sit"],
+      "sentences": ["s-hvala-sit-sam", "s-jos-malo-kave", "s-jako-ukusno", "s-dobar-tek", "s-jos-kolaca"],
+      "extras": [
+        { "type": "fact", "id": "x-u06-4-zivjeli", "question": "Was sagst du beim Anstoßen?", "options": ["Živjeli!", "Dobar tek!", "Laku noć!"], "answer": "Živjeli!" },
+        { "type": "fact", "id": "x-u06-4-tek", "question": "Was wünschst du vor dem Essen?", "options": ["Dobar tek!", "Živjeli!", "Doviđenja!"], "answer": "Dobar tek!" }
+      ]
+    },
+    {
+      "id": "l-u06-5", "title": "Im Café", "tip": "tip-u06-cafe",
+      "newWords": ["w-konobar", "w-racun", "w-platiti", "w-salica", "w-sladoled", "w-moze"],
+      "sentences": ["s-racun-molim", "s-mogu-li-platiti", "s-salica-kave", "s-moze-kava", "s-djeca-sladoled"],
+      "extras": [
+        { "type": "cloze", "id": "x-u06-5-salice", "hr": "Dvije ___ kave, molim.", "de": "Zwei Tassen Kaffee, bitte.", "answers": ["šalice"], "options": ["šalica", "šalice", "šalicu"] },
+        { "type": "fact", "id": "x-u06-5-moze", "question": "Deine Cousine fragt: „Može kava?“ Du hast Lust. Was sagst du?", "options": ["Može!", "Doviđenja!", "Oprostite!"], "answer": "Može!" }
+      ]
+    },
+    {
+      "id": "l-u06-6", "title": "Bei Oma", "tip": "tip-u06-oma",
+      "newWords": ["w-kuhati", "w-hrana", "w-voce", "w-povrce", "w-krumpir", "w-piletina"],
+      "sentences": ["s-baka-kuha-rucak", "s-volim-piletinu", "s-piletina-s-krumpirom", "s-bakina-hrana", "s-volim-voce"],
+      "extras": [
+        { "type": "cloze", "id": "x-u06-6-juhu", "hr": "Volim ___.", "de": "Ich mag Suppe.", "answers": ["juhu"], "options": ["juha", "juhu"] },
+        { "type": "cloze", "id": "x-u06-6-kuha", "hr": "Baka ___ ručak.", "de": "Oma kocht Mittagessen.", "answers": ["kuha"], "options": ["kuha", "kuham", "kuhati"] }
+      ]
+    }
+  ]
+}

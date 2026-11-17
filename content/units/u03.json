@@ -1,0 +1,211 @@
+{
+  "id": "u03",
+  "number": 3,
+  "title": "Ich bin …",
+  "grammar": "biti (sein), Personalpronomen, Verneinung, Adjektiv in Ich-Form",
+  "tips": [
+    {
+      "id": "tip-u03-biti",
+      "title": "biti – sein",
+      "text": "Die kurzen Formen von „sein“ sind: sam, si, je, smo, ste, su. Sie stehen an zweiter Stelle im Satz. Das Pronomen kann man weglassen: „Ja sam ovdje“ und „Ovdje sam“ heißen beide „Ich bin hier“.",
+      "examples": [["ja sam", "ich bin"], ["ti si", "du bist"], ["on/ona je", "er/sie ist"], ["Ovdje sam.", "Ich bin hier."]]
+    },
+    {
+      "id": "tip-u03-plural",
+      "title": "Wir, ihr, sie",
+      "text": "mi smo (wir sind), vi ste (ihr seid), oni/one su (sie sind). „oni“ sagt man für Männer oder gemischte Gruppen, „one“ nur für Frauen. Großgeschrieben ist „Vi“ die höfliche Anrede „Sie“.",
+      "examples": [["mi smo", "wir sind"], ["vi ste", "ihr seid"], ["oni su", "sie sind (Männer/gemischt)"], ["one su", "sie sind (nur Frauen)"]]
+    },
+    {
+      "id": "tip-u03-adj",
+      "title": "Müde ist nicht gleich müde",
+      "text": "Adjektive passen sich an: umoran (männlich), umorna (weiblich), umorno (sächlich). Über dich selbst nimmst du die Form deines Geschlechts: ein Mann sagt „Umoran sam“, eine Frau „Umorna sam“. Im Deutschen gibt es diesen Unterschied nicht.",
+      "examples": [["Umoran sam.", "Ich bin müde. (Mann)"], ["Umorna sam.", "Ich bin müde. (Frau)"], ["Dijete je umorno.", "Das Kind ist müde."]]
+    },
+    {
+      "id": "tip-u03-neg",
+      "title": "Nein, bin ich nicht",
+      "text": "„nicht sein“ ist ein eigenes Wort: nisam, nisi, nije, nismo, niste, nisu. Also „Nisam umoran“ – nicht „Ne sam umoran“.",
+      "examples": [["Nisam umoran.", "Ich bin nicht müde."], ["On nije star.", "Er ist nicht alt."], ["Ona nije bolesna.", "Sie ist nicht krank."]]
+    },
+    {
+      "id": "tip-u03-jesam",
+      "title": "Bist du …? – Ja!",
+      "text": "Fragen bildest du mit „li“: Jesi li umoran? (Bist du müde?). Die kurze Antwort „Ja, bin ich“ heißt „Jesam“ – die lange Form, weil „sam“ nie allein stehen kann.",
+      "examples": [["Jesi li gladan?", "Hast du Hunger?"], ["Jesam.", "Ja (bin ich)."], ["Nisam.", "Nein (bin ich nicht)."]]
+    }
+  ],
+  "words": [
+    { "id": "w-ti", "hr": "ti", "de": ["du"], "pos": "pron",
+      "example": { "hr": "Ti si moj prijatelj.", "de": "Du bist mein Freund." } },
+    { "id": "w-on", "hr": "on", "de": ["er"], "pos": "pron",
+      "example": { "hr": "On je ovdje.", "de": "Er ist hier." } },
+    { "id": "w-ona", "hr": "ona", "de": ["sie"], "pos": "pron",
+      "note": "„sie“ für eine Frau.",
+      "example": { "hr": "Ona je moja sestra.", "de": "Sie ist meine Schwester." } },
+    { "id": "w-biti", "hr": "biti", "de": ["sein"], "pos": "verb", "present": "sam",
+      "note": "Unregelmäßig: sam, si, je, smo, ste, su.",
+      "example": { "hr": "Ja sam Marko.", "de": "Ich bin Marko." } },
+    { "id": "w-ovdje", "hr": "ovdje", "de": ["hier"], "pos": "adv", "hrAlt": ["tu"],
+      "example": { "hr": "Mama je ovdje.", "de": "Mama ist hier." } },
+    { "id": "w-kod-kuce", "hr": "kod kuće", "de": ["zu Hause", "daheim"], "pos": "phrase",
+      "example": { "hr": "Tata je kod kuće.", "de": "Papa ist zu Hause." } },
+
+    { "id": "w-mi", "hr": "mi", "de": ["wir"], "pos": "pron",
+      "example": { "hr": "Mi smo kod kuće.", "de": "Wir sind zu Hause." } },
+    { "id": "w-vi-ihr", "hr": "vi", "de": ["ihr"], "pos": "pron",
+      "note": "Kleingeschrieben „ihr“, großgeschrieben „Vi“ = Sie.",
+      "example": { "hr": "Vi ste zajedno.", "de": "Ihr seid zusammen." } },
+    { "id": "w-oni", "hr": "oni", "de": ["sie (Mehrzahl)"], "pos": "pron",
+      "note": "Für Männer oder gemischte Gruppen.",
+      "example": { "hr": "Oni su iz Bosne.", "de": "Sie sind aus Bosnien." } },
+    { "id": "w-one", "hr": "one", "de": ["sie (nur Frauen)"], "pos": "pron",
+      "note": "Nur für eine Gruppe von Frauen.",
+      "example": { "hr": "One su sestre.", "de": "Sie sind Schwestern." } },
+    { "id": "w-zajedno", "hr": "zajedno", "de": ["zusammen", "gemeinsam"], "pos": "adv",
+      "example": { "hr": "Mi smo zajedno.", "de": "Wir sind zusammen." } },
+    { "id": "w-sada", "hr": "sada", "de": ["jetzt"], "pos": "adv", "colloquial": ["sad"],
+      "example": { "hr": "Sada sam kod kuće.", "de": "Jetzt bin ich zu Hause." } },
+
+    { "id": "w-umoran", "hr": "umoran", "de": ["müde"], "pos": "adj",
+      "forms": { "m": "umoran", "f": "umorna", "n": "umorno" },
+      "example": { "hr": "Mama je umorna.", "de": "Mama ist müde." } },
+    { "id": "w-gladan", "hr": "gladan", "de": ["hungrig"], "pos": "adj",
+      "forms": { "m": "gladan", "f": "gladna", "n": "gladno" },
+      "note": "Gladan sam = Ich habe Hunger.",
+      "example": { "hr": "Jesi li gladan?", "de": "Hast du Hunger?" } },
+    { "id": "w-zedan", "hr": "žedan", "de": ["durstig"], "pos": "adj",
+      "forms": { "m": "žedan", "f": "žedna", "n": "žedno" },
+      "note": "Žedan sam = Ich habe Durst.",
+      "example": { "hr": "Dijete je žedno.", "de": "Das Kind hat Durst." } },
+    { "id": "w-sretan", "hr": "sretan", "de": ["glücklich", "froh"], "pos": "adj",
+      "forms": { "m": "sretan", "f": "sretna", "n": "sretno" },
+      "note": "Kroatisch: sretan (nicht „srećan“).",
+      "example": { "hr": "Sretan rođendan!", "de": "Alles Gute zum Geburtstag!" } },
+    { "id": "w-zauzet", "hr": "zauzet", "de": ["beschäftigt", "besetzt"], "pos": "adj",
+      "forms": { "m": "zauzet", "f": "zauzeta", "n": "zauzeto" },
+      "example": { "hr": "Tata je zauzet.", "de": "Papa ist beschäftigt." } },
+    { "id": "w-dobar", "hr": "dobar", "de": ["gut"], "pos": "adj",
+      "forms": { "m": "dobar", "f": "dobra", "n": "dobro" },
+      "example": { "hr": "On je dobar čovjek.", "de": "Er ist ein guter Mensch." } },
+
+    { "id": "w-bolestan", "hr": "bolestan", "de": ["krank"], "pos": "adj",
+      "forms": { "m": "bolestan", "f": "bolesna", "n": "bolesno" },
+      "example": { "hr": "Baka je bolesna.", "de": "Oma ist krank." } },
+    { "id": "w-mlad", "hr": "mlad", "de": ["jung"], "pos": "adj",
+      "forms": { "m": "mlad", "f": "mlada", "n": "mlado" },
+      "example": { "hr": "Ti si još mlad.", "de": "Du bist noch jung." } },
+    { "id": "w-star", "hr": "star", "de": ["alt"], "pos": "adj",
+      "forms": { "m": "star", "f": "stara", "n": "staro" },
+      "example": { "hr": "Djed je star.", "de": "Opa ist alt." } },
+    { "id": "w-jako", "hr": "jako", "de": ["sehr"], "pos": "adv",
+      "note": "Im Alltag sehr häufig.",
+      "example": { "hr": "Jako sam umoran.", "de": "Ich bin sehr müde." } },
+    { "id": "w-malo", "hr": "malo", "de": ["ein bisschen", "etwas", "wenig"], "pos": "adv",
+      "example": { "hr": "Malo sam umoran.", "de": "Ich bin ein bisschen müde." } },
+    { "id": "w-vrlo", "hr": "vrlo", "de": ["sehr"], "pos": "adv",
+      "example": { "hr": "Vrlo dobro!", "de": "Sehr gut!" } },
+
+    { "id": "w-jesam", "hr": "jesam", "de": ["ja, bin ich"], "pos": "phrase",
+      "note": "Lange Form von „sam“ – für kurze Antworten und Betonung.",
+      "example": { "hr": "Jesi li umoran? – Jesam.", "de": "Bist du müde? – Ja." } },
+    { "id": "w-stvarno", "hr": "stvarno", "de": ["wirklich"], "pos": "adv",
+      "example": { "hr": "Stvarno?", "de": "Wirklich?" } },
+    { "id": "w-naravno", "hr": "naravno", "de": ["natürlich", "klar"], "pos": "adv",
+      "example": { "hr": "Naravno da jesam!", "de": "Natürlich bin ich das!" } },
+    { "id": "w-mozda", "hr": "možda", "de": ["vielleicht"], "pos": "adv",
+      "example": { "hr": "Možda je kod kuće.", "de": "Vielleicht ist er zu Hause." } },
+    { "id": "w-sigurno", "hr": "sigurno", "de": ["sicher", "bestimmt"], "pos": "adv",
+      "example": { "hr": "Sigurno je gladan.", "de": "Er hat sicher Hunger." } },
+    { "id": "w-dosta", "hr": "dosta", "de": ["ziemlich", "genug"], "pos": "adv",
+      "example": { "hr": "Dosta sam umoran.", "de": "Ich bin ziemlich müde." } }
+  ],
+  "sentences": [
+    { "id": "s-ja-sam-ovdje", "hr": ["Ja sam ovdje.", "Ovdje sam."], "de": ["Ich bin hier."], "words": ["w-ja", "w-biti", "w-ovdje"], "distractors": ["si", "je"] },
+    { "id": "s-ti-si-ovdje", "hr": ["Ti si ovdje.", "Ovdje si."], "de": ["Du bist hier."], "words": ["w-ti", "w-biti", "w-ovdje"], "distractors": ["sam", "je"] },
+    { "id": "s-on-je-kod-kuce", "hr": ["On je kod kuće."], "de": ["Er ist zu Hause.", "Er ist daheim."], "words": ["w-on", "w-biti", "w-kod-kuce"], "distractors": ["si", "ona"] },
+    { "id": "s-ona-je-ovdje", "hr": ["Ona je ovdje."], "de": ["Sie ist hier."], "words": ["w-ona", "w-biti", "w-ovdje"], "distractors": ["sam", "on"] },
+    { "id": "s-mama-je-kod-kuce", "hr": ["Mama je kod kuće."], "de": ["Mama ist zu Hause.", "Mama ist daheim."], "words": ["w-mama", "w-biti", "w-kod-kuce"], "distractors": ["si"] },
+
+    { "id": "s-mi-smo-ovdje", "hr": ["Mi smo ovdje.", "Ovdje smo."], "de": ["Wir sind hier."], "words": ["w-mi", "w-biti", "w-ovdje"], "distractors": ["su", "ste"] },
+    { "id": "s-mi-smo-zajedno", "hr": ["Mi smo zajedno.", "Zajedno smo."], "de": ["Wir sind zusammen."], "words": ["w-mi", "w-biti", "w-zajedno"], "distractors": ["su"] },
+    { "id": "s-vi-ste-kod-kuce", "hr": ["Vi ste kod kuće.", "Kod kuće ste."], "de": ["Ihr seid zu Hause.", "Ihr seid daheim.", "Sie sind zu Hause."], "words": ["w-vi-ihr", "w-biti", "w-kod-kuce"], "distractors": ["smo"] },
+    { "id": "s-oni-su-iz-bosne", "hr": ["Oni su iz Bosne."], "de": ["Sie sind aus Bosnien.", "Sie kommen aus Bosnien."], "words": ["w-oni", "w-biti", "w-iz", "w-bosna"], "distractors": ["je", "Bosna"] },
+    { "id": "s-sada-smo-kod-kuce", "hr": ["Sada smo kod kuće.", "Sad smo kod kuće.", "Mi smo sada kod kuće."], "de": ["Jetzt sind wir zu Hause.", "Wir sind jetzt zu Hause.", "Jetzt sind wir daheim."], "words": ["w-sada", "w-biti", "w-kod-kuce"], "distractors": ["su"] },
+
+    { "id": "s-umoran-sam", "hr": { "m": ["Umoran sam.", "Ja sam umoran."], "f": ["Umorna sam.", "Ja sam umorna."] }, "de": ["Ich bin müde."], "words": ["w-umoran", "w-biti"] },
+    { "id": "s-gladan-sam", "hr": { "m": ["Gladan sam.", "Ja sam gladan."], "f": ["Gladna sam.", "Ja sam gladna."] }, "de": ["Ich habe Hunger.", "Ich bin hungrig."], "words": ["w-gladan", "w-biti"] },
+    { "id": "s-sretan-sam", "hr": { "m": ["Sretan sam.", "Ja sam sretan."], "f": ["Sretna sam.", "Ja sam sretna."] }, "de": ["Ich bin glücklich.", "Ich bin froh."], "words": ["w-sretan", "w-biti"] },
+    { "id": "s-mama-je-umorna", "hr": ["Mama je umorna."], "de": ["Mama ist müde."], "words": ["w-mama", "w-umoran"], "distractors": ["umoran"] },
+    { "id": "s-tata-je-zauzet", "hr": ["Tata je zauzet."], "de": ["Papa ist beschäftigt.", "Papa hat zu tun."], "words": ["w-tata", "w-zauzet"], "distractors": ["zauzeta"] },
+    { "id": "s-ona-je-zedna", "hr": ["Ona je žedna."], "de": ["Sie hat Durst.", "Sie ist durstig."], "words": ["w-ona", "w-zedan"], "distractors": ["žedan"] },
+
+    { "id": "s-nisam-umoran", "hr": { "m": ["Nisam umoran.", "Ja nisam umoran."], "f": ["Nisam umorna.", "Ja nisam umorna."] }, "de": ["Ich bin nicht müde."], "words": ["w-umoran"], "distractors": ["ne", "sam"] },
+    { "id": "s-nisam-bolestan", "hr": { "m": ["Nisam bolestan.", "Ja nisam bolestan."], "f": ["Nisam bolesna.", "Ja nisam bolesna."] }, "de": ["Ich bin nicht krank."], "words": ["w-bolestan"], "distractors": ["ne"] },
+    { "id": "s-on-nije-star", "hr": ["On nije star."], "de": ["Er ist nicht alt."], "words": ["w-on", "w-star"], "distractors": ["ne", "stara"] },
+    { "id": "s-ona-nije-bolesna", "hr": ["Ona nije bolesna."], "de": ["Sie ist nicht krank."], "words": ["w-ona", "w-bolestan"], "distractors": ["bolestan", "nisam"] },
+    { "id": "s-jako-sam-umoran", "hr": { "m": ["Jako sam umoran.", "Vrlo sam umoran.", "Ja sam jako umoran.", "Ja sam vrlo umoran."], "f": ["Jako sam umorna.", "Vrlo sam umorna.", "Ja sam jako umorna.", "Ja sam vrlo umorna."] }, "de": ["Ich bin sehr müde."], "words": ["w-jako", "w-umoran"] },
+    { "id": "s-malo-sam-gladan", "hr": { "m": ["Malo sam gladan.", "Ja sam malo gladan."], "f": ["Malo sam gladna.", "Ja sam malo gladna."] }, "de": ["Ich bin ein bisschen hungrig.", "Ich habe ein bisschen Hunger.", "Ich habe etwas Hunger."], "words": ["w-malo", "w-gladan"] },
+
+    { "id": "s-jesi-li-umoran", "hr": ["Jesi li umoran?", "Jesi li umorna?"], "de": ["Bist du müde?"], "words": ["w-umoran"], "distractors": ["sam", "si"] },
+    { "id": "s-da-jesam", "hr": ["Da, jesam."], "de": ["Ja, bin ich.", "Ja."], "words": ["w-da", "w-jesam"], "distractors": ["sam"] },
+    { "id": "s-naravno-da-jesam", "hr": ["Naravno da jesam!"], "de": ["Natürlich bin ich das!", "Klar bin ich das!", "Natürlich!"], "words": ["w-naravno", "w-jesam"], "distractors": ["sam"] },
+    { "id": "s-mozda-je-kod-kuce", "hr": ["Možda je kod kuće."], "de": ["Vielleicht ist er zu Hause.", "Vielleicht ist sie zu Hause.", "Vielleicht ist er daheim.", "Vielleicht ist sie daheim."], "words": ["w-mozda", "w-kod-kuce"] },
+    { "id": "s-dosta-sam-umoran", "hr": { "m": ["Dosta sam umoran.", "Ja sam dosta umoran."], "f": ["Dosta sam umorna.", "Ja sam dosta umorna."] }, "de": ["Ich bin ziemlich müde."], "words": ["w-dosta", "w-umoran"] },
+    { "id": "s-sigurno-je-gladan", "hr": ["Sigurno je gladan."], "de": ["Er hat sicher Hunger.", "Er ist sicher hungrig.", "Er hat bestimmt Hunger."], "words": ["w-sigurno", "w-gladan"], "distractors": ["gladna"] }
+  ],
+  "lessons": [
+    {
+      "id": "l-u03-1", "title": "Ich, du, er, sie", "tip": "tip-u03-biti",
+      "newWords": ["w-ti", "w-on", "w-ona", "w-biti", "w-ovdje", "w-kod-kuce"],
+      "sentences": ["s-ja-sam-ovdje", "s-ti-si-ovdje", "s-on-je-kod-kuce", "s-ona-je-ovdje", "s-mama-je-kod-kuce"],
+      "extras": [
+        { "type": "cloze", "id": "x-u03-1-sam", "hr": "Ja ___ ovdje.", "de": "Ich bin hier.", "answers": ["sam"], "options": ["sam", "si", "je"] },
+        { "type": "cloze", "id": "x-u03-1-je", "hr": "Ona ___ kod kuće.", "de": "Sie ist zu Hause.", "answers": ["je"], "options": ["je", "si", "sam"] },
+        { "type": "cloze", "id": "x-u03-1-si", "hr": "Ti ___ ovdje.", "de": "Du bist hier.", "answers": ["si"] }
+      ]
+    },
+    {
+      "id": "l-u03-2", "title": "Wir, ihr, sie", "tip": "tip-u03-plural",
+      "newWords": ["w-mi", "w-vi-ihr", "w-oni", "w-one", "w-zajedno", "w-sada"],
+      "sentences": ["s-mi-smo-ovdje", "s-mi-smo-zajedno", "s-vi-ste-kod-kuce", "s-oni-su-iz-bosne", "s-sada-smo-kod-kuce"],
+      "extras": [
+        { "type": "cloze", "id": "x-u03-2-smo", "hr": "Mi ___ zajedno.", "de": "Wir sind zusammen.", "answers": ["smo"], "options": ["smo", "ste", "su"] },
+        { "type": "cloze", "id": "x-u03-2-su", "hr": "Oni ___ iz Bosne.", "de": "Sie sind aus Bosnien.", "answers": ["su"], "options": ["su", "smo", "je"] },
+        { "type": "fact", "id": "x-u03-2-one", "question": "Drei Schwestern sind zu Hause. Wie heißt „sie“?",
+          "options": ["one", "oni", "ona"], "answer": "one", "explain": "„one“ nur für Frauen, „oni“ für Männer oder gemischte Gruppen." }
+      ]
+    },
+    {
+      "id": "l-u03-3", "title": "Wie geht es dir?", "tip": "tip-u03-adj",
+      "newWords": ["w-umoran", "w-gladan", "w-zedan", "w-sretan", "w-zauzet", "w-dobar"],
+      "sentences": ["s-umoran-sam", "s-gladan-sam", "s-sretan-sam", "s-mama-je-umorna", "s-tata-je-zauzet", "s-ona-je-zedna"],
+      "extras": [
+        { "type": "cloze", "id": "x-u03-3-ana", "hr": "Ana je ___.", "de": "Ana ist müde.", "answers": ["umorna"], "options": ["umoran", "umorna", "umorno"] },
+        { "type": "cloze", "id": "x-u03-3-marko", "hr": "Marko je ___.", "de": "Marko hat Hunger.", "answers": ["gladan"], "options": ["gladan", "gladna", "gladno"] },
+        { "type": "cloze", "id": "x-u03-3-dijete", "hr": "Dijete je ___.", "de": "Das Kind hat Durst.", "answers": ["žedno"], "options": ["žedan", "žedna", "žedno"] }
+      ]
+    },
+    {
+      "id": "l-u03-4", "title": "Nein, bin ich nicht", "tip": "tip-u03-neg",
+      "newWords": ["w-bolestan", "w-mlad", "w-star", "w-jako", "w-malo", "w-vrlo"],
+      "sentences": ["s-nisam-umoran", "s-nisam-bolestan", "s-on-nije-star", "s-ona-nije-bolesna", "s-jako-sam-umoran", "s-malo-sam-gladan"],
+      "extras": [
+        { "type": "cloze", "id": "x-u03-4-nisam", "hr": "Ja ___ bolestan.", "de": "Ich bin nicht krank.", "answers": ["nisam"], "options": ["nisam", "ne sam", "nije"] },
+        { "type": "cloze", "id": "x-u03-4-nije", "hr": "On ___ star.", "de": "Er ist nicht alt.", "answers": ["nije"], "options": ["nije", "nisam", "ne"] },
+        { "type": "fact", "id": "x-u03-4-order", "question": "Wie sagt man „Ich bin nicht müde“?",
+          "options": ["Nisam umoran.", "Ne sam umoran."], "answer": "Nisam umoran.", "explain": "„nicht sein“ ist ein Wort: nisam." }
+      ]
+    },
+    {
+      "id": "l-u03-5", "title": "Bist du …? Ja!", "tip": "tip-u03-jesam",
+      "newWords": ["w-jesam", "w-stvarno", "w-naravno", "w-mozda", "w-sigurno", "w-dosta"],
+      "sentences": ["s-jesi-li-umoran", "s-da-jesam", "s-naravno-da-jesam", "s-mozda-je-kod-kuce", "s-dosta-sam-umoran", "s-sigurno-je-gladan"],
+      "extras": [
+        { "type": "cloze", "id": "x-u03-5-jesi", "hr": "___ li umoran?", "de": "Bist du müde?", "answers": ["Jesi"], "options": ["Jesi", "Si", "Je"] },
+        { "type": "fact", "id": "x-u03-5-short", "question": "„Jesi li gladan?“ – Wie antwortest du kurz mit Ja?",
+          "options": ["Jesam.", "Sam."], "answer": "Jesam.", "explain": "„sam“ kann nie allein stehen – die lange Form „jesam“ schon." }
+      ]
+    }
+  ]
+}

@@ -180,7 +180,11 @@ class Builder {
     // Lower-case the first tile (unless it is a name), so capitals do not give the order away.
     const target = toTiles(variants[0]!).map((t, i) => (i === 0 && !this.lib.properNouns.has(t) ? t.toLowerCase() : t));
     const lower = new Set(target.map((t) => t.toLowerCase()));
-    let extra = (s.distractors ?? []).filter((d) => !lower.has(d.toLowerCase()));
+    // For sentences about me, the other gender's form is the best distractor (umoran ↔ umorna).
+    const otherForms = Array.isArray(s.hr)
+      ? []
+      : toTiles(s.hr[this.opts.speaker === 'm' ? 'f' : 'm'][0]!).filter((t) => !lower.has(t.toLowerCase()));
+    let extra = [...otherForms, ...(s.distractors ?? [])].filter((d) => !lower.has(d.toLowerCase()));
     if (extra.length < 2) {
       const more = shuffle(this.distractorPool, this.rng)
         .map((w) => w.hr)

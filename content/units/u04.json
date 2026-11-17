@@ -1,0 +1,246 @@
+{
+  "id": "u04",
+  "number": 4,
+  "title": "Familie",
+  "grammar": "Geschlecht der Nomen; moj/moja/moje",
+  "tips": [
+    {
+      "id": "tip-u04-gender",
+      "title": "Der, die, das – ohne Artikel",
+      "text": "Kroatisch hat keine Artikel. Das Geschlecht erkennst du meist an der Endung: Konsonant = männlich (brat), -a = weiblich (majka), -o oder -e = sächlich (selo, dijete). „mein“ passt sich an: moj brat, moja majka, moje dijete.",
+      "examples": [["moj brat", "mein Bruder"], ["moja majka", "meine Mutter"], ["moje dijete", "mein Kind"]]
+    },
+    {
+      "id": "tip-u04-tvoj",
+      "title": "Mein und dein",
+      "text": "„dein“ funktioniert genau wie „mein“: tvoj (männlich), tvoja (weiblich), tvoje (sächlich). Ausnahmen beim Geschlecht gibt es: tata und djed sind männlich, obwohl tata auf -a endet.",
+      "examples": [["tvoj djed", "dein Opa"], ["tvoja baka", "deine Oma"], ["moj tata", "mein Papa"]]
+    },
+    {
+      "id": "tip-u04-uncle",
+      "title": "Welcher Onkel?",
+      "text": "Kroatisch unterscheidet, von welcher Seite ein Onkel kommt: stric ist der Bruder des Vaters, ujak der Bruder der Mutter. teta ist die Tante. rođak und rođakinja sind Cousin und Cousine.",
+      "examples": [["stric", "Bruder des Vaters"], ["ujak", "Bruder der Mutter"], ["teta", "Tante"]]
+    },
+    {
+      "id": "tip-u04-djeca",
+      "title": "Ein Kind, viele Kinder",
+      "text": "dijete (Kind) hat eine unregelmäßige Mehrzahl: djeca. „Verheiratet“ hängt vom Geschlecht ab: ein Mann ist oženjen, eine Frau ist udana.",
+      "examples": [["dijete → djeca", "Kind → Kinder"], ["Oženjen sam.", "Ich bin verheiratet. (Mann)"], ["Udana sam.", "Ich bin verheiratet. (Frau)"]]
+    },
+    {
+      "id": "tip-u04-tko",
+      "title": "Wer ist das?",
+      "text": "Kroatisch fragt „Tko je to?“ – nicht „Ko je to?“ (das ist Serbisch oder Bosnisch). „dieser“ passt sich wieder an: ovaj (m), ova (f), ovo (n).",
+      "examples": [["Tko je to?", "Wer ist das?"], ["ova žena", "diese Frau"], ["ovaj čovjek", "dieser Mann"]]
+    },
+    {
+      "id": "tip-u04-adj",
+      "title": "Groß und klein",
+      "text": "Auch Adjektive richten sich nach dem Nomen: velik grad, velika kuća, veliko selo. Bei „klein“ hört man meistens die Form mali, mala, malo.",
+      "examples": [["velika obitelj", "große Familie"], ["mali brat", "kleiner Bruder"], ["malo dijete", "kleines Kind"]]
+    }
+  ],
+  "words": [
+    { "id": "w-obitelj", "hr": "obitelj", "de": ["Familie"], "pos": "noun", "gender": "f",
+      "colloquial": ["familija"],
+      "note": "Weiblich, obwohl es auf einen Konsonanten endet. Umgangssprachlich oft „familija“.",
+      "example": { "hr": "Ovo je moja obitelj.", "de": "Das ist meine Familie." } },
+    { "id": "w-majka", "hr": "majka", "de": ["Mutter"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Moja majka je iz Bosne.", "de": "Meine Mutter ist aus Bosnien." } },
+    { "id": "w-brat", "hr": "brat", "de": ["Bruder"], "pos": "noun", "gender": "m",
+      "note": "Nach „imam“: Imam brata (Ich habe einen Bruder).",
+      "example": { "hr": "Ovo je moj brat.", "de": "Das ist mein Bruder." } },
+    { "id": "w-roditelji", "hr": "roditelji", "de": ["Eltern"], "pos": "noun", "gender": "m", "pluralOnly": true,
+      "example": { "hr": "Moji roditelji su kod kuće.", "de": "Meine Eltern sind zu Hause." } },
+    { "id": "w-moj", "hr": "moj", "de": ["mein"], "pos": "pron",
+      "note": "moj (m), moja (f), moje (n).",
+      "example": { "hr": "Moj tata, moja mama, moje dijete.", "de": "Mein Papa, meine Mama, mein Kind." } },
+    { "id": "w-imati", "hr": "imati", "de": ["haben"], "pos": "verb", "present": "imam",
+      "example": { "hr": "Imam sestru.", "de": "Ich habe eine Schwester." } },
+    { "id": "w-ovo", "hr": "ovo", "de": ["das (hier)", "dies"], "pos": "pron",
+      "example": { "hr": "Ovo je moj brat.", "de": "Das ist mein Bruder." } },
+
+    { "id": "w-baka", "hr": "baka", "de": ["Oma", "Großmutter"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Moja baka živi u selu.", "de": "Meine Oma lebt im Dorf." } },
+    { "id": "w-djed", "hr": "djed", "de": ["Opa", "Großvater"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Moj djed je star.", "de": "Mein Opa ist alt." } },
+    { "id": "w-unuk", "hr": "unuk", "de": ["Enkel"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Ovo je moj unuk.", "de": "Das ist mein Enkel." } },
+    { "id": "w-unuka", "hr": "unuka", "de": ["Enkelin"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Ana je moja unuka.", "de": "Ana ist meine Enkelin." } },
+    { "id": "w-kci", "hr": "kći", "de": ["Tochter"], "pos": "noun", "gender": "f",
+      "colloquial": ["kćer"],
+      "note": "Umgangssprachlich oft „kćer“. Nach „imam“: Imam kćer.",
+      "example": { "hr": "Imam kćer.", "de": "Ich habe eine Tochter." } },
+    { "id": "w-tvoj", "hr": "tvoj", "de": ["dein"], "pos": "pron",
+      "note": "tvoj (m), tvoja (f), tvoje (n).",
+      "example": { "hr": "Je li ovo tvoj brat?", "de": "Ist das dein Bruder?" } },
+
+    { "id": "w-stric", "hr": "stric", "de": ["Onkel (väterlicherseits)", "Onkel"], "pos": "noun", "gender": "m",
+      "note": "Bruder des Vaters. Seine Frau ist die strina.",
+      "example": { "hr": "Moj stric živi u Njemačkoj.", "de": "Mein Onkel lebt in Deutschland." } },
+    { "id": "w-ujak", "hr": "ujak", "de": ["Onkel (mütterlicherseits)"], "pos": "noun", "gender": "m",
+      "note": "Bruder der Mutter. Seine Frau ist die ujna.",
+      "example": { "hr": "Ujak je mamin brat.", "de": "Der Onkel ist Mamas Bruder." } },
+    { "id": "w-teta", "hr": "teta", "de": ["Tante"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Teta je iz Gradačca.", "de": "Die Tante ist aus Gradačac." } },
+    { "id": "w-rodjakinja", "hr": "rođakinja", "de": ["Cousine", "Verwandte"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Ana je moja rođakinja.", "de": "Ana ist meine Cousine." } },
+    { "id": "w-necak", "hr": "nećak", "de": ["Neffe"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Moj nećak je mlad.", "de": "Mein Neffe ist jung." } },
+    { "id": "w-necakinja", "hr": "nećakinja", "de": ["Nichte"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Moja nećakinja živi u Zagrebu.", "de": "Meine Nichte lebt in Zagreb." } },
+
+    { "id": "w-djeca", "hr": "djeca", "de": ["Kinder"], "pos": "noun", "gender": "f", "pluralOnly": true,
+      "note": "Mehrzahl von dijete. Grammatisch wie ein weibliches Wort: moja djeca.",
+      "example": { "hr": "Moja djeca su mala.", "de": "Meine Kinder sind klein." } },
+    { "id": "w-djevojka", "hr": "djevojka", "de": ["Freundin", "Mädchen"], "pos": "noun", "gender": "f",
+      "colloquial": ["cura"],
+      "note": "Die feste Freundin. Umgangssprachlich auch „cura“.",
+      "example": { "hr": "Ovo je moja djevojka.", "de": "Das ist meine Freundin." } },
+    { "id": "w-decko", "hr": "dečko", "de": ["Freund", "Junge"], "pos": "noun", "gender": "m",
+      "note": "Der feste Freund. Männlich, obwohl es auf -o endet.",
+      "example": { "hr": "Ovo je moj dečko.", "de": "Das ist mein Freund." } },
+    { "id": "w-ozenjen", "hr": "oženjen", "de": ["verheiratet (Mann)", "verheiratet"], "pos": "phrase",
+      "note": "Nur für Männer. Eine Frau ist „udana“.",
+      "example": { "hr": "Moj brat je oženjen.", "de": "Mein Bruder ist verheiratet." } },
+    { "id": "w-udana", "hr": "udana", "de": ["verheiratet (Frau)", "verheiratet"], "pos": "phrase",
+      "note": "Nur für Frauen. Ein Mann ist „oženjen“.",
+      "example": { "hr": "Moja sestra je udana.", "de": "Meine Schwester ist verheiratet." } },
+    { "id": "w-beba", "hr": "beba", "de": ["Baby"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Beba spava.", "de": "Das Baby schläft." } },
+
+    { "id": "w-tko", "hr": "tko", "de": ["wer"], "pos": "pron",
+      "note": "Kroatisch: tko (nicht „ko“).",
+      "example": { "hr": "Tko je to?", "de": "Wer ist das?" } },
+    { "id": "w-to", "hr": "to", "de": ["das"], "pos": "pron",
+      "example": { "hr": "To je moj stric.", "de": "Das ist mein Onkel." } },
+    { "id": "w-ovaj", "hr": "ovaj", "de": ["dieser"], "pos": "pron",
+      "note": "ovaj (m), ova (f), ovo (n).",
+      "example": { "hr": "Ova žena je moja teta.", "de": "Diese Frau ist meine Tante." } },
+    { "id": "w-takodjer", "hr": "također", "de": ["auch", "ebenfalls"], "pos": "adv",
+      "example": { "hr": "Ja sam također umoran.", "de": "Ich bin auch müde." } },
+    { "id": "w-isto", "hr": "isto", "de": ["auch", "genauso"], "pos": "adv", "isColloquial": true,
+      "note": "Im Alltag oft für „auch“: I ja isto. (Ich auch.)",
+      "example": { "hr": "I ja isto.", "de": "Ich auch." } },
+    { "id": "w-ali", "hr": "ali", "de": ["aber"], "pos": "conj",
+      "example": { "hr": "Mlad je, ali je oženjen.", "de": "Er ist jung, aber verheiratet." } },
+
+    { "id": "w-velik", "hr": "velik", "de": ["groß"], "pos": "adj",
+      "forms": { "m": "velik", "f": "velika", "n": "veliko" },
+      "hrAlt": ["veliki"],
+      "example": { "hr": "Moja obitelj je velika.", "de": "Meine Familie ist groß." } },
+    { "id": "w-mali", "hr": "mali", "de": ["klein"], "pos": "adj",
+      "forms": { "m": "mali", "f": "mala", "n": "malo" },
+      "hrAlt": ["malen"],
+      "note": "Die Grundform ist „malen“, im Alltag sagt man meist „mali“.",
+      "example": { "hr": "Moj brat je još mali.", "de": "Mein Bruder ist noch klein." } },
+    { "id": "w-voljeti", "hr": "voljeti", "de": ["lieben", "mögen", "gern haben"], "pos": "verb", "present": "volim",
+      "example": { "hr": "Volim te, mama!", "de": "Ich hab dich lieb, Mama!" } },
+    { "id": "w-cesto", "hr": "često", "de": ["oft"], "pos": "adv",
+      "example": { "hr": "Često sam kod bake.", "de": "Ich bin oft bei Oma." } },
+    { "id": "w-rijetko", "hr": "rijetko", "de": ["selten"], "pos": "adv",
+      "example": { "hr": "Rijetko sam u Bosni.", "de": "Ich bin selten in Bosnien." } },
+    { "id": "w-drag", "hr": "drag", "de": ["lieb"], "pos": "adj",
+      "forms": { "m": "drag", "f": "draga", "n": "drago" },
+      "example": { "hr": "Draga mama!", "de": "Liebe Mama!" } }
+  ],
+  "sentences": [
+    { "id": "s-ovo-je-moj-brat", "hr": ["Ovo je moj brat."], "de": ["Das ist mein Bruder."], "words": ["w-ovo", "w-moj", "w-brat"], "distractors": ["moja", "moje"] },
+    { "id": "s-ovo-je-moja-majka", "hr": ["Ovo je moja majka."], "de": ["Das ist meine Mutter."], "words": ["w-ovo", "w-moj", "w-majka"], "distractors": ["moj", "moje"] },
+    { "id": "s-ovo-je-moja-obitelj", "hr": ["Ovo je moja obitelj."], "de": ["Das ist meine Familie."], "words": ["w-ovo", "w-moj", "w-obitelj"], "distractors": ["moj"] },
+    { "id": "s-imam-brata", "hr": ["Imam brata.", "Ja imam brata."], "de": ["Ich habe einen Bruder."], "words": ["w-imati", "w-brat"], "distractors": ["brat"] },
+    { "id": "s-imam-sestru", "hr": ["Imam sestru.", "Ja imam sestru."], "de": ["Ich habe eine Schwester."], "words": ["w-imati", "w-sestra"], "distractors": ["sestra"] },
+    { "id": "s-moji-roditelji", "hr": ["Moji roditelji su iz Bosne."], "de": ["Meine Eltern sind aus Bosnien.", "Meine Eltern kommen aus Bosnien."], "words": ["w-moj", "w-roditelji", "w-iz", "w-bosna"], "distractors": ["je"] },
+
+    { "id": "s-ovo-je-moja-baka", "hr": ["Ovo je moja baka."], "de": ["Das ist meine Oma.", "Das ist meine Großmutter."], "words": ["w-ovo", "w-moj", "w-baka"], "distractors": ["moj"] },
+    { "id": "s-moj-djed-je-star", "hr": ["Moj djed je star."], "de": ["Mein Opa ist alt.", "Mein Großvater ist alt."], "words": ["w-moj", "w-djed", "w-star"], "distractors": ["moja", "stara"] },
+    { "id": "s-je-li-tvoj-brat", "hr": ["Je li ovo tvoj brat?", "Je li to tvoj brat?"], "de": ["Ist das dein Bruder?"], "words": ["w-tvoj", "w-brat"], "distractors": ["tvoja"] },
+    { "id": "s-ovo-je-tvoja-kci", "hr": ["Ovo je tvoja kći."], "de": ["Das ist deine Tochter."], "words": ["w-ovo", "w-tvoj", "w-kci"], "distractors": ["tvoj"] },
+    { "id": "s-baka-i-djed", "hr": ["Baka i djed su kod kuće."], "de": ["Oma und Opa sind zu Hause.", "Oma und Opa sind daheim."], "words": ["w-baka", "w-djed", "w-kod-kuce"], "distractors": ["je"] },
+
+    { "id": "s-stric-u-njemackoj", "hr": ["Moj stric živi u Njemačkoj."], "de": ["Mein Onkel lebt in Deutschland.", "Mein Onkel wohnt in Deutschland."], "words": ["w-moj", "w-stric", "w-zivjeti", "w-njemacka"], "distractors": ["Njemačka"] },
+    { "id": "s-ujak-i-teta", "hr": ["Ujak i teta su ovdje."], "de": ["Onkel und Tante sind hier.", "Der Onkel und die Tante sind hier."], "words": ["w-ujak", "w-teta", "w-ovdje"], "distractors": ["je"] },
+    { "id": "s-ana-je-rodjakinja", "hr": ["Ana je moja rođakinja."], "de": ["Ana ist meine Cousine."], "words": ["w-rodjakinja", "w-moj"], "distractors": ["moj", "rođak"] },
+    { "id": "s-imam-necaka", "hr": ["Imam nećaka i nećakinju."], "de": ["Ich habe einen Neffen und eine Nichte."], "words": ["w-imati", "w-necak", "w-necakinja"], "distractors": ["nećak", "nećakinja"] },
+    { "id": "s-teta-iz-gradacca", "hr": ["Teta je iz Gradačca."], "de": ["Die Tante ist aus Gradačac.", "Die Tante kommt aus Gradačac.", "Meine Tante ist aus Gradačac."], "words": ["w-teta", "w-iz"] },
+
+    { "id": "s-ozenjen-sam", "hr": { "m": ["Oženjen sam.", "Ja sam oženjen."], "f": ["Udana sam.", "Ja sam udana."] }, "de": ["Ich bin verheiratet."], "words": ["w-ozenjen", "w-udana"] },
+    { "id": "s-imas-li-djecu", "hr": ["Imaš li djecu?"], "de": ["Hast du Kinder?"], "words": ["w-imati", "w-djeca"], "distractors": ["djeca"] },
+    { "id": "s-moja-djevojka", "hr": ["Ovo je moja djevojka."], "de": ["Das ist meine Freundin."], "words": ["w-ovo", "w-moj", "w-djevojka"], "distractors": ["moj"] },
+    { "id": "s-moj-decko", "hr": ["Ovo je moj dečko."], "de": ["Das ist mein Freund.", "Das ist mein fester Freund."], "words": ["w-ovo", "w-moj", "w-decko"], "distractors": ["moja"] },
+    { "id": "s-sestra-udana", "hr": ["Moja sestra je udana."], "de": ["Meine Schwester ist verheiratet."], "words": ["w-moj", "w-sestra", "w-udana"], "distractors": ["oženjen"] },
+    { "id": "s-brat-ozenjen", "hr": ["Moj brat je oženjen."], "de": ["Mein Bruder ist verheiratet."], "words": ["w-moj", "w-brat", "w-ozenjen"], "distractors": ["udana"] },
+
+    { "id": "s-tko-je-to", "hr": ["Tko je to?"], "de": ["Wer ist das?"], "words": ["w-tko", "w-to"], "distractors": ["si", "ovo"] },
+    { "id": "s-to-je-moj-stric", "hr": ["To je moj stric."], "de": ["Das ist mein Onkel."], "words": ["w-to", "w-moj", "w-stric"], "distractors": ["moja"] },
+    { "id": "s-ova-zena", "hr": ["Ova žena je moja teta."], "de": ["Diese Frau ist meine Tante."], "words": ["w-ovaj", "w-zena", "w-moj", "w-teta"], "distractors": ["ovaj", "ovo"] },
+    { "id": "s-i-ja-isto", "hr": ["I ja isto.", "I ja također."], "de": ["Ich auch."], "words": ["w-isto"], "colloquial": true },
+    { "id": "s-mlad-ali-ozenjen", "hr": ["Mlad je, ali je oženjen."], "de": ["Er ist jung, aber verheiratet.", "Er ist jung, aber er ist verheiratet."], "words": ["w-mlad", "w-ali", "w-ozenjen"], "distractors": ["mlada"] },
+
+    { "id": "s-obitelj-velika", "hr": ["Moja obitelj je velika."], "de": ["Meine Familie ist groß."], "words": ["w-moj", "w-obitelj", "w-velik"], "distractors": ["velik", "moj"] },
+    { "id": "s-volim-te", "hr": ["Volim te."], "de": ["Ich liebe dich.", "Ich hab dich lieb.", "Ich habe dich lieb."], "words": ["w-voljeti"], "distractors": ["ti"] },
+    { "id": "s-cesto-kod-bake", "hr": ["Često sam kod bake."], "de": ["Ich bin oft bei Oma.", "Ich bin oft bei der Oma."], "words": ["w-cesto", "w-baka"], "distractors": ["baka"] },
+    { "id": "s-brat-je-mali", "hr": ["Moj brat je još mali."], "de": ["Mein Bruder ist noch klein."], "words": ["w-moj", "w-brat", "w-mali"], "distractors": ["mala"] },
+    { "id": "s-draga-mama", "hr": ["Draga mama, volim te!"], "de": ["Liebe Mama, ich liebe dich!", "Liebe Mama, ich hab dich lieb!", "Liebe Mama, ich habe dich lieb!"], "words": ["w-drag", "w-mama", "w-voljeti"], "distractors": ["drag"] }
+  ],
+  "lessons": [
+    {
+      "id": "l-u04-1", "title": "Eltern", "tip": "tip-u04-gender",
+      "newWords": ["w-obitelj", "w-majka", "w-brat", "w-roditelji", "w-moj", "w-imati", "w-ovo"],
+      "sentences": ["s-ovo-je-moj-brat", "s-ovo-je-moja-majka", "s-ovo-je-moja-obitelj", "s-imam-brata", "s-imam-sestru", "s-moji-roditelji"],
+      "extras": [
+        { "type": "cloze", "id": "x-u04-1-moja", "hr": "Ovo je ___ sestra.", "de": "Das ist meine Schwester.", "answers": ["moja"], "options": ["moj", "moja", "moje"] },
+        { "type": "cloze", "id": "x-u04-1-moj", "hr": "Ovo je ___ brat.", "de": "Das ist mein Bruder.", "answers": ["moj"], "options": ["moj", "moja", "moje"] },
+        { "type": "cloze", "id": "x-u04-1-moje", "hr": "Ovo je ___ dijete.", "de": "Das ist mein Kind.", "answers": ["moje"], "options": ["moj", "moja", "moje"] }
+      ]
+    },
+    {
+      "id": "l-u04-2", "title": "Großeltern & Enkel", "tip": "tip-u04-tvoj",
+      "newWords": ["w-baka", "w-djed", "w-unuk", "w-unuka", "w-kci", "w-tvoj"],
+      "sentences": ["s-ovo-je-moja-baka", "s-moj-djed-je-star", "s-je-li-tvoj-brat", "s-ovo-je-tvoja-kci", "s-baka-i-djed"],
+      "extras": [
+        { "type": "cloze", "id": "x-u04-2-tvoja", "hr": "Je li ovo ___ baka?", "de": "Ist das deine Oma?", "answers": ["tvoja"], "options": ["tvoj", "tvoja", "tvoje"] },
+        { "type": "cloze", "id": "x-u04-2-unuk", "hr": "Ovo je ___ unuk.", "de": "Das ist mein Enkel.", "answers": ["moj"], "options": ["moj", "moja", "moje"] }
+      ]
+    },
+    {
+      "id": "l-u04-3", "title": "Onkel, Tante, Cousins", "tip": "tip-u04-uncle",
+      "newWords": ["w-stric", "w-ujak", "w-teta", "w-rodjakinja", "w-necak", "w-necakinja"],
+      "sentences": ["s-stric-u-njemackoj", "s-ujak-i-teta", "s-ana-je-rodjakinja", "s-imam-necaka", "s-teta-iz-gradacca"],
+      "extras": [
+        { "type": "fact", "id": "x-u04-3-stric", "question": "Der Bruder deines Vaters ist dein …", "options": ["stric", "ujak", "nećak"], "answer": "stric" },
+        { "type": "fact", "id": "x-u04-3-ujak", "question": "Der Bruder deiner Mutter ist dein …", "options": ["ujak", "stric", "rođak"], "answer": "ujak" }
+      ]
+    },
+    {
+      "id": "l-u04-4", "title": "Partner & Kinder", "tip": "tip-u04-djeca",
+      "newWords": ["w-djeca", "w-djevojka", "w-decko", "w-ozenjen", "w-udana", "w-beba"],
+      "sentences": ["s-ozenjen-sam", "s-imas-li-djecu", "s-moja-djevojka", "s-moj-decko", "s-sestra-udana", "s-brat-ozenjen"],
+      "extras": [
+        { "type": "fact", "id": "x-u04-4-udana", "question": "Wie sagt eine Frau „Ich bin verheiratet“?", "options": ["Udana sam.", "Oženjen sam."], "answer": "Udana sam." },
+        { "type": "cloze", "id": "x-u04-4-djeca", "hr": "Ovo su ___ djeca.", "de": "Das sind meine Kinder.", "answers": ["moja"], "options": ["moj", "moja", "moje"] }
+      ]
+    },
+    {
+      "id": "l-u04-5", "title": "Wer ist das?", "tip": "tip-u04-tko",
+      "newWords": ["w-tko", "w-to", "w-ovaj", "w-takodjer", "w-isto", "w-ali"],
+      "sentences": ["s-tko-je-to", "s-to-je-moj-stric", "s-ova-zena", "s-i-ja-isto", "s-mlad-ali-ozenjen"],
+      "extras": [
+        { "type": "fact", "id": "x-u04-5-tko", "question": "Wie fragt man auf Kroatisch „Wer ist das?“", "options": ["Tko je to?", "Ko je to?"], "answer": "Tko je to?",
+          "explain": "„ko“ ist Serbisch oder Bosnisch. Kroatisch: tko." },
+        { "type": "cloze", "id": "x-u04-5-ova", "hr": "___ žena je moja teta.", "de": "Diese Frau ist meine Tante.", "answers": ["Ova"], "options": ["Ovaj", "Ova", "Ovo"] }
+      ]
+    },
+    {
+      "id": "l-u04-6", "title": "Meine Familie", "tip": "tip-u04-adj",
+      "newWords": ["w-velik", "w-mali", "w-voljeti", "w-cesto", "w-rijetko", "w-drag"],
+      "sentences": ["s-obitelj-velika", "s-volim-te", "s-cesto-kod-bake", "s-brat-je-mali", "s-draga-mama"],
+      "extras": [
+        { "type": "cloze", "id": "x-u04-6-velika", "hr": "Moja kuća je ___.", "de": "Mein Haus ist groß.", "answers": ["velika"], "options": ["velik", "velika", "veliko"] },
+        { "type": "cloze", "id": "x-u04-6-malo", "hr": "Moje dijete je ___.", "de": "Mein Kind ist klein.", "answers": ["malo"], "options": ["mali", "mala", "malo"] }
+      ]
+    }
+  ]
+}
