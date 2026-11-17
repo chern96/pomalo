@@ -100,7 +100,7 @@
     { "id": "w-ljeto", "hr": "ljeto", "de": ["Sommer"], "pos": "noun", "gender": "n",
       "example": { "hr": "Ljeto je toplo.", "de": "Der Sommer ist warm." } },
     { "id": "w-njemacka", "hr": "Njemačka", "de": ["Deutschland"], "pos": "noun", "gender": "f",
-      "example": { "hr": "Ja sam iz Njemačke.", "de": "Ich komme aus Deutschland." } },
+      "example": { "hr": "Moj stric živi u Njemačkoj.", "de": "Mein Onkel lebt in Deutschland." } },
 
     { "id": "w-hrvatska", "hr": "Hrvatska", "de": ["Kroatien"], "pos": "noun", "gender": "f",
       "example": { "hr": "Hrvatska je lijepa.", "de": "Kroatien ist schön." } },

@@ -101,13 +101,13 @@
       "forms": { "m": "sit", "f": "sita", "n": "sito" },
       "example": { "hr": "Hvala, sit sam.", "de": "Danke, ich bin satt." } },
 
-    { "id": "w-konobar", "hr": "konobar", "de": ["Kellner"], "pos": "noun", "gender": "m",
+    { "id": "w-konobar", "hr": "konobar", "de": ["Kellner", "Ober"], "pos": "noun", "gender": "m",
       "example": { "hr": "Konobar je ljubazan.", "de": "Der Kellner ist freundlich." } },
     { "id": "w-racun", "hr": "račun", "de": ["Rechnung"], "pos": "noun", "gender": "m",
       "example": { "hr": "Račun, molim.", "de": "Die Rechnung, bitte." } },
     { "id": "w-platiti", "hr": "platiti", "de": ["bezahlen", "zahlen"], "pos": "verb", "present": "platim",
       "example": { "hr": "Mogu li platiti?", "de": "Kann ich bezahlen?" } },
-    { "id": "w-salica", "hr": "šalica", "de": ["Tasse"], "pos": "noun", "gender": "f",
+    { "id": "w-salica", "hr": "šalica", "de": ["Tasse", "Häferl"], "pos": "noun", "gender": "f",
       "example": { "hr": "Šalica kave, molim.", "de": "Eine Tasse Kaffee, bitte." } },
     { "id": "w-sladoled", "hr": "sladoled", "de": ["Eis", "Speiseeis"], "pos": "noun", "gender": "m",
       "example": { "hr": "Djeca žele sladoled.", "de": "Die Kinder wollen Eis." } },
@@ -123,10 +123,10 @@
       "example": { "hr": "Volim voće.", "de": "Ich mag Obst." } },
     { "id": "w-povrce", "hr": "povrće", "de": ["Gemüse"], "pos": "noun", "gender": "n",
       "example": { "hr": "Povrće je zdravo.", "de": "Gemüse ist gesund." } },
-    { "id": "w-krumpir", "hr": "krumpir", "de": ["Kartoffel", "Kartoffeln"], "pos": "noun", "gender": "m",
+    { "id": "w-krumpir", "hr": "krumpir", "de": ["Kartoffel", "Kartoffeln", "Erdapfel", "Erdäpfel"], "pos": "noun", "gender": "m",
       "note": "Kroatisch: krumpir (nicht „krompir“).",
       "example": { "hr": "Piletina s krumpirom.", "de": "Hähnchen mit Kartoffeln." } },
-    { "id": "w-piletina", "hr": "piletina", "de": ["Hähnchen", "Hühnerfleisch"], "pos": "noun", "gender": "f",
+    { "id": "w-piletina", "hr": "piletina", "de": ["Hähnchen", "Hühnerfleisch", "Hendl", "Huhn"], "pos": "noun", "gender": "f",
       "example": { "hr": "Volim piletinu.", "de": "Ich mag Hähnchen." } }
   ],
   "sentences": [
@@ -163,8 +163,8 @@
     { "id": "s-djeca-sladoled", "hr": ["Djeca žele sladoled."], "de": ["Die Kinder wollen Eis.", "Die Kinder möchten Eis."], "words": ["w-djeca", "w-zeljeti", "w-sladoled"] },
 
     { "id": "s-baka-kuha-rucak", "hr": ["Baka kuha ručak."], "de": ["Oma kocht Mittagessen.", "Oma kocht das Mittagessen."], "words": ["w-baka", "w-kuhati", "w-rucak"], "distractors": ["kuham"] },
-    { "id": "s-volim-piletinu", "hr": ["Volim piletinu.", "Ja volim piletinu."], "de": ["Ich mag Hähnchen.", "Ich esse gern Hähnchen."], "words": ["w-voljeti", "w-piletina"], "distractors": ["piletina"] },
-    { "id": "s-piletina-s-krumpirom", "hr": ["Piletina s krumpirom."], "de": ["Hähnchen mit Kartoffeln."], "words": ["w-piletina", "w-krumpir"], "distractors": ["krumpir"] },
+    { "id": "s-volim-piletinu", "hr": ["Volim piletinu.", "Ja volim piletinu."], "de": ["Ich mag Hähnchen.", "Ich esse gern Hähnchen.", "Ich mag Hendl.", "Ich esse gern Hendl.", "Ich mag Huhn."], "words": ["w-voljeti", "w-piletina"], "distractors": ["piletina"] },
+    { "id": "s-piletina-s-krumpirom", "hr": ["Piletina s krumpirom."], "de": ["Hähnchen mit Kartoffeln.", "Hendl mit Erdäpfeln.", "Hendl mit Kartoffeln.", "Huhn mit Kartoffeln.", "Huhn mit Erdäpfeln.", "Hähnchen mit Erdäpfeln."], "words": ["w-piletina", "w-krumpir"], "distractors": ["krumpir"] },
     { "id": "s-bakina-hrana", "hr": ["Bakina hrana je najbolja."], "de": ["Omas Essen ist das beste.", "Omas Essen ist am besten."], "words": ["w-baka", "w-hrana"] },
     { "id": "s-volim-voce", "hr": ["Volim voće i povrće.", "Ja volim voće i povrće."], "de": ["Ich mag Obst und Gemüse."], "words": ["w-voljeti", "w-voce", "w-i", "w-povrce"] }
   ],

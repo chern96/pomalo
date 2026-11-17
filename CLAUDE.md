@@ -27,6 +27,7 @@ Talk to the user in German, short, no jargon. Code, file names, commits in Engli
 - IDs of words, sentences, lessons never change (progress depends on them).
 - State changes: bump `SCHEMA_VERSION` and add a migration in `src/state/migrate.ts`; never drop old migrations.
 - Croatian: standard, ijekavian, Croatian vocabulary (kruh, tjedan, tisuća, tko, kava …); infinitive not da-construction; clitics in 2nd position. Colloquial forms only as marked `colloquial`. When unsure: look it up (Hrvatski jezični portal, Wiktionary), else leave it out and note it in `docs/GEGENLESEN.md`.
+- The learner lives in Austria: "my country" sentences use Austrija (iz Austrije, u Austriji). German answers must also accept Austrian German (Jänner, Erdäpfel, Paradeiser, Hendl, Topfen, Obers, Sackerl, servus …).
 - Sentences about the learner with gendered forms: `"hr": { "m": [...], "f": [...] }`.
 
 ## Workflow „Einheit hinzufügen“

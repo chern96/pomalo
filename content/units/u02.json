@@ -26,7 +26,7 @@
       "id": "tip-u02-iz",
       "title": "Woher? – iz …",
       "text": "Nach „iz“ (aus) ändert sich das Ende des Ortsnamens. Für Namen auf -a merkst du dir erst einmal: -a wird zu -e. Mehr dazu lernst du später beim Genitiv.",
-      "examples": [["Njemačka → iz Njemačke", "aus Deutschland"], ["Bosna → iz Bosne", "aus Bosnien"], ["Hrvatska → iz Hrvatske", "aus Kroatien"]]
+      "examples": [["Austrija → iz Austrije", "aus Österreich"], ["Bosna → iz Bosne", "aus Bosnien"], ["Hrvatska → iz Hrvatske", "aus Kroatien"]]
     },
     {
       "id": "tip-u02-vi",
@@ -36,7 +36,7 @@
     }
   ],
   "words": [
-    { "id": "w-bok", "hr": "bok", "de": ["hallo", "tschüss"], "pos": "phrase",
+    { "id": "w-bok", "hr": "bok", "de": ["hallo", "tschüss", "servus", "baba"], "pos": "phrase",
       "colloquial": ["ćao"],
       "note": "Locker, für Familie und Freunde. Umgangssprachlich hört man auch oft „ćao“.",
       "example": { "hr": "Bok, mama!", "de": "Hallo, Mama!" } },
@@ -85,9 +85,12 @@
     { "id": "w-odakle", "hr": "odakle", "de": ["woher"], "pos": "adv",
       "example": { "hr": "Odakle si?", "de": "Woher kommst du?" } },
     { "id": "w-iz", "hr": "iz", "de": ["aus"], "pos": "prep",
-      "example": { "hr": "Ja sam iz Njemačke.", "de": "Ich komme aus Deutschland." } },
+      "example": { "hr": "Ja sam iz Austrije.", "de": "Ich komme aus Österreich." } },
     { "id": "w-zivjeti", "hr": "živjeti", "de": ["leben", "wohnen"], "pos": "verb", "present": "živim",
-      "example": { "hr": "Živim u Njemačkoj.", "de": "Ich lebe in Deutschland." } },
+      "example": { "hr": "Živim u Austriji.", "de": "Ich lebe in Österreich." } },
+    { "id": "w-austrija", "hr": "Austrija", "de": ["Österreich"], "pos": "noun", "gender": "f",
+      "note": "aus Österreich = iz Austrije, in Österreich = u Austriji.",
+      "example": { "hr": "Ja sam iz Austrije.", "de": "Ich komme aus Österreich." } },
     { "id": "w-grad", "hr": "grad", "de": ["Stadt"], "pos": "noun", "gender": "m",
       "example": { "hr": "Gradačac je mali grad.", "de": "Gradačac ist eine kleine Stadt." } },
     { "id": "w-selo", "hr": "selo", "de": ["Dorf"], "pos": "noun", "gender": "n",
@@ -113,7 +116,7 @@
   "sentences": [
     { "id": "s-dobro-jutro-mama", "hr": ["Dobro jutro, mama!"], "de": ["Guten Morgen, Mama!"], "words": ["w-dobro-jutro", "w-mama"] },
     { "id": "s-laku-noc-tata", "hr": ["Laku noć, tata!"], "de": ["Gute Nacht, Papa!"], "words": ["w-laku-noc", "w-tata"] },
-    { "id": "s-bok-mama", "hr": ["Bok, mama!"], "de": ["Hallo, Mama!", "Tschüss, Mama!"], "words": ["w-bok", "w-mama"] },
+    { "id": "s-bok-mama", "hr": ["Bok, mama!"], "de": ["Hallo, Mama!", "Tschüss, Mama!", "Servus, Mama!", "Baba, Mama!"], "words": ["w-bok", "w-mama"] },
     { "id": "s-dovidjenja-hvala", "hr": ["Doviđenja i hvala!"], "de": ["Auf Wiedersehen und danke!"], "words": ["w-dovidjenja", "w-i", "w-hvala"] },
     { "id": "s-dobra-vecer-tata", "hr": ["Dobra večer, tata!"], "de": ["Guten Abend, Papa!"], "words": ["w-dobra-vecer", "w-tata"], "distractors": ["dobro", "dobar"] },
 
@@ -130,8 +133,8 @@
     { "id": "s-voda-molim", "hr": ["Voda, molim."], "de": ["Wasser, bitte.", "Ein Wasser, bitte."], "words": ["w-voda", "w-molim"] },
 
     { "id": "s-odakle-si", "hr": ["Odakle si?", "Odakle si ti?"], "de": ["Woher kommst du?", "Woher bist du?"], "words": ["w-odakle"], "distractors": ["ste", "kako"] },
-    { "id": "s-iz-njemacke", "hr": ["Ja sam iz Njemačke.", "Iz Njemačke sam."], "de": ["Ich bin aus Deutschland.", "Ich komme aus Deutschland."], "words": ["w-ja", "w-iz", "w-njemacka"], "distractors": ["Njemačka", "si"] },
-    { "id": "s-zivim-u-njemackoj", "hr": ["Živim u Njemačkoj.", "Ja živim u Njemačkoj."], "de": ["Ich lebe in Deutschland.", "Ich wohne in Deutschland."], "words": ["w-zivjeti", "w-njemacka"] },
+    { "id": "s-iz-austrije", "hr": ["Ja sam iz Austrije.", "Iz Austrije sam."], "de": ["Ich bin aus Österreich.", "Ich komme aus Österreich."], "words": ["w-ja", "w-iz", "w-austrija"], "distractors": ["Austrija", "si"] },
+    { "id": "s-zivim-u-austriji", "hr": ["Živim u Austriji.", "Ja živim u Austriji."], "de": ["Ich lebe in Österreich.", "Ich wohne in Österreich."], "words": ["w-zivjeti", "w-austrija"] },
     { "id": "s-mama-iz-bosne", "hr": ["Mama je iz Bosne."], "de": ["Mama ist aus Bosnien.", "Mama kommt aus Bosnien."], "words": ["w-mama", "w-iz", "w-bosna"], "distractors": ["Bosna"] },
     { "id": "s-tata-iz-gradacca", "hr": ["Tata je iz Gradačca."], "de": ["Papa ist aus Gradačac.", "Papa kommt aus Gradačac."], "words": ["w-tata", "w-iz"],
       "note": "Gradačac → iz Gradačca: das zweite a fällt weg." },
@@ -177,10 +180,10 @@
     },
     {
       "id": "l-u02-4", "title": "Woher kommst du?", "tip": "tip-u02-iz",
-      "newWords": ["w-odakle", "w-iz", "w-zivjeti", "w-grad", "w-selo", "w-bosna"],
-      "sentences": ["s-odakle-si", "s-iz-njemacke", "s-zivim-u-njemackoj", "s-mama-iz-bosne", "s-tata-iz-gradacca"],
+      "newWords": ["w-odakle", "w-iz", "w-zivjeti", "w-grad", "w-selo", "w-bosna", "w-austrija"],
+      "sentences": ["s-odakle-si", "s-iz-austrije", "s-zivim-u-austriji", "s-mama-iz-bosne", "s-tata-iz-gradacca"],
       "extras": [
-        { "type": "cloze", "id": "x-u02-4-njem", "hr": "Ja sam iz ___.", "de": "Ich bin aus Deutschland.", "answers": ["Njemačke"], "options": ["Njemačke", "Njemačka", "Njemačku"],
+        { "type": "cloze", "id": "x-u02-4-austrija", "hr": "Ja sam iz ___.", "de": "Ich bin aus Österreich.", "answers": ["Austrije"], "options": ["Austrije", "Austrija", "Austriju"],
           "hint": "Nach „iz“: -a wird zu -e" },
         { "type": "cloze", "id": "x-u02-4-bosna", "hr": "Baka je iz ___.", "de": "Oma ist aus Bosnien.", "answers": ["Bosne"], "options": ["Bosne", "Bosna", "Bosnu"] }
       ]
