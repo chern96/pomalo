@@ -1,0 +1,235 @@
+{
+  "id": "u08",
+  "number": 8,
+  "title": "Ich habe einen Bruder",
+  "grammar": "Akkusativ komplett (belebt m.: Imam brata)",
+  "tips": [
+    {
+      "id": "tip-u08-animate",
+      "title": "Imam brata",
+      "text": "Bei männlichen Personen und Tieren kommt im Akkusativ ein -a dazu: brat → Imam brata. susjed → Vidim susjeda. Manche Wörter verlieren dabei einen Buchstaben: pas → psa (Hund), otac → oca. Weibliche Wörter auf -a kennst du schon: sestra → sestru.",
+      "examples": [["Imam brata.", "Ich habe einen Bruder."], ["Vidim susjeda.", "Ich sehe den Nachbarn."], ["Imaš li psa?", "Hast du einen Hund?"]]
+    },
+    {
+      "id": "tip-u08-things",
+      "title": "Dinge bleiben gleich",
+      "text": "Das -a gibt es nur bei Lebewesen. Männliche Dinge bleiben im Akkusativ, wie sie sind: Kupujem mobitel (nicht „mobitela“). Sächliche Wörter bleiben auch gleich: Kupujem pivo. Auch „auto“ ist männlich, aber ein Ding: Kupujem auto.",
+      "examples": [["Kupujem mobitel.", "Ich kaufe ein Handy."], ["Imamo stan.", "Wir haben eine Wohnung."], ["Idem u trgovinu.", "Ich gehe ins Geschäft."]]
+    },
+    {
+      "id": "tip-u08-market",
+      "title": "Am Markt",
+      "text": "„Koliko košta?“ – Wie viel kostet das? Mehrere weibliche Dinge enden auf -e, auch im Akkusativ: rajčica → Kupujem rajčice. Wohin du gehst, steht im Akkusativ: na tržnicu (auf den Markt), u trgovinu (ins Geschäft).",
+      "examples": [["Koliko košta?", "Wie viel kostet das?"], ["Kupujem rajčice.", "Ich kaufe Tomaten."], ["Idemo na tržnicu.", "Wir gehen auf den Markt."]]
+    },
+    {
+      "id": "tip-u08-za",
+      "title": "Für wen? – za …",
+      "text": "Nach „za“ (für) steht der Akkusativ: za brata, za baku, za djecu. „Für dich“ heißt „za tebe“. kupovati heißt (gerade, öfter) kaufen, kupiti ein einziges Mal kaufen – nach želim nimmst du meistens kupiti.",
+      "examples": [["Ovo je poklon za tebe.", "Das ist ein Geschenk für dich."], ["Nosim cvijeće za baku.", "Ich bringe Blumen für Oma."], ["Želim kupiti čokoladu.", "Ich möchte Schokolade kaufen."]]
+    },
+    {
+      "id": "tip-u08-clitics",
+      "title": "Mich, dich, ihn …",
+      "text": "Für „mich, dich, ihn …“ gibt es kurze Wörter: me (mich), te (dich), ga (ihn, es), je (sie), nas (uns), vas (euch), ih (sie, Mehrzahl). Sie stehen wie se und sam an zweiter Stelle: Mama me zove. Baka nas čeka.",
+      "examples": [["Volim te.", "Ich liebe dich."], ["Vidim ga.", "Ich sehe ihn."], ["Baka nas čeka.", "Oma wartet auf uns."]]
+    }
+  ],
+  "words": [
+    { "id": "w-susjed", "hr": "susjed", "de": ["Nachbar"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Vidim susjeda.", "de": "Ich sehe den Nachbarn." } },
+    { "id": "w-susjeda", "hr": "susjeda", "de": ["Nachbarin"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Susjeda ima psa.", "de": "Die Nachbarin hat einen Hund." } },
+    { "id": "w-covjek", "hr": "čovjek", "de": ["Mensch", "Mann"], "pos": "noun", "gender": "m",
+      "note": "Akkusativ: čovjeka. Mehrzahl: ljudi (Leute).",
+      "example": { "hr": "To je dobar čovjek.", "de": "Das ist ein guter Mensch." } },
+    { "id": "w-pas", "hr": "pas", "de": ["Hund"], "pos": "noun", "gender": "m",
+      "note": "Akkusativ: psa – das a fällt weg.",
+      "example": { "hr": "Imaš li psa?", "de": "Hast du einen Hund?" } },
+    { "id": "w-macka", "hr": "mačka", "de": ["Katze"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Baka ima mačku.", "de": "Oma hat eine Katze." } },
+    { "id": "w-cekati", "hr": "čekati", "de": ["warten", "erwarten"], "pos": "verb", "present": "čekam",
+      "note": "Ohne „auf“: Čekam djeda = Ich warte auf Opa.",
+      "example": { "hr": "Čekamo djeda.", "de": "Wir warten auf Opa." } },
+    { "id": "w-zvati", "hr": "zvati", "de": ["rufen", "anrufen"], "pos": "verb", "present": "zovem",
+      "note": "Wie zvati se, nur ohne se: zovem, zoveš, zove.",
+      "example": { "hr": "Zovem tatu.", "de": "Ich rufe Papa an." } },
+
+    { "id": "w-trgovina", "hr": "trgovina", "de": ["Geschäft", "Laden"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Idem u trgovinu.", "de": "Ich gehe ins Geschäft." } },
+    { "id": "w-torba", "hr": "torba", "de": ["Tasche"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Torba je skupa.", "de": "Die Tasche ist teuer." } },
+    { "id": "w-novac", "hr": "novac", "de": ["Geld"], "pos": "noun", "gender": "m",
+      "colloquial": ["pare"],
+      "note": "Umgangssprachlich in Bosnien oft „pare“.",
+      "example": { "hr": "Novac je u torbi.", "de": "Das Geld ist in der Tasche." } },
+    { "id": "w-mobitel", "hr": "mobitel", "de": ["Handy", "Mobiltelefon"], "pos": "noun", "gender": "m",
+      "note": "Kroatisch: mobitel. In Bosnien auch „mobilni“.",
+      "example": { "hr": "Kupujem mobitel.", "de": "Ich kaufe ein Handy." } },
+    { "id": "w-auto", "hr": "auto", "de": ["Auto"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Moj brat kupuje auto.", "de": "Mein Bruder kauft ein Auto." } },
+    { "id": "w-stan", "hr": "stan", "de": ["Wohnung"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Imamo stan u gradu.", "de": "Wir haben eine Wohnung in der Stadt." } },
+    { "id": "w-skup", "hr": "skup", "de": ["teuer"], "pos": "adj",
+      "forms": { "m": "skup", "f": "skupa", "n": "skupo" },
+      "example": { "hr": "Torba je skupa.", "de": "Die Tasche ist teuer." } },
+    { "id": "w-jeftin", "hr": "jeftin", "de": ["billig", "günstig"], "pos": "adj",
+      "forms": { "m": "jeftin", "f": "jeftina", "n": "jeftino" },
+      "example": { "hr": "Kruh je jeftin.", "de": "Das Brot ist billig." } },
+
+    { "id": "w-trznica", "hr": "tržnica", "de": ["Markt", "Marktplatz"], "pos": "noun", "gender": "f",
+      "colloquial": ["pijaca"],
+      "note": "In Bosnien sagt man meistens „pijaca“.",
+      "example": { "hr": "Idemo na tržnicu.", "de": "Wir gehen auf den Markt." } },
+    { "id": "w-rajcica", "hr": "rajčica", "de": ["Tomate", "Paradeiser"], "pos": "noun", "gender": "f",
+      "colloquial": ["paradajz"],
+      "note": "In Bosnien sagt man meistens „paradajz“ – fast wie Paradeiser!",
+      "example": { "hr": "Kupujem rajčice.", "de": "Ich kaufe Tomaten." } },
+    { "id": "w-luk", "hr": "luk", "de": ["Zwiebel", "Zwiebeln"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Baka kupuje luk.", "de": "Oma kauft Zwiebeln." } },
+    { "id": "w-grozdje", "hr": "grožđe", "de": ["Weintrauben", "Trauben", "Weintraube"], "pos": "noun", "gender": "n",
+      "note": "Ein Wort für viele Trauben, sächlich: grožđe je …",
+      "example": { "hr": "Grožđe je svježe.", "de": "Die Trauben sind frisch." } },
+    { "id": "w-svjez", "hr": "svjež", "de": ["frisch"], "pos": "adj",
+      "forms": { "m": "svjež", "f": "svježa", "n": "svježe" },
+      "example": { "hr": "Kruh je svjež.", "de": "Das Brot ist frisch." } },
+    { "id": "w-cijena", "hr": "cijena", "de": ["Preis"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Cijena je dobra.", "de": "Der Preis ist gut." } },
+    { "id": "w-koliko-kosta", "hr": "koliko košta", "de": ["wie viel kostet", "was kostet"], "pos": "phrase",
+      "note": "Koliko košta? = Wie viel kostet das?",
+      "example": { "hr": "Koliko košta grožđe?", "de": "Was kosten die Trauben?" } },
+
+    { "id": "w-poklon", "hr": "poklon", "de": ["Geschenk"], "pos": "noun", "gender": "m",
+      "note": "Auch: dar.",
+      "hrAlt": ["dar"],
+      "example": { "hr": "Ovo je poklon za tebe.", "de": "Das ist ein Geschenk für dich." } },
+    { "id": "w-za", "hr": "za", "de": ["für"], "pos": "prep",
+      "example": { "hr": "Čokolada je za djecu.", "de": "Die Schokolade ist für die Kinder." } },
+    { "id": "w-cvijece", "hr": "cvijeće", "de": ["Blumen"], "pos": "noun", "gender": "n",
+      "note": "Ein Wort für viele Blumen, sächlich. Eine Blume: cvijet.",
+      "example": { "hr": "Nosim cvijeće za baku.", "de": "Ich bringe Blumen für Oma." } },
+    { "id": "w-cokolada", "hr": "čokolada", "de": ["Schokolade"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Želim kupiti čokoladu.", "de": "Ich möchte Schokolade kaufen." } },
+    { "id": "w-nositi", "hr": "nositi", "de": ["tragen", "bringen", "mitbringen"], "pos": "verb", "present": "nosim",
+      "example": { "hr": "Nosim cvijeće za baku.", "de": "Ich bringe Blumen für Oma." } },
+    { "id": "w-kupiti", "hr": "kupiti", "de": ["kaufen"], "pos": "verb", "present": "kupim",
+      "note": "Einmal kaufen. Für „gerade / öfter kaufen“: kupovati – kupujem.",
+      "example": { "hr": "Želim kupiti čokoladu.", "de": "Ich möchte Schokolade kaufen." } },
+    { "id": "w-sretan-rodjendan", "hr": "sretan rođendan", "de": ["alles Gute zum Geburtstag"], "pos": "phrase",
+      "example": { "hr": "Sretan rođendan, mama!", "de": "Alles Gute zum Geburtstag, Mama!" } },
+
+    { "id": "w-me", "hr": "me", "de": ["mich"], "pos": "pron",
+      "note": "Kurzform von mene. Steht an zweiter Stelle.",
+      "example": { "hr": "Mama me zove.", "de": "Mama ruft mich." } },
+    { "id": "w-te", "hr": "te", "de": ["dich"], "pos": "pron",
+      "note": "Kurzform von tebe. Molim te = bitte (zu jemandem, den du duzt).",
+      "example": { "hr": "Volim te.", "de": "Ich liebe dich." } },
+    { "id": "w-ga", "hr": "ga", "de": ["ihn", "es"], "pos": "pron",
+      "example": { "hr": "Vidim ga.", "de": "Ich sehe ihn." } },
+    { "id": "w-nas", "hr": "nas", "de": ["uns"], "pos": "pron",
+      "example": { "hr": "Baka nas čeka.", "de": "Oma wartet auf uns." } },
+    { "id": "w-ih", "hr": "ih", "de": ["sie"], "pos": "pron",
+      "note": "„sie“ in der Mehrzahl. Eine Frau: je (Vidim je = Ich sehe sie).",
+      "example": { "hr": "Volim ih.", "de": "Ich liebe sie." } },
+    { "id": "w-posjecivati", "hr": "posjećivati", "de": ["besuchen"], "pos": "verb", "present": "posjećujem",
+      "note": "-ivati wird wie -ovati zu -ujem: posjećujem, posjećuješ …",
+      "example": { "hr": "Često posjećujemo baku.", "de": "Wir besuchen oft Oma." } },
+    { "id": "w-sutra", "hr": "sutra", "de": ["morgen"], "pos": "adv",
+      "example": { "hr": "Sutra posjećujem djeda.", "de": "Morgen besuche ich Opa." } }
+  ],
+  "sentences": [
+    { "id": "s-imam-brata-i-sestru", "hr": ["Imam brata i sestru.", "Ja imam brata i sestru."], "de": ["Ich habe einen Bruder und eine Schwester."], "words": ["w-imati", "w-brat", "w-i", "w-sestra"], "distractors": ["brat", "sestra"] },
+    { "id": "s-vidim-susjeda", "hr": ["Vidim susjeda.", "Ja vidim susjeda."], "de": ["Ich sehe den Nachbarn.", "Ich sehe einen Nachbarn."], "words": ["w-vidjeti", "w-susjed"], "distractors": ["susjed"] },
+    { "id": "s-cekamo-djeda", "hr": ["Čekamo djeda.", "Mi čekamo djeda."], "de": ["Wir warten auf Opa.", "Wir warten auf den Opa.", "Wir warten auf den Großvater."], "words": ["w-cekati", "w-djed"], "distractors": ["djed", "čekam"] },
+    { "id": "s-imas-li-psa", "hr": ["Imaš li psa?"], "de": ["Hast du einen Hund?"], "words": ["w-imati", "w-pas"], "distractors": ["pas", "pasa"] },
+    { "id": "s-susjeda-ima-psa", "hr": ["Susjeda ima psa."], "de": ["Die Nachbarin hat einen Hund."], "words": ["w-susjeda", "w-imati", "w-pas"], "distractors": ["pas", "susjed"] },
+    { "id": "s-baka-ima-macku", "hr": ["Baka ima mačku."], "de": ["Oma hat eine Katze.", "Die Oma hat eine Katze."], "words": ["w-baka", "w-imati", "w-macka"], "distractors": ["mačka"] },
+    { "id": "s-zovem-tatu", "hr": ["Zovem tatu.", "Ja zovem tatu."], "de": ["Ich rufe Papa an.", "Ich rufe Papa.", "Ich rufe den Papa an."], "words": ["w-zvati", "w-tata"], "distractors": ["tata", "se"] },
+    { "id": "s-dobar-covjek", "hr": ["To je dobar čovjek."], "de": ["Das ist ein guter Mensch.", "Das ist ein guter Mann."], "words": ["w-to", "w-dobar", "w-covjek"], "distractors": ["čovjeka", "dobra"] },
+
+    { "id": "s-kupujem-mobitel", "hr": ["Kupujem mobitel.", "Ja kupujem mobitel."], "de": ["Ich kaufe ein Handy.", "Ich kaufe das Handy."], "words": ["w-kupovati", "w-mobitel"], "distractors": ["mobitela"] },
+    { "id": "s-brat-kupuje-auto", "hr": ["Moj brat kupuje auto."], "de": ["Mein Bruder kauft ein Auto.", "Mein Bruder kauft das Auto."], "words": ["w-moj", "w-brat", "w-kupovati", "w-auto"], "distractors": ["auta", "moja"] },
+    { "id": "s-torba-je-skupa", "hr": ["Torba je skupa."], "de": ["Die Tasche ist teuer."], "words": ["w-torba", "w-skup"], "distractors": ["skup", "skupo"] },
+    { "id": "s-imamo-stan-u-gradu", "hr": ["Imamo stan u gradu.", "Mi imamo stan u gradu."], "de": ["Wir haben eine Wohnung in der Stadt."], "words": ["w-imati", "w-stan", "w-grad"], "distractors": ["stana", "grad"] },
+    { "id": "s-novac-je-u-torbi", "hr": ["Novac je u torbi."], "de": ["Das Geld ist in der Tasche."], "words": ["w-novac", "w-torba"], "distractors": ["torba"] },
+    { "id": "s-kruh-je-jeftin", "hr": ["Kruh je jeftin."], "de": ["Das Brot ist billig.", "Das Brot ist günstig.", "Brot ist billig."], "words": ["w-kruh", "w-jeftin"], "distractors": ["jeftina", "jeftino"] },
+    { "id": "s-idem-u-trgovinu", "hr": ["Idem u trgovinu.", "Ja idem u trgovinu."], "de": ["Ich gehe ins Geschäft.", "Ich gehe in den Laden.", "Ich gehe in das Geschäft."], "words": ["w-ici", "w-trgovina"], "distractors": ["trgovina", "na"] },
+
+    { "id": "s-idemo-na-trznicu", "hr": ["Idemo na tržnicu.", "Mi idemo na tržnicu."], "de": ["Wir gehen auf den Markt.", "Wir gehen zum Markt."], "words": ["w-ici", "w-trznica"], "distractors": ["tržnica", "u"] },
+    { "id": "s-kupujem-rajcice", "hr": ["Kupujem rajčice.", "Ja kupujem rajčice."], "de": ["Ich kaufe Tomaten.", "Ich kaufe Paradeiser.", "Ich kaufe die Tomaten.", "Ich kaufe die Paradeiser."], "words": ["w-kupovati", "w-rajcica"], "distractors": ["rajčicu", "kupuješ"] },
+    { "id": "s-koliko-kosta-grozdje", "hr": ["Koliko košta grožđe?"], "de": ["Was kosten die Trauben?", "Was kosten die Weintrauben?", "Wie viel kosten die Trauben?", "Wie viel kosten die Weintrauben?", "Wie viel kostet die Weintraube?", "Was kostet die Weintraube?"], "words": ["w-koliko-kosta", "w-grozdje"] },
+    { "id": "s-grozdje-je-svjeze", "hr": ["Grožđe je svježe."], "de": ["Die Trauben sind frisch.", "Die Weintrauben sind frisch.", "Die Weintraube ist frisch."], "words": ["w-grozdje", "w-svjez"], "distractors": ["svjež", "svježa"] },
+    { "id": "s-cijena-je-dobra", "hr": ["Cijena je dobra."], "de": ["Der Preis ist gut."], "words": ["w-cijena", "w-dobar"], "distractors": ["dobar", "dobro"] },
+    { "id": "s-baka-kupuje-luk", "hr": ["Baka kupuje luk."], "de": ["Oma kauft Zwiebeln.", "Oma kauft Zwiebel.", "Die Oma kauft Zwiebeln."], "words": ["w-baka", "w-kupovati", "w-luk"], "distractors": ["luka"] },
+    { "id": "s-koliko-kosta", "hr": ["Koliko košta?"], "de": ["Wie viel kostet das?", "Was kostet das?", "Wie viel kostet es?"], "words": ["w-koliko-kosta"] },
+
+    { "id": "s-poklon-za-tebe", "hr": ["Ovo je poklon za tebe."], "de": ["Das ist ein Geschenk für dich."], "words": ["w-ovo", "w-poklon", "w-za"], "distractors": ["ti", "poklona"] },
+    { "id": "s-poklon-za-brata", "hr": ["Kupujem poklon za brata.", "Ja kupujem poklon za brata."], "de": ["Ich kaufe ein Geschenk für den Bruder.", "Ich kaufe ein Geschenk für meinen Bruder."], "words": ["w-kupovati", "w-poklon", "w-za", "w-brat"], "distractors": ["brat", "poklona"] },
+    { "id": "s-cvijece-za-baku", "hr": ["Nosim cvijeće za baku.", "Ja nosim cvijeće za baku."], "de": ["Ich bringe Blumen für Oma.", "Ich bringe Oma Blumen.", "Ich bringe Blumen für die Oma."], "words": ["w-nositi", "w-cvijece", "w-za", "w-baka"], "distractors": ["baka"] },
+    { "id": "s-zelim-kupiti-cokoladu", "hr": ["Želim kupiti čokoladu.", "Ja želim kupiti čokoladu."], "de": ["Ich möchte Schokolade kaufen.", "Ich möchte eine Schokolade kaufen."], "words": ["w-zeljeti", "w-kupiti", "w-cokolada"], "distractors": ["čokolada", "kupujem"] },
+    { "id": "s-sretan-rodjendan-mama", "hr": ["Sretan rođendan, mama!"], "de": ["Alles Gute zum Geburtstag, Mama!"], "words": ["w-sretan-rodjendan", "w-mama"], "distractors": ["sretna"] },
+    { "id": "s-cokolada-za-djecu", "hr": ["Čokolada je za djecu."], "de": ["Die Schokolade ist für die Kinder."], "words": ["w-cokolada", "w-za", "w-djeca"], "distractors": ["djeca"] },
+
+    { "id": "s-vidim-ga", "hr": ["Vidim ga."], "de": ["Ich sehe ihn.", "Ich sehe es."], "words": ["w-vidjeti", "w-ga"], "distractors": ["on"] },
+    { "id": "s-baka-nas-ceka", "hr": ["Baka nas čeka."], "de": ["Oma wartet auf uns.", "Die Oma wartet auf uns."], "words": ["w-baka", "w-nas", "w-cekati"], "distractors": ["mi", "čekam"] },
+    { "id": "s-cesto-posjecujemo-baku", "hr": ["Često posjećujemo baku.", "Mi često posjećujemo baku."], "de": ["Wir besuchen oft Oma.", "Wir besuchen Oma oft.", "Wir besuchen oft die Oma."], "words": ["w-cesto", "w-posjecivati", "w-baka"], "distractors": ["baka"] },
+    { "id": "s-mama-me-zove", "hr": ["Mama me zove."], "de": ["Mama ruft mich.", "Mama ruft mich an."], "words": ["w-mama", "w-me", "w-zvati"], "distractors": ["ja", "zovem"] },
+    { "id": "s-sutra-posjecujem-djeda", "hr": ["Sutra posjećujem djeda."], "de": ["Morgen besuche ich Opa.", "Morgen besuche ich den Opa.", "Ich besuche morgen Opa."], "words": ["w-sutra", "w-posjecivati", "w-djed"], "distractors": ["djed"] },
+    { "id": "s-volim-ih", "hr": ["Volim ih."], "de": ["Ich liebe sie.", "Ich mag sie.", "Ich hab sie lieb."], "words": ["w-voljeti", "w-ih"], "distractors": ["oni", "ga"] }
+  ],
+  "lessons": [
+    {
+      "id": "l-u08-1", "title": "Wen siehst du?", "tip": "tip-u08-animate",
+      "newWords": ["w-susjed", "w-susjeda", "w-covjek", "w-pas", "w-macka", "w-cekati", "w-zvati"],
+      "sentences": ["s-imam-brata", "s-imam-brata-i-sestru", "s-vidim-susjeda", "s-cekamo-djeda", "s-imas-li-psa", "s-susjeda-ima-psa", "s-baka-ima-macku", "s-zovem-tatu", "s-dobar-covjek"],
+      "extras": [
+        { "type": "cloze", "id": "x-u08-1-brata", "hr": "Imam ___.", "de": "Ich habe einen Bruder.", "answers": ["brata"], "options": ["brat", "brata", "bratu"] },
+        { "type": "cloze", "id": "x-u08-1-psa", "hr": "Imaš li ___?", "de": "Hast du einen Hund?", "answers": ["psa"], "options": ["pas", "pasa", "psa"] },
+        { "type": "cloze", "id": "x-u08-1-sina", "hr": "Imam ___ i kćer.", "de": "Ich habe einen Sohn und eine Tochter.", "answers": ["sina"], "options": ["sin", "sina", "sinu"] }
+      ]
+    },
+    {
+      "id": "l-u08-2", "title": "Was kaufst du?", "tip": "tip-u08-things",
+      "newWords": ["w-trgovina", "w-torba", "w-novac", "w-mobitel", "w-auto", "w-stan", "w-skup", "w-jeftin"],
+      "sentences": ["s-kupujem-mobitel", "s-brat-kupuje-auto", "s-torba-je-skupa", "s-imamo-stan-u-gradu", "s-novac-je-u-torbi", "s-kruh-je-jeftin", "s-idem-u-trgovinu"],
+      "extras": [
+        { "type": "cloze", "id": "x-u08-2-mobitel", "hr": "Kupujem ___.", "de": "Ich kaufe ein Handy.", "answers": ["mobitel"], "options": ["mobitel", "mobitela"],
+          "hint": "ein Ding, kein Lebewesen" },
+        { "type": "cloze", "id": "x-u08-2-torbu", "hr": "Kupujem ___.", "de": "Ich kaufe eine Tasche.", "answers": ["torbu"], "options": ["torba", "torbu"] },
+        { "type": "fact", "id": "x-u08-2-which", "question": "Welcher Satz ist richtig?", "options": ["Imam brata i stan.", "Imam brat i stana."], "answer": "Imam brata i stan.",
+          "explain": "Das -a bekommen nur Lebewesen: brata. Ein Ding bleibt gleich: stan." }
+      ]
+    },
+    {
+      "id": "l-u08-3", "title": "Am Markt", "tip": "tip-u08-market",
+      "newWords": ["w-trznica", "w-rajcica", "w-luk", "w-grozdje", "w-svjez", "w-cijena", "w-koliko-kosta"],
+      "sentences": ["s-idemo-na-trznicu", "s-kupujem-rajcice", "s-koliko-kosta-grozdje", "s-grozdje-je-svjeze", "s-cijena-je-dobra", "s-baka-kupuje-luk", "s-koliko-kosta"],
+      "extras": [
+        { "type": "cloze", "id": "x-u08-3-trznicu", "hr": "Idemo na ___.", "de": "Wir gehen auf den Markt.", "answers": ["tržnicu"], "options": ["tržnica", "tržnicu"] },
+        { "type": "cloze", "id": "x-u08-3-svjeze", "hr": "Grožđe je ___.", "de": "Die Trauben sind frisch.", "answers": ["svježe"], "options": ["svjež", "svježa", "svježe"],
+          "hint": "grožđe ist sächlich" }
+      ]
+    },
+    {
+      "id": "l-u08-4", "title": "Geschenke", "tip": "tip-u08-za",
+      "newWords": ["w-poklon", "w-za", "w-cvijece", "w-cokolada", "w-nositi", "w-kupiti", "w-sretan-rodjendan"],
+      "sentences": ["s-poklon-za-tebe", "s-poklon-za-brata", "s-cvijece-za-baku", "s-zelim-kupiti-cokoladu", "s-sretan-rodjendan-mama", "s-cokolada-za-djecu"],
+      "extras": [
+        { "type": "cloze", "id": "x-u08-4-baku", "hr": "Cvijeće je za ___.", "de": "Die Blumen sind für Oma.", "answers": ["baku"], "options": ["baka", "baku"] },
+        { "type": "cloze", "id": "x-u08-4-tebe", "hr": "Ovo je za ___.", "de": "Das ist für dich.", "answers": ["tebe"], "options": ["ti", "tebe"] },
+        { "type": "cloze", "id": "x-u08-4-strica", "hr": "Poklon je za ___.", "de": "Das Geschenk ist für den Onkel.", "answers": ["strica"], "options": ["stric", "strica"] }
+      ]
+    },
+    {
+      "id": "l-u08-5", "title": "Zusammen", "tip": "tip-u08-clitics",
+      "newWords": ["w-me", "w-te", "w-ga", "w-nas", "w-ih", "w-posjecivati", "w-sutra"],
+      "sentences": ["s-volim-te", "s-vidim-ga", "s-baka-nas-ceka", "s-cesto-posjecujemo-baku", "s-mama-me-zove", "s-sutra-posjecujem-djeda", "s-volim-ih"],
+      "extras": [
+        { "type": "cloze", "id": "x-u08-5-me", "hr": "Mama ___ zove.", "de": "Mama ruft mich.", "answers": ["me"], "options": ["ja", "me", "mi"] },
+        { "type": "cloze", "id": "x-u08-5-ga", "hr": "Vidim ___.", "de": "Ich sehe ihn.", "answers": ["ga"], "options": ["on", "ga", "ih"] },
+        { "type": "fact", "id": "x-u08-5-order", "question": "Welcher Satz ist richtig?", "options": ["Baka nas čeka.", "Nas baka čeka."], "answer": "Baka nas čeka.",
+          "explain": "Die kurzen Wörter stehen an zweiter Stelle." }
+      ]
+    }
+  ]
+}

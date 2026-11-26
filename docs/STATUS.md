@@ -18,6 +18,8 @@ Stand: 17.11.2026
 - **Veröffentlicht**: https://chern96.github.io/pomalo/ – GitHub Action grün, End-to-End-Tests dort auch in WebKit grün (8/8).
 - Österreich statt Deutschland als Herkunftsland; österreichische Antworten (servus, Erdäpfel, Hendl …) werden akzeptiert.
 
+- **Einheiten 7–9**: Präsens (-ati/-iti/-jeti/-ovati, ići), Akkusativ komplett mit kurzen Pronomen (me, te, ga …), Fragewörter und Je li …? – 15 Lektionen, ~100 neue Wörter. Offene Punkte in `GEGENLESEN.md`.
+
 ## Als Nächstes
 - iPhone: installieren, Checkliste (`docs/IPHONE-CHECKLISTE.md`) durchgehen.
 - Danach: Einheit 7 („Was machst du?“).

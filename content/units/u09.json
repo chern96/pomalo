@@ -1,0 +1,219 @@
+{
+  "id": "u09",
+  "number": 9,
+  "title": "Fragen stellen",
+  "grammar": "tko, što, gdje, kada, kako, zašto, koliko; je li / da li",
+  "tips": [
+    {
+      "id": "tip-u09-tko",
+      "title": "Wer? Was? Welcher?",
+      "text": "tko = wer, što = was. Umgangssprachlich hörst du oft „šta“ – in Kroatien schreibt man „što“. koji (welcher) und čiji (wessen) passen sich an wie Adjektive: koji film, koja knjiga, čiji pas, čija torba.",
+      "examples": [["Tko je to?", "Wer ist das?"], ["Što je ovo?", "Was ist das?"], ["Čiji je ovo pas?", "Wessen Hund ist das?"]]
+    },
+    {
+      "id": "tip-u09-gdje",
+      "title": "Wo? Wohin? Wann?",
+      "text": "gdje = wo, kamo = wohin, kada (oder kurz kad) = wann. Wie im Deutschen unterscheidet man „wo“ und „wohin“: Gdje si? – Wo bist du? Kamo ideš? – Wohin gehst du? Bei „nikad“ (nie) bleibt das „ne“ trotzdem: Nikad ne jedem meso.",
+      "examples": [["Gdje je mama?", "Wo ist Mama?"], ["Kamo ideš?", "Wohin gehst du?"], ["Kada ideš kući?", "Wann gehst du nach Hause?"]]
+    },
+    {
+      "id": "tip-u09-zasto",
+      "title": "Warum? – Weil …",
+      "text": "zašto = warum. Die Antwort beginnt mit „zato što“ oder „jer“ (beide: weil). Anders als im Deutschen rutscht das Verb nicht ans Ende: … jer sam bolestan (… weil ich krank bin). Und die wichtigste Frage beim Lernen: Kako se kaže …? – Wie sagt man …?",
+      "examples": [["Zašto ne jedeš?", "Warum isst du nicht?"], ["Zato što sam umoran.", "Weil ich müde bin."], ["Kako se kaže „Danke“?", "Wie sagt man „Danke“?"]]
+    },
+    {
+      "id": "tip-u09-jeli",
+      "title": "Ja-oder-Nein-Fragen",
+      "text": "Für Ja/Nein-Fragen kommt „li“ hinter das Verb: Imaš li …? Govoriš li …? Mit „ist“ heißt es „Je li …?“. In Bosnien und Serbien hört man oft „Da li je …?“ – das ist umgangssprachlich, im Kroatischen sagt man „Je li …?“.",
+      "examples": [["Je li to istina?", "Ist das wahr?"], ["Je li baka kod kuće?", "Ist Oma zu Hause?"], ["Kava ili čaj?", "Kaffee oder Tee?"]]
+    },
+    {
+      "id": "tip-u09-neugierig",
+      "title": "Neugierig sein",
+      "text": "kakav (was für ein, wie) passt sich an: kakav film, kakva kava, kakvo vrijeme. „vrijeme“ heißt Zeit und Wetter: Kakvo je vrijeme? – Wie ist das Wetter? Imaš li vremena? – Hast du Zeit?",
+      "examples": [["Što ima novo?", "Was gibt's Neues?"], ["Kakvo je vrijeme?", "Wie ist das Wetter?"], ["Imaš li vremena?", "Hast du Zeit?"]]
+    }
+  ],
+  "words": [
+    { "id": "w-sto-pron", "hr": "što", "de": ["was"], "pos": "pron",
+      "colloquial": ["šta"],
+      "note": "Umgangssprachlich oft „šta“.",
+      "example": { "hr": "Što je ovo?", "de": "Was ist das?" } },
+    { "id": "w-koji", "hr": "koji", "de": ["welcher", "welche", "welches"], "pos": "adj",
+      "forms": { "m": "koji", "f": "koja", "n": "koje" },
+      "example": { "hr": "Koji film gledaš?", "de": "Welchen Film schaust du?" } },
+    { "id": "w-ciji", "hr": "čiji", "de": ["wessen"], "pos": "adj",
+      "forms": { "m": "čiji", "f": "čija", "n": "čije" },
+      "example": { "hr": "Čiji je ovo pas?", "de": "Wessen Hund ist das?" } },
+    { "id": "w-nesto", "hr": "nešto", "de": ["etwas"], "pos": "pron",
+      "example": { "hr": "Želiš li nešto piti?", "de": "Möchtest du etwas trinken?" } },
+    { "id": "w-netko", "hr": "netko", "de": ["jemand"], "pos": "pron",
+      "note": "Kroatisch: netko (Serbisch/Bosnisch: neko).",
+      "colloquial": ["neko"],
+      "example": { "hr": "Netko zove.", "de": "Jemand ruft an." } },
+    { "id": "w-pitanje", "hr": "pitanje", "de": ["Frage"], "pos": "noun", "gender": "n",
+      "example": { "hr": "Imam pitanje.", "de": "Ich habe eine Frage." } },
+
+    { "id": "w-gdje", "hr": "gdje", "de": ["wo"], "pos": "adv",
+      "example": { "hr": "Gdje je mama?", "de": "Wo ist Mama?" } },
+    { "id": "w-kada", "hr": "kada", "de": ["wann"], "pos": "adv",
+      "hrAlt": ["kad"],
+      "note": "Kurz auch: kad.",
+      "example": { "hr": "Kada ideš kući?", "de": "Wann gehst du nach Hause?" } },
+    { "id": "w-kamo", "hr": "kamo", "de": ["wohin"], "pos": "adv",
+      "note": "Umgangssprachlich sagt man oft auch „gdje“: Gdje ideš?",
+      "example": { "hr": "Kamo ideš?", "de": "Wohin gehst du?" } },
+    { "id": "w-tamo", "hr": "tamo", "de": ["dort", "da drüben", "dorthin"], "pos": "adv",
+      "example": { "hr": "Baka je tamo.", "de": "Oma ist dort." } },
+    { "id": "w-uvijek", "hr": "uvijek", "de": ["immer"], "pos": "adv",
+      "example": { "hr": "Uvijek pijem kavu.", "de": "Ich trinke immer Kaffee." } },
+    { "id": "w-nikad", "hr": "nikad", "de": ["nie", "niemals"], "pos": "adv",
+      "hrAlt": ["nikada"],
+      "note": "Das „ne“ bleibt: Nikad ne jedem meso.",
+      "example": { "hr": "Nikad ne jedem meso.", "de": "Ich esse nie Fleisch." } },
+
+    { "id": "w-zasto", "hr": "zašto", "de": ["warum", "wieso"], "pos": "adv",
+      "example": { "hr": "Zašto ne jedeš?", "de": "Warum isst du nicht?" } },
+    { "id": "w-jer", "hr": "jer", "de": ["weil", "denn"], "pos": "conj",
+      "example": { "hr": "Ne idem jer sam bolestan.", "de": "Ich gehe nicht, weil ich krank bin." } },
+    { "id": "w-zato", "hr": "zato", "de": ["deshalb", "darum"], "pos": "adv",
+      "note": "zato što = weil.",
+      "example": { "hr": "Zato što sam umoran.", "de": "Weil ich müde bin." } },
+    { "id": "w-daleko", "hr": "daleko", "de": ["weit", "weit weg"], "pos": "adv",
+      "example": { "hr": "Bosna je daleko.", "de": "Bosnien ist weit weg." } },
+    { "id": "w-blizu", "hr": "blizu", "de": ["nah", "in der Nähe"], "pos": "adv",
+      "example": { "hr": "Trgovina je blizu.", "de": "Das Geschäft ist in der Nähe." } },
+    { "id": "w-kako-se-kaze", "hr": "kako se kaže", "de": ["wie sagt man"], "pos": "phrase",
+      "example": { "hr": "Kako se to kaže na hrvatskom?", "de": "Wie sagt man das auf Kroatisch?" } },
+
+    { "id": "w-je-li", "hr": "je li", "de": ["ist", "ob"], "pos": "phrase",
+      "note": "Ja/Nein-Frage mit „ist“: Je li to istina?",
+      "example": { "hr": "Je li to istina?", "de": "Ist das wahr?" } },
+    { "id": "w-da-li", "hr": "da li", "de": ["ob"], "pos": "phrase", "isColloquial": true,
+      "note": "Umgangssprachlich in Bosnien und Serbien. Im Kroatischen: „je li“ oder Verb + li.",
+      "example": { "hr": "Da li je baka kod kuće?", "de": "Ist Oma zu Hause?" } },
+    { "id": "w-ili", "hr": "ili", "de": ["oder"], "pos": "conj",
+      "example": { "hr": "Kava ili čaj?", "de": "Kaffee oder Tee?" } },
+    { "id": "w-tocno", "hr": "točno", "de": ["genau", "richtig", "stimmt"], "pos": "adv",
+      "example": { "hr": "To je točno.", "de": "Das stimmt." } },
+    { "id": "w-istina", "hr": "istina", "de": ["Wahrheit", "wahr"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Je li to istina?", "de": "Ist das wahr?" } },
+    { "id": "w-u-redu", "hr": "u redu", "de": ["in Ordnung", "okay"], "pos": "phrase",
+      "example": { "hr": "Je li u redu?", "de": "Ist das in Ordnung?" } },
+
+    { "id": "w-odgovor", "hr": "odgovor", "de": ["Antwort"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Ne znam odgovor.", "de": "Ich weiß die Antwort nicht." } },
+    { "id": "w-kakav", "hr": "kakav", "de": ["was für ein", "wie"], "pos": "adj",
+      "forms": { "m": "kakav", "f": "kakva", "n": "kakvo" },
+      "example": { "hr": "Kakav je film?", "de": "Wie ist der Film?" } },
+    { "id": "w-otkad", "hr": "otkad", "de": ["seit wann"], "pos": "adv",
+      "hrAlt": ["otkada"],
+      "example": { "hr": "Otkad živiš u Austriji?", "de": "Seit wann lebst du in Österreich?" } },
+    { "id": "w-zanima-me", "hr": "zanima me", "de": ["mich interessiert", "es interessiert mich"], "pos": "phrase",
+      "example": { "hr": "Zanima me hrvatski.", "de": "Mich interessiert Kroatisch." } },
+    { "id": "w-sto-ima-novo", "hr": "što ima novo", "de": ["was gibt's Neues"], "pos": "phrase",
+      "colloquial": ["šta ima"],
+      "note": "Umgangssprachlich kurz: „Šta ima?“ – Was geht?",
+      "example": { "hr": "Bok! Što ima novo?", "de": "Hallo! Was gibt's Neues?" } },
+    { "id": "w-vrijeme", "hr": "vrijeme", "de": ["Zeit", "Wetter"], "pos": "noun", "gender": "n",
+      "note": "Hast du Zeit? = Imaš li vremena?",
+      "example": { "hr": "Kakvo je vrijeme?", "de": "Wie ist das Wetter?" } }
+  ],
+  "sentences": [
+    { "id": "s-sto-je-ovo", "hr": ["Što je ovo?", "Šta je ovo?", "Što je to?"], "de": ["Was ist das?"], "words": ["w-sto-pron", "w-ovo"], "distractors": ["tko"] },
+    { "id": "s-koji-film-gledas", "hr": ["Koji film gledaš?"], "de": ["Welchen Film schaust du?", "Welchen Film siehst du?", "Welchen Film schaust du dir an?"], "words": ["w-koji", "w-film", "w-gledati"], "distractors": ["koja", "gledam"] },
+    { "id": "s-ciji-je-ovo-pas", "hr": ["Čiji je ovo pas?", "Čiji je to pas?"], "de": ["Wessen Hund ist das?", "Wem gehört der Hund?"], "words": ["w-ciji", "w-ovo", "w-pas"], "distractors": ["čija", "psa"] },
+    { "id": "s-netko-zove", "hr": ["Netko zove."], "de": ["Jemand ruft an.", "Jemand ruft."], "words": ["w-netko", "w-zvati"], "distractors": ["nešto", "zovem"] },
+    { "id": "s-zelis-li-nesto-piti", "hr": ["Želiš li nešto piti?"], "de": ["Möchtest du etwas trinken?", "Willst du etwas trinken?"], "words": ["w-zeljeti", "w-nesto", "w-piti"], "distractors": ["netko", "pijem"] },
+    { "id": "s-imam-pitanje", "hr": ["Imam pitanje.", "Ja imam pitanje."], "de": ["Ich habe eine Frage."], "words": ["w-imati", "w-pitanje"], "distractors": ["pitanja"] },
+
+    { "id": "s-gdje-je-mama", "hr": ["Gdje je mama?"], "de": ["Wo ist Mama?", "Wo ist die Mama?"], "words": ["w-gdje", "w-mama"], "distractors": ["kamo"] },
+    { "id": "s-gdje-zivis", "hr": ["Gdje živiš?", "Gdje ti živiš?"], "de": ["Wo wohnst du?", "Wo lebst du?"], "words": ["w-gdje", "w-zivjeti"], "distractors": ["živim", "kamo"] },
+    { "id": "s-kamo-ides", "hr": ["Kamo ideš?"], "de": ["Wohin gehst du?", "Wo gehst du hin?", "Wohin fährst du?"], "words": ["w-kamo", "w-ici"], "distractors": ["gdje", "idem"] },
+    { "id": "s-kada-ides-kuci", "hr": ["Kada ideš kući?", "Kad ideš kući?"], "de": ["Wann gehst du nach Hause?", "Wann fährst du nach Hause?", "Wann gehst du heim?"], "words": ["w-kada", "w-ici"], "distractors": ["kamo", "kuća"] },
+    { "id": "s-baka-je-tamo", "hr": ["Baka je tamo."], "de": ["Oma ist dort.", "Oma ist da drüben.", "Die Oma ist dort."], "words": ["w-baka", "w-tamo"], "distractors": ["ovdje"] },
+    { "id": "s-uvijek-pijem-kavu", "hr": ["Uvijek pijem kavu.", "Ja uvijek pijem kavu."], "de": ["Ich trinke immer Kaffee.", "Immer trinke ich Kaffee."], "words": ["w-uvijek", "w-piti", "w-kava"], "distractors": ["kava"] },
+    { "id": "s-nikad-ne-jedem-meso", "hr": ["Nikad ne jedem meso.", "Ja nikad ne jedem meso.", "Nikada ne jedem meso."], "de": ["Ich esse nie Fleisch.", "Ich esse niemals Fleisch.", "Nie esse ich Fleisch."], "words": ["w-nikad", "w-ne", "w-jesti", "w-meso"], "distractors": ["nisam"] },
+
+    { "id": "s-zasto-ne-jedes", "hr": ["Zašto ne jedeš?"], "de": ["Warum isst du nicht?", "Wieso isst du nicht?"], "words": ["w-zasto", "w-ne", "w-jesti"], "distractors": ["jedem"] },
+    { "id": "s-zato-sto-sam-umoran", "hr": { "m": ["Zato što sam umoran."], "f": ["Zato što sam umorna."] }, "de": ["Weil ich müde bin."], "words": ["w-zato", "w-sto-pron", "w-umoran"] },
+    { "id": "s-ne-idem-jer-sam-bolestan", "hr": { "m": ["Ne idem jer sam bolestan.", "Ne idem, jer sam bolestan."], "f": ["Ne idem jer sam bolesna.", "Ne idem, jer sam bolesna."] }, "de": ["Ich gehe nicht, weil ich krank bin.", "Ich gehe nicht, denn ich bin krank.", "Ich komme nicht, weil ich krank bin."], "words": ["w-ne", "w-ici", "w-jer", "w-bolestan"] },
+    { "id": "s-kako-se-to-kaze", "hr": ["Kako se to kaže na hrvatskom?", "Kako se to na hrvatskom kaže?"], "de": ["Wie sagt man das auf Kroatisch?"], "words": ["w-kako-se-kaze", "w-to", "w-hrvatski"], "distractors": ["hrvatski"] },
+    { "id": "s-bosna-je-daleko", "hr": ["Bosna je daleko."], "de": ["Bosnien ist weit weg.", "Bosnien ist weit."], "words": ["w-bosna", "w-daleko"], "distractors": ["blizu"] },
+    { "id": "s-trgovina-je-blizu", "hr": ["Trgovina je blizu."], "de": ["Das Geschäft ist in der Nähe.", "Der Laden ist in der Nähe.", "Das Geschäft ist nah.", "Der Laden ist nah."], "words": ["w-trgovina", "w-blizu"], "distractors": ["daleko"] },
+
+    { "id": "s-je-li-to-istina", "hr": ["Je li to istina?"], "de": ["Ist das wahr?", "Stimmt das?", "Ist das die Wahrheit?"], "words": ["w-je-li", "w-to", "w-istina"], "distractors": ["da"] },
+    { "id": "s-je-li-baka-kod-kuce", "hr": ["Je li baka kod kuće?"], "de": ["Ist Oma zu Hause?", "Ist Oma daheim?", "Ist die Oma zu Hause?"], "words": ["w-je-li", "w-baka", "w-kod-kuce"], "distractors": ["su"] },
+    { "id": "s-da-li-je-baka-kod-kuce", "hr": ["Da li je baka kod kuće?"], "de": ["Ist Oma zu Hause?", "Ist Oma daheim?", "Ist die Oma zu Hause?"], "words": ["w-da-li", "w-baka", "w-kod-kuce"], "colloquial": true, "distractors": ["su"] },
+    { "id": "s-je-li-u-redu", "hr": ["Je li u redu?", "Je li to u redu?"], "de": ["Ist das in Ordnung?", "Ist es in Ordnung?", "Ist das okay?", "Passt das?"], "words": ["w-je-li", "w-u-redu"] },
+    { "id": "s-kava-ili-caj", "hr": ["Kava ili čaj?"], "de": ["Kaffee oder Tee?"], "words": ["w-kava", "w-ili", "w-caj"], "distractors": ["i"] },
+    { "id": "s-to-je-tocno", "hr": ["To je točno."], "de": ["Das stimmt.", "Das ist richtig.", "Das ist genau richtig."], "words": ["w-to", "w-tocno"], "distractors": ["ovo"] },
+    { "id": "s-je-li-ana-tvoja-sestra", "hr": ["Je li Ana tvoja sestra?"], "de": ["Ist Ana deine Schwester?"], "words": ["w-je-li", "w-tvoj", "w-sestra"], "distractors": ["tvoj"] },
+
+    { "id": "s-sto-ima-novo", "hr": ["Što ima novo?", "Šta ima novo?"], "de": ["Was gibt's Neues?", "Was gibt es Neues?"], "words": ["w-sto-ima-novo"] },
+    { "id": "s-kakav-je-film", "hr": ["Kakav je film?"], "de": ["Wie ist der Film?", "Wie war der Film?"], "words": ["w-kakav", "w-film"], "distractors": ["kakva"] },
+    { "id": "s-kakvo-je-vrijeme", "hr": ["Kakvo je vrijeme?"], "de": ["Wie ist das Wetter?"], "words": ["w-kakav", "w-vrijeme"], "distractors": ["kakav"] },
+    { "id": "s-otkad-zivis-u-austriji", "hr": ["Otkad živiš u Austriji?", "Otkada živiš u Austriji?"], "de": ["Seit wann lebst du in Österreich?", "Seit wann wohnst du in Österreich?"], "words": ["w-otkad", "w-zivjeti", "w-austrija"], "distractors": ["Austrija"] },
+    { "id": "s-zanima-me-hrvatski", "hr": ["Zanima me hrvatski."], "de": ["Mich interessiert Kroatisch.", "Ich interessiere mich für Kroatisch.", "Kroatisch interessiert mich."], "words": ["w-zanima-me", "w-hrvatski"], "distractors": ["mi"] },
+    { "id": "s-imas-li-vremena", "hr": ["Imaš li vremena?"], "de": ["Hast du Zeit?"], "words": ["w-imati", "w-vrijeme"], "distractors": ["vrijeme"],
+      "note": "Nach „imaš li“ steht hier der Genitiv: vrijeme → vremena." },
+    { "id": "s-ne-znam-odgovor", "hr": ["Ne znam odgovor.", "Ja ne znam odgovor."], "de": ["Ich weiß die Antwort nicht.", "Ich kenne die Antwort nicht."], "words": ["w-ne", "w-znati", "w-odgovor"], "distractors": ["odgovora"] }
+  ],
+  "lessons": [
+    {
+      "id": "l-u09-1", "title": "Wer & was?", "tip": "tip-u09-tko",
+      "newWords": ["w-sto-pron", "w-koji", "w-ciji", "w-nesto", "w-netko", "w-pitanje"],
+      "sentences": ["s-tko-je-to", "s-sto-je-ovo", "s-koji-film-gledas", "s-ciji-je-ovo-pas", "s-netko-zove", "s-zelis-li-nesto-piti", "s-imam-pitanje"],
+      "extras": [
+        { "type": "cloze", "id": "x-u09-1-koja", "hr": "___ knjiga?", "de": "Welches Buch?", "answers": ["Koja"], "options": ["Koji", "Koja", "Koje"],
+          "hint": "knjiga ist weiblich" },
+        { "type": "cloze", "id": "x-u09-1-tko", "hr": "___ je to? – To je moj brat.", "de": "Wer ist das? – Das ist mein Bruder.", "answers": ["Tko"], "options": ["Tko", "Što", "Gdje"] },
+        { "type": "fact", "id": "x-u09-1-sta", "question": "Du hörst in der Familie „Šta radiš?“. Wie schreibt man das in Kroatien?", "options": ["Što radiš?", "Šo radiš?", "Što radim?"], "answer": "Što radiš?" }
+      ]
+    },
+    {
+      "id": "l-u09-2", "title": "Wo & wann?", "tip": "tip-u09-gdje",
+      "newWords": ["w-gdje", "w-kada", "w-kamo", "w-tamo", "w-uvijek", "w-nikad"],
+      "sentences": ["s-gdje-je-mama", "s-gdje-zivis", "s-kamo-ides", "s-kada-ides-kuci", "s-baka-je-tamo", "s-uvijek-pijem-kavu", "s-nikad-ne-jedem-meso"],
+      "extras": [
+        { "type": "cloze", "id": "x-u09-2-kamo", "hr": "___ ideš? – Idem kući.", "de": "Wohin gehst du? – Ich gehe nach Hause.", "answers": ["Kamo"], "options": ["Gdje", "Kamo", "Kada"] },
+        { "type": "cloze", "id": "x-u09-2-gdje", "hr": "___ je baka? – Baka je tamo.", "de": "Wo ist Oma? – Oma ist dort.", "answers": ["Gdje"], "options": ["Gdje", "Kamo", "Tko"] },
+        { "type": "fact", "id": "x-u09-2-nikad", "question": "Welcher Satz heißt „Ich esse nie Fleisch“?", "options": ["Nikad ne jedem meso.", "Nikad jedem meso."], "answer": "Nikad ne jedem meso.",
+          "explain": "Bei nikad bleibt das „ne“ vor dem Verb." }
+      ]
+    },
+    {
+      "id": "l-u09-3", "title": "Wie & warum?", "tip": "tip-u09-zasto",
+      "newWords": ["w-zasto", "w-jer", "w-zato", "w-daleko", "w-blizu", "w-kako-se-kaze"],
+      "sentences": ["s-zasto-ne-jedes", "s-zato-sto-sam-umoran", "s-ne-idem-jer-sam-bolestan", "s-kako-se-to-kaze", "s-bosna-je-daleko", "s-trgovina-je-blizu"],
+      "extras": [
+        { "type": "cloze", "id": "x-u09-3-zasto", "hr": "___ ne jedeš? – Jer nisam gladan.", "de": "Warum isst du nicht? – Weil ich keinen Hunger habe.", "answers": ["Zašto"], "options": ["Zašto", "Kako", "Gdje"] },
+        { "type": "cloze", "id": "x-u09-3-kako", "hr": "___ si? – Dobro, hvala.", "de": "Wie geht's? – Gut, danke.", "answers": ["Kako"], "options": ["Kako", "Koliko", "Zašto"] },
+        { "type": "cloze", "id": "x-u09-3-koliko", "hr": "___ imaš godina?", "de": "Wie alt bist du?", "answers": ["Koliko"], "options": ["Kako", "Koliko", "Kada"] }
+      ]
+    },
+    {
+      "id": "l-u09-4", "title": "Je li …?", "tip": "tip-u09-jeli",
+      "newWords": ["w-je-li", "w-da-li", "w-ili", "w-tocno", "w-istina", "w-u-redu"],
+      "sentences": ["s-je-li-to-istina", "s-je-li-baka-kod-kuce", "s-da-li-je-baka-kod-kuce", "s-je-li-u-redu", "s-kava-ili-caj", "s-to-je-tocno", "s-je-li-ana-tvoja-sestra"],
+      "extras": [
+        { "type": "cloze", "id": "x-u09-4-li", "hr": "Imaš ___ brata?", "de": "Hast du einen Bruder?", "answers": ["li"], "options": ["li", "je", "da"] },
+        { "type": "cloze", "id": "x-u09-4-je", "hr": "___ li to istina?", "de": "Ist das wahr?", "answers": ["Je"], "options": ["Je", "Da", "Si"] },
+        { "type": "fact", "id": "x-u09-4-dali", "question": "„Da li je baka kod kuće?“ – was stimmt?", "options": ["Umgangssprachlich – kroatisch sagt man „Je li baka kod kuće?“", "Das ist falsch und niemand sagt es", "Das ist die einzige richtige Form"], "answer": "Umgangssprachlich – kroatisch sagt man „Je li baka kod kuće?“" }
+      ]
+    },
+    {
+      "id": "l-u09-5", "title": "Neugierig", "tip": "tip-u09-neugierig",
+      "newWords": ["w-odgovor", "w-kakav", "w-otkad", "w-zanima-me", "w-sto-ima-novo", "w-vrijeme"],
+      "sentences": ["s-sto-ima-novo", "s-kakav-je-film", "s-kakvo-je-vrijeme", "s-otkad-zivis-u-austriji", "s-zanima-me-hrvatski", "s-imas-li-vremena", "s-ne-znam-odgovor"],
+      "extras": [
+        { "type": "cloze", "id": "x-u09-5-kakvo", "hr": "___ je vrijeme?", "de": "Wie ist das Wetter?", "answers": ["Kakvo"], "options": ["Kakav", "Kakva", "Kakvo"],
+          "hint": "vrijeme ist sächlich" },
+        { "type": "cloze", "id": "x-u09-5-kakva", "hr": "___ je kava?", "de": "Wie ist der Kaffee?", "answers": ["Kakva"], "options": ["Kakav", "Kakva", "Kakvo"],
+          "hint": "kava ist weiblich" },
+        { "type": "cloze", "id": "x-u09-5-vremena", "hr": "Imaš li ___?", "de": "Hast du Zeit?", "answers": ["vremena"], "options": ["vrijeme", "vremena"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "id": "u07",
+  "number": 7,
+  "title": "Was machst du?",
+  "grammar": "Präsens: -ati / -iti / -jeti / -ovati",
+  "tips": [
+    {
+      "id": "tip-u07-ati",
+      "title": "Verben auf -ati",
+      "text": "Die meisten Verben auf -ati sind ganz regelmäßig: -ati fällt weg, dann kommen die Endungen. čitati → čitam (ich lese), čitaš (du liest), čita (er/sie liest), čitamo (wir), čitate (ihr), čitaju (sie). „Ich“ und „du“ kannst du weglassen – die Endung sagt schon, wer es ist.",
+      "examples": [["Čitam knjigu.", "Ich lese ein Buch."], ["Gledamo film.", "Wir schauen einen Film."], ["Beba spava.", "Das Baby schläft."]]
+    },
+    {
+      "id": "tip-u07-iti",
+      "title": "Verben auf -iti",
+      "text": "Bei Verben auf -iti heißen die Endungen -im, -iš, -i, -imo, -ite, -e. raditi → radim (ich arbeite), radiš, radi, radimo, radite, rade. „Što radiš?“ heißt sowohl „Was machst du gerade?“ als auch „Was arbeitest du?“.",
+      "examples": [["Radim u uredu.", "Ich arbeite im Büro."], ["Što radiš?", "Was machst du?"], ["Djeca uče.", "Die Kinder lernen."]]
+    },
+    {
+      "id": "tip-u07-jeti",
+      "title": "Verben auf -jeti",
+      "text": "Verben auf -jeti gehen meistens wie die auf -iti: vidjeti → vidim, vidiš, vidi … Du kennst schon zwei davon: voljeti → volim und živjeti → živim. Auch sjediti (sitzen) geht so: sjedim, sjediš, sjedi.",
+      "examples": [["Vidim mamu.", "Ich sehe Mama."], ["Baka sjedi u kuhinji.", "Oma sitzt in der Küche."], ["Volim kuhinju.", "Ich mag die Küche."]]
+    },
+    {
+      "id": "tip-u07-govoriti",
+      "title": "Sprechen & Verstehen",
+      "text": "govoriti → govorim (ich spreche), znati → znam (ich weiß). razumjeti ist besonders: razumijem, razumiješ, razumije – mit „ije“. Sprachen schreibt man klein: hrvatski, njemački.",
+      "examples": [["Govorim malo hrvatski.", "Ich spreche ein bisschen Kroatisch."], ["Ne razumijem.", "Ich verstehe nicht."], ["Ne znam.", "Ich weiß nicht."]]
+    },
+    {
+      "id": "tip-u07-ovati",
+      "title": "Verben auf -ovati und ići",
+      "text": "Aus -ovati wird -ujem: putovati → putujem, putuješ, putuje … kupovati → kupujem. Das wichtige Verb ići (gehen, fahren) ist unregelmäßig: idem, ideš, ide, idemo, idete, idu.",
+      "examples": [["Putujem u Bosnu.", "Ich reise nach Bosnien."], ["Mama kupuje kruh.", "Mama kauft Brot."], ["Idem kući.", "Ich gehe nach Hause."]]
+    }
+  ],
+  "words": [
+    { "id": "w-spavati", "hr": "spavati", "de": ["schlafen"], "pos": "verb", "present": "spavam",
+      "example": { "hr": "Beba spava.", "de": "Das Baby schläft." } },
+    { "id": "w-citati", "hr": "čitati", "de": ["lesen"], "pos": "verb", "present": "čitam",
+      "example": { "hr": "Čitam knjigu.", "de": "Ich lese ein Buch." } },
+    { "id": "w-gledati", "hr": "gledati", "de": ["schauen", "ansehen", "anschauen", "sehen"], "pos": "verb", "present": "gledam",
+      "example": { "hr": "Gledamo film.", "de": "Wir schauen einen Film." } },
+    { "id": "w-slusati", "hr": "slušati", "de": ["hören", "zuhören", "anhören"], "pos": "verb", "present": "slušam",
+      "example": { "hr": "Slušam glazbu.", "de": "Ich höre Musik." } },
+    { "id": "w-knjiga", "hr": "knjiga", "de": ["Buch"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Ovo je moja knjiga.", "de": "Das ist mein Buch." } },
+    { "id": "w-glazba", "hr": "glazba", "de": ["Musik"], "pos": "noun", "gender": "f",
+      "colloquial": ["muzika"],
+      "note": "Kroatisch: glazba. Umgangssprachlich hört man auch oft „muzika“.",
+      "example": { "hr": "Volim glazbu.", "de": "Ich mag Musik." } },
+    { "id": "w-film", "hr": "film", "de": ["Film"], "pos": "noun", "gender": "m",
+      "example": { "hr": "Film je dobar.", "de": "Der Film ist gut." } },
+
+    { "id": "w-raditi", "hr": "raditi", "de": ["arbeiten", "machen", "tun"], "pos": "verb", "present": "radim",
+      "example": { "hr": "Radim u uredu.", "de": "Ich arbeite im Büro." } },
+    { "id": "w-uciti", "hr": "učiti", "de": ["lernen"], "pos": "verb", "present": "učim",
+      "example": { "hr": "Učim hrvatski.", "de": "Ich lerne Kroatisch." } },
+    { "id": "w-posao", "hr": "posao", "de": ["Arbeit", "Job"], "pos": "noun", "gender": "m",
+      "note": "Das zweite a fällt oft weg: na poslu (in der Arbeit), puno posla (viel Arbeit).",
+      "example": { "hr": "Imam puno posla.", "de": "Ich habe viel Arbeit." } },
+    { "id": "w-skola", "hr": "škola", "de": ["Schule"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Djeca su u školi.", "de": "Die Kinder sind in der Schule." } },
+    { "id": "w-ured", "hr": "ured", "de": ["Büro"], "pos": "noun", "gender": "m",
+      "note": "In Bosnien und Serbien sagt man auch „kancelarija“.",
+      "example": { "hr": "Tata je u uredu.", "de": "Papa ist im Büro." } },
+    { "id": "w-lijecnik", "hr": "liječnik", "de": ["Arzt", "Doktor"], "pos": "noun", "gender": "m",
+      "colloquial": ["doktor"],
+      "note": "Ärztin: liječnica. Umgangssprachlich auch „doktor“.",
+      "example": { "hr": "Moj brat je liječnik.", "de": "Mein Bruder ist Arzt." } },
+    { "id": "w-puno", "hr": "puno", "de": ["viel", "sehr"], "pos": "adv",
+      "note": "Gleichbedeutend: mnogo.",
+      "hrAlt": ["mnogo"],
+      "example": { "hr": "Mama radi puno.", "de": "Mama arbeitet viel." } },
+
+    { "id": "w-vidjeti", "hr": "vidjeti", "de": ["sehen"], "pos": "verb", "present": "vidim",
+      "example": { "hr": "Vidim mamu.", "de": "Ich sehe Mama." } },
+    { "id": "w-sjediti", "hr": "sjediti", "de": ["sitzen"], "pos": "verb", "present": "sjedim",
+      "example": { "hr": "Baka sjedi u kuhinji.", "de": "Oma sitzt in der Küche." } },
+    { "id": "w-cistiti", "hr": "čistiti", "de": ["putzen", "sauber machen"], "pos": "verb", "present": "čistim",
+      "example": { "hr": "Čistim sobu.", "de": "Ich putze das Zimmer." } },
+    { "id": "w-soba", "hr": "soba", "de": ["Zimmer"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Soba je velika.", "de": "Das Zimmer ist groß." } },
+    { "id": "w-kuhinja", "hr": "kuhinja", "de": ["Küche"], "pos": "noun", "gender": "f",
+      "example": { "hr": "Kuhinja je mala.", "de": "Die Küche ist klein." } },
+    { "id": "w-stol", "hr": "stol", "de": ["Tisch"], "pos": "noun", "gender": "m",
+      "note": "Kroatisch: stol (Serbisch: sto). Am Tisch = za stolom.",
+      "example": { "hr": "Djeca sjede za stolom.", "de": "Die Kinder sitzen am Tisch." } },
+
+    { "id": "w-govoriti", "hr": "govoriti", "de": ["sprechen", "reden"], "pos": "verb", "present": "govorim",
+      "example": { "hr": "Govorim malo hrvatski.", "de": "Ich spreche ein bisschen Kroatisch." } },
+    { "id": "w-razumjeti", "hr": "razumjeti", "de": ["verstehen"], "pos": "verb", "present": "razumijem",
+      "note": "razumijem, razumiješ, razumije – mit „ije“.",
+      "example": { "hr": "Ne razumijem.", "de": "Ich verstehe nicht." } },
+    { "id": "w-znati", "hr": "znati", "de": ["wissen", "können", "kennen"], "pos": "verb", "present": "znam",
+      "example": { "hr": "Ne znam.", "de": "Ich weiß nicht." } },
+    { "id": "w-pitati", "hr": "pitati", "de": ["fragen"], "pos": "verb", "present": "pitam",
+      "example": { "hr": "Pitam tatu.", "de": "Ich frage Papa." } },
+    { "id": "w-hrvatski", "hr": "hrvatski", "de": ["Kroatisch", "kroatisch"], "pos": "adv",
+      "note": "Sprachen schreibt man klein. Auf Kroatisch = na hrvatskom.",
+      "example": { "hr": "Učim hrvatski.", "de": "Ich lerne Kroatisch." } },
+    { "id": "w-njemacki", "hr": "njemački", "de": ["Deutsch", "deutsch"], "pos": "adv",
+      "example": { "hr": "Govoriš li njemački?", "de": "Sprichst du Deutsch?" } },
+    { "id": "w-polako", "hr": "polako", "de": ["langsam"], "pos": "adv",
+      "note": "Auch: immer mit der Ruhe! (wie „pomalo“).",
+      "example": { "hr": "Mama govori polako.", "de": "Mama spricht langsam." } },
+
+    { "id": "w-putovati", "hr": "putovati", "de": ["reisen", "fahren"], "pos": "verb", "present": "putujem",
+      "example": { "hr": "Putujem u Bosnu.", "de": "Ich reise nach Bosnien." } },
+    { "id": "w-kupovati", "hr": "kupovati", "de": ["kaufen", "einkaufen"], "pos": "verb", "present": "kupujem",
+      "example": { "hr": "Mama kupuje kruh.", "de": "Mama kauft Brot." } },
+    { "id": "w-ici", "hr": "ići", "de": ["gehen", "fahren"], "pos": "verb", "present": "idem",
+      "note": "Unregelmäßig: idem, ideš, ide, idemo, idete, idu.",
+      "example": { "hr": "Idem kući.", "de": "Ich gehe nach Hause." } },
+    { "id": "w-ujutro", "hr": "ujutro", "de": ["morgens", "am Morgen", "in der Früh"], "pos": "adv",
+      "example": { "hr": "Ujutro pijem kavu.", "de": "Morgens trinke ich Kaffee." } },
+    { "id": "w-navecer", "hr": "navečer", "de": ["abends", "am Abend"], "pos": "adv",
+      "example": { "hr": "Navečer gledam film.", "de": "Abends schaue ich einen Film." } },
+    { "id": "w-danas", "hr": "danas", "de": ["heute"], "pos": "adv",
+      "example": { "hr": "Danas radim.", "de": "Heute arbeite ich." } },
+    { "id": "w-rano", "hr": "rano", "de": ["früh"], "pos": "adv",
+      "example": { "hr": "Djed ide rano spavati.", "de": "Opa geht früh schlafen." } }
+  ],
+  "sentences": [
+    { "id": "s-citam-knjigu", "hr": ["Čitam knjigu.", "Ja čitam knjigu."], "de": ["Ich lese ein Buch.", "Ich lese das Buch."], "words": ["w-citati", "w-knjiga"], "distractors": ["knjiga", "čitaš"] },
+    { "id": "s-slusam-glazbu", "hr": ["Slušam glazbu.", "Ja slušam glazbu."], "de": ["Ich höre Musik."], "words": ["w-slusati", "w-glazba"], "distractors": ["glazba"] },
+    { "id": "s-gledamo-film", "hr": ["Gledamo film.", "Mi gledamo film."], "de": ["Wir schauen einen Film.", "Wir sehen einen Film.", "Wir schauen uns einen Film an.", "Wir sehen uns einen Film an.", "Wir schauen den Film."], "words": ["w-gledati", "w-film"], "distractors": ["gledam"] },
+    { "id": "s-beba-spava", "hr": ["Beba spava."], "de": ["Das Baby schläft.", "Baby schläft."], "words": ["w-beba", "w-spavati"], "distractors": ["spavam"] },
+    { "id": "s-sto-citas", "hr": ["Što čitaš?", "Šta čitaš?"], "de": ["Was liest du?"], "words": ["w-citati"], "distractors": ["čitam"] },
+    { "id": "s-djeca-slusaju-glazbu", "hr": ["Djeca slušaju glazbu."], "de": ["Die Kinder hören Musik."], "words": ["w-djeca", "w-slusati", "w-glazba"], "distractors": ["sluša"] },
+
+    { "id": "s-radim-u-uredu", "hr": ["Radim u uredu.", "Ja radim u uredu."], "de": ["Ich arbeite im Büro.", "Ich arbeite in einem Büro."], "words": ["w-raditi", "w-ured"], "distractors": ["ured", "radiš"] },
+    { "id": "s-sto-radis", "hr": ["Što radiš?", "Šta radiš?"], "de": ["Was machst du?", "Was tust du?", "Was arbeitest du?"], "words": ["w-raditi"], "distractors": ["radim"] },
+    { "id": "s-mama-radi-puno", "hr": ["Mama radi puno.", "Mama puno radi.", "Mama radi mnogo.", "Mama mnogo radi."], "de": ["Mama arbeitet viel."], "words": ["w-mama", "w-raditi", "w-puno"], "distractors": ["radim"] },
+    { "id": "s-djeca-uce-u-skoli", "hr": ["Djeca uče u školi."], "de": ["Die Kinder lernen in der Schule."], "words": ["w-djeca", "w-uciti", "w-skola"], "distractors": ["škola", "učim"] },
+    { "id": "s-brat-je-lijecnik", "hr": ["Moj brat je liječnik."], "de": ["Mein Bruder ist Arzt.", "Mein Bruder ist Doktor."], "words": ["w-moj", "w-brat", "w-lijecnik"], "distractors": ["moja"] },
+    { "id": "s-imam-puno-posla", "hr": ["Imam puno posla.", "Ja imam puno posla.", "Imam mnogo posla."], "de": ["Ich habe viel Arbeit.", "Ich habe viel zu tun."], "words": ["w-imati", "w-puno", "w-posao"], "distractors": ["posao"],
+      "note": "Nach puno: posao → posla." },
+
+    { "id": "s-vidim-mamu", "hr": ["Vidim mamu.", "Ja vidim mamu."], "de": ["Ich sehe Mama.", "Ich sehe die Mama."], "words": ["w-vidjeti", "w-mama"], "distractors": ["mama"] },
+    { "id": "s-baka-sjedi-u-kuhinji", "hr": ["Baka sjedi u kuhinji."], "de": ["Oma sitzt in der Küche.", "Die Oma sitzt in der Küche."], "words": ["w-baka", "w-sjediti", "w-kuhinja"], "distractors": ["kuhinja", "sjedim"] },
+    { "id": "s-cistim-sobu", "hr": ["Čistim sobu.", "Ja čistim sobu."], "de": ["Ich putze das Zimmer.", "Ich mache das Zimmer sauber."], "words": ["w-cistiti", "w-soba"], "distractors": ["soba", "čistiš"] },
+    { "id": "s-djeca-sjede-za-stolom", "hr": ["Djeca sjede za stolom."], "de": ["Die Kinder sitzen am Tisch."], "words": ["w-djeca", "w-sjediti", "w-stol"], "distractors": ["stol", "sjedi"] },
+    { "id": "s-kuhinja-je-mala", "hr": ["Kuhinja je mala."], "de": ["Die Küche ist klein."], "words": ["w-kuhinja", "w-mali"], "distractors": ["mali", "malo"] },
+    { "id": "s-vidis-li-tatu", "hr": ["Vidiš li tatu?"], "de": ["Siehst du Papa?", "Siehst du den Papa?"], "words": ["w-vidjeti", "w-tata"], "distractors": ["tata", "vidim"] },
+
+    { "id": "s-govorim-malo-hrvatski", "hr": ["Govorim malo hrvatski.", "Ja govorim malo hrvatski."], "de": ["Ich spreche ein bisschen Kroatisch.", "Ich spreche ein wenig Kroatisch.", "Ich spreche etwas Kroatisch."], "words": ["w-govoriti", "w-malo", "w-hrvatski"], "distractors": ["govoriš"] },
+    { "id": "s-ne-razumijem", "hr": ["Ne razumijem.", "Ja ne razumijem."], "de": ["Ich verstehe nicht.", "Ich verstehe das nicht.", "Das verstehe ich nicht."], "words": ["w-ne", "w-razumjeti"], "distractors": ["razumiješ", "nisam"] },
+    { "id": "s-govoris-li-njemacki", "hr": ["Govoriš li njemački?"], "de": ["Sprichst du Deutsch?"], "words": ["w-govoriti", "w-njemacki"], "distractors": ["govorim"] },
+    { "id": "s-ne-znam", "hr": ["Ne znam.", "Ja ne znam."], "de": ["Ich weiß nicht.", "Ich weiß es nicht.", "Weiß ich nicht."], "words": ["w-ne", "w-znati"], "distractors": ["nisam", "znaš"] },
+    { "id": "s-ucim-hrvatski", "hr": ["Učim hrvatski.", "Ja učim hrvatski."], "de": ["Ich lerne Kroatisch."], "words": ["w-uciti", "w-hrvatski"], "distractors": ["učiš"] },
+    { "id": "s-mama-govori-polako", "hr": ["Mama govori polako.", "Mama polako govori."], "de": ["Mama spricht langsam."], "words": ["w-mama", "w-govoriti", "w-polako"], "distractors": ["govorim"] },
+    { "id": "s-pitam-tatu", "hr": ["Pitam tatu.", "Ja pitam tatu."], "de": ["Ich frage Papa.", "Ich frage den Papa."], "words": ["w-pitati", "w-tata"], "distractors": ["tata"] },
+
+    { "id": "s-ujutro-pijem-kavu", "hr": ["Ujutro pijem kavu.", "Ja ujutro pijem kavu."], "de": ["Morgens trinke ich Kaffee.", "Am Morgen trinke ich Kaffee.", "In der Früh trinke ich Kaffee.", "Ich trinke morgens Kaffee.", "Ich trinke am Morgen Kaffee."], "words": ["w-ujutro", "w-piti", "w-kava"], "distractors": ["kava", "pije"] },
+    { "id": "s-navecer-gledam-film", "hr": ["Navečer gledam film.", "Ja navečer gledam film."], "de": ["Abends schaue ich einen Film.", "Am Abend schaue ich einen Film.", "Abends sehe ich einen Film.", "Ich schaue abends einen Film.", "Am Abend sehe ich einen Film."], "words": ["w-navecer", "w-gledati", "w-film"], "distractors": ["gledaš"] },
+    { "id": "s-danas-putujem-u-bosnu", "hr": ["Danas putujem u Bosnu."], "de": ["Heute reise ich nach Bosnien.", "Heute fahre ich nach Bosnien.", "Ich reise heute nach Bosnien.", "Ich fahre heute nach Bosnien."], "words": ["w-danas", "w-putovati", "w-bosna"], "distractors": ["Bosna", "putuje"] },
+    { "id": "s-mama-kupuje-kruh", "hr": ["Mama kupuje kruh."], "de": ["Mama kauft Brot.", "Mama kauft das Brot."], "words": ["w-mama", "w-kupovati", "w-kruh"], "distractors": ["kupujem"] },
+    { "id": "s-idem-kuci", "hr": ["Idem kući.", "Ja idem kući."], "de": ["Ich gehe nach Hause.", "Ich fahre nach Hause.", "Ich gehe heim."], "words": ["w-ici"], "distractors": ["kuća", "ideš"] },
+    { "id": "s-djed-ide-rano-spavati", "hr": ["Djed ide rano spavati.", "Djed rano ide spavati."], "de": ["Opa geht früh schlafen.", "Der Opa geht früh schlafen."], "words": ["w-djed", "w-ici", "w-rano", "w-spavati"], "distractors": ["spava"] },
+    { "id": "s-umoran-idem-spavati", "hr": { "m": ["Umoran sam, idem spavati."], "f": ["Umorna sam, idem spavati."] }, "de": ["Ich bin müde, ich gehe schlafen."], "words": ["w-umoran", "w-ici", "w-spavati"] }
+  ],
+  "lessons": [
+    {
+      "id": "l-u07-1", "title": "Alltag", "tip": "tip-u07-ati",
+      "newWords": ["w-spavati", "w-citati", "w-gledati", "w-slusati", "w-knjiga", "w-glazba", "w-film"],
+      "sentences": ["s-citam-knjigu", "s-slusam-glazbu", "s-gledamo-film", "s-beba-spava", "s-sto-citas", "s-djeca-slusaju-glazbu"],
+      "extras": [
+        { "type": "cloze", "id": "x-u07-1-citam", "hr": "Ja ___ knjigu.", "de": "Ich lese ein Buch.", "answers": ["čitam"], "options": ["čitam", "čitaš", "čita"] },
+        { "type": "cloze", "id": "x-u07-1-gledamo", "hr": "Mi ___ film.", "de": "Wir schauen einen Film.", "answers": ["gledamo"], "options": ["gledam", "gledamo", "gledaju"] },
+        { "type": "cloze", "id": "x-u07-1-glazbu", "hr": "Slušam ___.", "de": "Ich höre Musik.", "answers": ["glazbu"], "options": ["glazba", "glazbu"] }
+      ]
+    },
+    {
+      "id": "l-u07-2", "title": "Arbeit", "tip": "tip-u07-iti",
+      "newWords": ["w-raditi", "w-uciti", "w-posao", "w-skola", "w-ured", "w-lijecnik", "w-puno"],
+      "sentences": ["s-radim-u-uredu", "s-sto-radis", "s-mama-radi-puno", "s-djeca-uce-u-skoli", "s-brat-je-lijecnik", "s-imam-puno-posla"],
+      "extras": [
+        { "type": "cloze", "id": "x-u07-2-radim", "hr": "Ja ___ u uredu.", "de": "Ich arbeite im Büro.", "answers": ["radim"], "options": ["radim", "radiš", "radi"] },
+        { "type": "cloze", "id": "x-u07-2-uce", "hr": "Djeca ___ u školi.", "de": "Die Kinder lernen in der Schule.", "answers": ["uče"], "options": ["učim", "uči", "uče"] },
+        { "type": "fact", "id": "x-u07-2-sto", "question": "Was kann „Što radiš?“ bedeuten?", "options": ["Was machst du? / Was arbeitest du?", "Wo wohnst du?", "Wie heißt du?"], "answer": "Was machst du? / Was arbeitest du?" }
+      ]
+    },
+    {
+      "id": "l-u07-3", "title": "Zu Hause", "tip": "tip-u07-jeti",
+      "newWords": ["w-vidjeti", "w-sjediti", "w-cistiti", "w-soba", "w-kuhinja", "w-stol"],
+      "sentences": ["s-vidim-mamu", "s-baka-sjedi-u-kuhinji", "s-cistim-sobu", "s-djeca-sjede-za-stolom", "s-kuhinja-je-mala", "s-vidis-li-tatu"],
+      "extras": [
+        { "type": "cloze", "id": "x-u07-3-vidim", "hr": "Ja ___ mamu.", "de": "Ich sehe Mama.", "answers": ["vidim"], "options": ["vidjeti", "vidim", "vidi"] },
+        { "type": "cloze", "id": "x-u07-3-sobu", "hr": "Čistim ___.", "de": "Ich putze das Zimmer.", "answers": ["sobu"], "options": ["soba", "sobu"] },
+        { "type": "cloze", "id": "x-u07-3-sjede", "hr": "Djeca ___ za stolom.", "de": "Die Kinder sitzen am Tisch.", "answers": ["sjede"], "options": ["sjedim", "sjedi", "sjede"] }
+      ]
+    },
+    {
+      "id": "l-u07-4", "title": "Sprechen & Verstehen", "tip": "tip-u07-govoriti",
+      "newWords": ["w-govoriti", "w-razumjeti", "w-znati", "w-pitati", "w-hrvatski", "w-njemacki", "w-polako"],
+      "sentences": ["s-govorim-malo-hrvatski", "s-ne-razumijem", "s-govoris-li-njemacki", "s-ne-znam", "s-ucim-hrvatski", "s-mama-govori-polako", "s-pitam-tatu"],
+      "extras": [
+        { "type": "cloze", "id": "x-u07-4-razumijem", "hr": "Ne ___.", "de": "Ich verstehe nicht.", "answers": ["razumijem"], "options": ["razumijem", "razumjeti", "razumije"] },
+        { "type": "cloze", "id": "x-u07-4-govoris", "hr": "___ li njemački?", "de": "Sprichst du Deutsch?", "answers": ["Govoriš"], "options": ["Govorim", "Govoriš", "Govori"] },
+        { "type": "fact", "id": "x-u07-4-klein", "question": "Wie schreibt man „Kroatisch“ (die Sprache)?", "options": ["hrvatski", "Hrvatski"], "answer": "hrvatski",
+          "explain": "Sprachen schreibt man auf Kroatisch klein." }
+      ]
+    },
+    {
+      "id": "l-u07-5", "title": "Ein ganzer Tag", "tip": "tip-u07-ovati",
+      "newWords": ["w-putovati", "w-kupovati", "w-ici", "w-ujutro", "w-navecer", "w-danas", "w-rano"],
+      "sentences": ["s-ujutro-pijem-kavu", "s-navecer-gledam-film", "s-danas-putujem-u-bosnu", "s-mama-kupuje-kruh", "s-idem-kuci", "s-djed-ide-rano-spavati", "s-umoran-idem-spavati"],
+      "extras": [
+        { "type": "cloze", "id": "x-u07-5-putujem", "hr": "Danas ___ u Bosnu.", "de": "Heute reise ich nach Bosnien.", "answers": ["putujem"], "options": ["putovam", "putujem", "putuješ"] },
+        { "type": "cloze", "id": "x-u07-5-kupuje", "hr": "Mama ___ kruh.", "de": "Mama kauft Brot.", "answers": ["kupuje"], "options": ["kupuje", "kupova", "kupujem"] },
+        { "type": "cloze", "id": "x-u07-5-idem", "hr": "Ja ___ kući.", "de": "Ich gehe nach Hause.", "answers": ["idem"], "options": ["idem", "ide", "ići"] }
+      ]
+    }
+  ]
+}

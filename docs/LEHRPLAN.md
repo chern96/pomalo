@@ -12,9 +12,9 @@ Die maschinenlesbare Fassung steht in `content/curriculum.json`; die Titel hier 
 | 4 | Familie | Geschlecht der Nomen; moj/moja/moje | Eltern · Großeltern & Enkel · Onkel, Tante, Cousins · Partner & Kinder · Wer ist das? · Meine Familie | ✅ |
 | 5 | Zahlen & Alter | imati; 1 godina / 2–4 godine / 5+ godina | 0–5 · 6–10 · 11–20 · Zehner bis 1000 · Wie alt bist du? | ✅ |
 | 6 | Essen & Trinken | Akkusativ, Teil 1: weiblich -a → -u | Getränke · Essen · Ich möchte … · Am Tisch · Im Café · Bei Oma | ✅ |
-| 7 | Was machst du? | Präsens: -ati / -iti / -jeti / -ovati | Alltag · Arbeit · Zu Hause · Sprechen & Verstehen · Ein ganzer Tag | ⏳ |
-| 8 | Ich habe einen Bruder | Akkusativ komplett (belebt m.) | Wen siehst du? · Was kaufst du? · Am Markt · Geschenke · Zusammen | ⏳ |
-| 9 | Fragen stellen | tko, što, gdje, kada, kako, zašto, koliko; je li / da li | Wer & was? · Wo & wann? · Wie & warum? · Je li …? · Neugierig | ⏳ |
+| 7 | Was machst du? | Präsens: -ati / -iti / -jeti / -ovati | Alltag · Arbeit · Zu Hause · Sprechen & Verstehen · Ein ganzer Tag | ✅ |
+| 8 | Ich habe einen Bruder | Akkusativ komplett (belebt m.) | Wen siehst du? · Was kaufst du? · Am Markt · Geschenke · Zusammen | ✅ |
+| 9 | Fragen stellen | tko, što, gdje, kada, kako, zašto, koliko; je li / da li | Wer & was? · Wo & wann? · Wie & warum? · Je li …? · Neugierig | ✅ |
 | 10 | Meins, deins | moj … njihov, svoj | Mein & dein · Sein & ihr · Unser & euer · svoj | ⏳ |
 | 11 | Zuhause | Plural der Nomen | Wohnung · Zimmer · Küche · Garten & Hof · Plural | ⏳ |
 | 12 | Wochentage & Uhrzeit | Zeitangaben | Wochentage · Uhrzeit · Monate · Heute, morgen, gestern | ⏳ |
