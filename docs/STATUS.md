@@ -15,6 +15,9 @@ Stand: 17.11.2026
 - **Nicht lokal getestet**: WebKit (Safari-Engine) startet unter Windows nicht (fehlende Systembibliotheken). Läuft in der GitHub Action unter Linux.
 - **Nicht testbar ohne iPhone**: siehe `docs/IPHONE-CHECKLISTE.md`.
 
+- **Veröffentlicht**: https://chern96.github.io/pomalo/ – GitHub Action grün, End-to-End-Tests dort auch in WebKit grün (8/8).
+- Österreich statt Deutschland als Herkunftsland; österreichische Antworten (servus, Erdäpfel, Hendl …) werden akzeptiert.
+
 ## Als Nächstes
-- Phase 3: GitHub-Repository anlegen, Pages aktivieren, pushen, auf dem iPhone installieren, Checkliste durchgehen.
+- iPhone: installieren, Checkliste (`docs/IPHONE-CHECKLISTE.md`) durchgehen.
 - Danach: Einheit 7 („Was machst du?“).
